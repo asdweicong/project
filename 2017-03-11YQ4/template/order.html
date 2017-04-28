@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>
+	<ion-view ng-controller="orderController" class="order">
+		<ion-side-menus>
+			<ion-side-menu-content drag-content="false">
+				<!--header-->
+				<ion-header-bar align-title="left" class="bg-line header_bg">
+					<div class="buttons mar-btn">
+						<p ng-click="back()">
+							<span class="icon ion-ios-arrow-left"></span>返回
+						</p>
+					</div>
+					<div class="title">
+						确认订单
+					</div>
+					<div class="aler_img">
+						<img src="img/dian.png" alt="" />
+					</div>
+				</ion-header-bar>
+				<!--header-->
+	
+				<!--content--->
+				<ion-content>
+					<div class="content-top">
+						<span>收货人：宫品</span>
+						<span ui-sref="home">12345678911</span>
+						<p>默认地址：江西南昌八一广场<span class="icon ion-ios-arrow-right"></span></p>
+					</div>
+	
+					<div class="content-img">
+						<img src="img/my_order/pro_list01.png" ui-sref="pr_detail" />
+						<h1 ui-sref="pr_detail">宫品海参干货野生淡干海参辽参刺参干海参100g包邮 </h1>
+						<p>￥888.00<span>x3</span></p>
+					</div>
+	
+					<div class="content-footer">
+						<p>配送方式<span>快递  免邮   ></span></p>
+						<p>运费险<span>卖家赠送    ></span></p>
+						<p>卖家留言:</p>
+						<div>
+							<span>共计<i>1</i>件商品   小计：<i>￥2446.00</i></span>
+							<button on-tap="share()" >提交定单</button>
+						</div>
+					</div>
+				</ion-content>
+			</ion-side-menu-content>
+	</ion-view>
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+    <script type="text/javascript" src="js/conn.js" ></script>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>

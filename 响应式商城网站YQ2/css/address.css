@@ -1,0 +1,54 @@
+.header_bottom .container .img{width: 75%;padding-left: 10%;}
+.title-title{width: 16%;border: 1px solid #c2c2c2;float: left;margin-right: 20px;}
+.title-title dl{margin: 0;}
+.title-title dl dt a{color: #FFFFFF;text-decoration: none;}
+.title-title dl dt{color: #FFFFFF;font-size:16px;padding: 4px 0 ;font-family: "宋体";;background-color: #2165d3;text-align: center;}
+.title-title dl dt:first-child span{padding-left:20px;background: url(../images/order/order.png) left center no-repeat;}
+.title-title dl dt:first-child + li span{padding-left:20px;background: url(../images/order_details/System-information.png) left center no-repeat;;}
+.title-title dl dt:first-child + li + li span{padding-left:20px;background: url(../images/order_details/The-member-center.png) left center no-repeat;} 
+.title-title dl dd a{color: #000000;text-decoration: none;} 
+.title-title dl dd{color:#000000;text-align: center;line-height: 24px;font-size: 12px;font-family:"微软雅黑" ;}
+.title-title dl dd a:hover{color: #2165d3;cursor: pointer;}
+.title-title .active-1{color: #2165D3;}
+
+.main{width:80%;float: left;}
+.main .dian{background: url(../images/address/checked_true.png) 3px center no-repeat;}
+.main div h3{font-size: 16px;font-family: "微软雅黑";color: #FFFFFF;background: #649CF7;padding: 5px 12px;margin-top: 0;}
+.main div ul li{padding-left: 20px;cursor: pointer;background: url(../images/address/checked_false.png) 10px center no-repeat;}
+.main div ul li span{padding-right: 25px;padding-left: 17px;color: #000000;}
+.main div ul li{border: 1px solid #c2c2c2;padding:2px 5px;margin: 10px 0;}
+.main div ul li a{color: #000000;text-decoration: none;}
+.main div ul .on{border: 1px solid #649cf7;background: url(../images/address/selected.png) right bottom no-repeat;}
+.main input[type='radio']{visibility: hidden;margin-left: -15px;}
+.main .new-address form div label{font-size: 12px ;font-family: "微软雅黑";color: #000000;width: 60px;}
+.main .new-address form div{margin: 12px;}
+.main .new-address form .checkbox input{margin-top: -6px;}
+.main .new-address form .checkbox label{width: 150px;}
+.main .new-address form input{width: 186px;height: 28px;padding: 2px 6px;outline: none;}
+.main .new-address form select{margin-top:12px}
+.main .new-address form input[type=button]{width: 136px;height: 30px;background: #649cf7;color:#FFFFFF ; font-family: "微软雅黑";border: none;}
+.main .new-address form input[type=checkbox]{width: 12px;padding:0;margin-left: 15px;}
+.main .new-address form div span{margin-left: 35px;color:#c2c2c2;font-size: 12px;}
+.main .new-address form select{width: 140px;height:25px;text-align: center;}
+
+@media only screen and (max-width: 1199px) {	
+	.title-title{width: 20%;border: 1px solid #c2c2c2;float: left;}
+	.main{width: 100%;float: left;margin-top: 10px;}
+	
+}
+@media only screen and (max-width: 993px) {
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:flex ;justify-content: center;margin: 0 auto}
+	.title-title dl{float: left;padding: 5px 10px ;}
+	.title-title dl dt{padding:5px 10px ;}
+}
+@media only screen and (max-width: 586px) {
+	.header_bottom .container .img{width: 100%;padding-left: 10%;clear:both ;overflow: hidden;}	
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:block ;justify-content:center;margin:60px auto 0;clear:both ;overflow: hidden;}
+}
+@media only screen and (max-width: 454px) {
+	.main .new-address form div label{display: block;font-size: 12px ;font-family: "微软雅黑";color: #000000;width: 60px;}	
+	.header_bottom .container .img{width: 100%;padding-left: 10%;clear:both ;overflow: hidden;}	
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:block ;justify-content:center;margin:40px auto 0;clear:both ;overflow: hidden;}
+	.title-title dl{float: none;padding: 5px 10px ;width: 100%;clear: both;}
+	.title-title dl dt{padding:5px 10px ;}
+}

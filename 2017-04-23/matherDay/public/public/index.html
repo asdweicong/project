@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta charset="UTF-8">
+    <title>献礼母亲节</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/refreshFS.js"></script>-->
+    <script src="js/baidu_Statistics-b9201a12f2.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<script>
+    document.getElementsByTagName("body")[0].style.fontSize = document.body.clientWidth / 35.8 + 'px';
+
+</script>
+<!--成功弹窗-->
+<div class="PopUpBG" id="successPopUp">
+    <div class="successPopUp">
+        <div class="successPopUpTips">
+            服务专员将尽快通过400-719-5555与您联系。<br>
+            为您提供专业的产品质询服务，祝你生活愉快！
+        </div>
+        <div class="PopUpBtn" id="Know">
+            我知道了
+        </div>
+    </div>
+</div>
+
+<div class="main">
+
+    <!--问题-->
+    <div class="c_content">
+        <div id="q0" class="x1_contain">
+            <div class="x1_contain_t">
+                <p>
+                    <span>妈妈最喜欢吃的菜：</span>
+                </p>
+            </div>
+            <div class="x1_contain_a">
+                <div id="q1_l" class="x_contain_select_l">知&nbsp;&nbsp;道</div>
+                <div id="q1_r" class="x_contain_select_r">不&nbsp;&nbsp;知&nbsp;&nbsp;道</div>
+            </div>
+        </div>
+
+
+        <div id="q1" class="x1_contain hide">
+            <div class="x1_contain_t">
+                <p>
+                    <span>妈妈最喜欢的颜色：</span>
+                </p>
+            </div>
+            <div class="x1_contain_a">
+                <div id="q2_l" class="x_contain_select_l">知&nbsp;&nbsp;道</div>
+                <div id="q2_r" class="x_contain_select_r">不&nbsp;知&nbsp;道</div>
+            </div>
+        </div>
+        <div id="q2" class="x1_contain hide">
+            <div class="x1_contain_t">
+                <p>
+                    <span>妈妈的口头禅：</span>
+                </p>
+            </div>
+            <div class="x1_contain_a">
+                <div id="q3_l" class="x_contain_select_l">知&nbsp;&nbsp;道</div>
+                <div id="q3_r" class="x_contain_select_r">不&nbsp;知&nbsp;道</div>
+            </div>
+        </div>
+        <div id="q3" class="x1_contain hide">
+            <div class="x1_contain_t">
+                <p>
+                    <span>妈妈最近的愿望：</span>
+                </p>
+            </div>
+            <div class="x1_contain_a">
+                <div id="q4_l" class="x_contain_select_l">知&nbsp;&nbsp;道</div>
+                <div id="q4_r" class="x_contain_select_r">不&nbsp;知&nbsp;道</div>
+            </div>
+        </div>
+        <div id="q4" class="x1_contain hide">
+            <div class="x1_contain_t">
+                <p>
+                    <span>妈妈的身体状况：</span>
+                </p>
+            </div>
+            <div class="x1_contain_a">
+                <div id="q5_l" class="x_contain_select_l">知&nbsp;&nbsp;道</div>
+                <div id="q5_r" class="x_contain_select_r">不&nbsp;&nbsp;知&nbsp;道</div>
+            </div>
+        </div>
+    </div>
+    <!--问题-->
+
+
+    <!--完成问题后-->
+    <div id="tab1" class="tab1">
+        不管知不知道，从心开始，爱永远不会晚。<br>
+        母亲节，做个番茄炒蛋，带上贴心保单，回家示爱。
+    </div>
+    <!--完成问题后-->
+
+
+    <!--form表单-->
+    <div class="tab2">
+
+
+        <div class="form">
+            <div class="name">
+                <div class="lableTips lf">姓&nbsp;名:</div>
+                <div class="input lf">
+                    <input style="width:66%" type="text" maxlength="5" placeholder="请输入">
+                    <div class="man" id="man">男</div>
+                    <div class="female" id="female">女</div>
+                </div>
+
+            </div>
+
+
+            <div class="mobile">
+                <div class="lableTips lf">手&nbsp;机:</div>
+                <div class="input lf"><input type="tel" maxlength="11" placeholder="请输入"></div>
+
+            </div>
+            <div class="city">
+                <div class="lableTips lf">省&nbsp;份:</div>
+                <div class="input lf ">
+                    <select id="selectCity" style="color:#E2BDB4" class="selectCity">
+                        <option >请选择</option>
+                        <option >广东</option>
+                        <option >广西</option>
+                        <option >湖南</option>
+                        <option>湖北</option>
+                    </select>
+                    <div class="DownIcon" id="DownIcon"></div>
+
+                </div>
+
+            </div>
+
+            <!--勾选-->
+            <div class="clause">
+                <div class="lf icon"><img id="clauseIcon" width="100%" src="./img/agree_icons.png" alt=""></div>
+                <div class="lf clauseTips">授权将本人相关信息转给招商信诺以提供后续保险服务。</div>
+            </div>
+            <!--勾选-->
+
+            <!--提交按钮-->
+            <div class="commit" id="commit">
+                提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交
+            </div>
+            <!--提交按钮-->
+
+
+        </div>
+
+
+    </div>
+
+    <!--form表单-->
+
+</div>
+</body>
+</html>

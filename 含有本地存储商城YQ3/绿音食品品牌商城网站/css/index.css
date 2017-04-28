@@ -1,0 +1,81 @@
+#banner {position: relative;margin: 0 auto;overflow: hidden;}
+#banner #pointer {position: absolute;bottom:15px;width: 96px;left: 50%;margin-left: -48px;}
+#banner #pointer dd {display: block;box-sizing: border-box;float: left;height:20px;width:20px;border-radius: 50%;overflow:hidden;border: 2px solid #ffffff;background:transparent;text-align:center;margin:0 6px;cursor:pointer;}
+#banner #pointer .active {background: #FFFFFF;}
+#banner #box {position: relative;clear: both;}
+#banner #box li{float: left;list-style: none;}
+#banner #box li img{display: block;float: left;}
+.contact .top h1{font-size: 36px;font-family: "微软雅黑";color: #FFFFFF;background: url(../img/index/title.png) no-repeat;height: px;text-align: center;padding: 70px 0 10px;margin:0  ;}
+.contact{overflow: hidden;clear: both;}
+.contact .center ul, 	
+.contact .main ul,
+.contact .top ul,
+.contact .bottom ul
+{clear: both;overflow: hidden;margin-top:98px;margin-right: -150px;}
+.contact .center ul li,
+.contact .main ul li, 
+.contact .top ul li,
+.contact .bottom ul li
+{width:300px;float: left;margin-right: 150px;margin-bottom: 50px;}
+.contact .bottom ul li a,
+.contact .center ul li a,
+.contact .main ul li a,
+.contact .top ul li a
+{display: block;box-sizing: border-box;text-decoration: none;cursor: pointer;}
+.contact .bottom ul li h2,
+.contact .center ul li h2,
+.contact .main ul li h2,
+.contact .top ul li h2
+{color: #030000;font-size: 20px;font-family: "微软雅黑";font-weight: 600;padding: 3px 0;margin: 0;}
+.contact .bottom ul li h2 a,
+.contact .center ul li h2 a,
+.contact .main ul li h2 a,
+.contact .top ul li h2 a
+{color: #030000;font-size: 20px;font-family: "微软雅黑";font-weight: 600;}
+.contact .bottom ul li p,
+.contact .center ul li p,
+.contact .main ul li p,
+.contact .top ul li p
+{font-size: 14px;color: #030000;margin: 0;font-family: "微软雅黑";}
+.contact .bottom ul li strike,
+.contact .center ul li strike,
+.contact .main ul li strike,
+.contact .top ul li strike
+{font-size: 14px;color: #030000;margin: 0;display: block;font-family: "微软雅黑";}
+.contact .bottom ul li div span,
+.contact .center ul li div span,
+.contact .main ul li div span,
+.contact .top ul li div span{
+	color: #d9271e;font-size: 14px;
+}
+.contact .bottom ul li p:nth-child(3),
+.contact .center ul li p:nth-child(3),
+.contact .main ul li p:nth-child(3),
+.contact .top ul li p:nth-child(3)
+{color: #666666;}
+.contact .bottom ul li div:nth-child(2),
+.contact .center ul li div:nth-child(2),
+.contact .main ul li div:nth-child(2),
+.contact .top ul li div:nth-child(2){
+	position:relative;
+}
+.contact .bottom ul li div:nth-child(2) a,
+.contact .center ul li div:nth-child(2) a,
+.contact .main ul li div:nth-child(2) a,
+.contact .top ul li div:nth-child(2) a{
+	position: absolute;;right: 0;;bottom: 0;font-size: 12px;font-family: "微软雅黑";color: #FFFFFF;background: #e71f19;padding: 6px 12px;font-weight: 500;
+}
+
+.contact .center ul{clear: both;overflow: hidden;margin:0 0 100px;margin-right: -150px;}
+.contact .center h1{position: relative;font-size: 36px;font-family: "微软雅黑";color: #ab539b;background: url(../img/index/wa_niu.png) right no-repeat;text-align: center;padding:0  0 14px;margin:70px 0 0  ;}
+.contact .center h1 i{position: absolute;height: 7px;width: 1560px;background: #634772;left: -380px;top: 45px;}
+.contact .main ul{clear: both;overflow: hidden;margin:30px 0 30px;}
+.contact .main ul li{width: 16.7%;float: left;margin-right: 4.125%;margin-bottom: 30px;}
+.contact .main ul li:nth-child(3){width: 16.5%;float: left;margin-right:4.125%;}
+.contact .main ul li:last-child{width: 16.5%;float: left;margin-right:0;}
+.contact .main ul li a:nth-child(2){font-size: 14px;}
+.contact .main ul li a:nth-child(3){font-size: 12px;}
+.contact .main h1,
+.contact .bottom h1{font-size: 36px;font-family: "微软雅黑";color: #ab539b;text-align: center;padding:0  0 14px;margin:30px 0 0  ;}
+.contact .bottom ul{clear: both;overflow: hidden;margin:60px 0 20px;margin-right: -150px;}
+.contact .main ul li div:nth-child(2) p:nth-child(3){color: #666666;}

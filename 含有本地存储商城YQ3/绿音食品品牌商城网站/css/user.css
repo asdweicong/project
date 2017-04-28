@@ -1,0 +1,19 @@
+.contact .mg .left{float: left;width: 16.7%;background: #efefef;margin: 0;padding: 0;height: 800px;}
+.contact .mg .left img{width: 100px;margin: 36px 70px 30px 30px;}
+.contact .mg .left dl dt{font-size: 14px;font-family: "宋体";color: #000000;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl .dd a{color: #000000;background: #999899;}
+.contact .mg .left dl dd a{display: block;font-size: 14px;font-family: "宋体";color: #666666;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl dd:hover a{color: #000000;background: #999899;}
+.contact .mg .right{float: left;width: 83.3%;}
+.contact .mg .right .top{margin-top:18px;border-bottom:1px solid #999999;width: 100%;}
+.contact .mg .right .top span{display: block;font-size: 14px;font-family: "宋体" ;border: 1px solid #999999;width: 76px;height: 35px;margin-left: 50px;border-bottom:none ;text-align: center;line-height: 35px;}
+.title p{font-size: 14px;font-family: "微软雅黑";color: #333333 ;line-height: 56px;border-bottom: 1px solid #999999;padding-left: 62px;}
+.form p{color: #333333;font-family: "微软雅黑";;font-size:12px;}
+.form{padding: 40px 136px ;}
+.form div{margin-bottom:20px ;}
+.form div:nth-child(2){margin-bottom:0px ;}
+.form div:nth-child(2) a{display: block;margin-left: 100px;text-decoration: none;font-size: 12px;color: #274a84;}
+.form div label{width: 80px;text-align: right;font-weight: 500;font-size: 12px;}
+.form div input{width: 200px;height: 34px;outline: none;padding: 4px;}
+.form div:nth-child(8){margin-bottom:40px;}
+.form a:nth-child(9){padding: 12px 30px;background: #ff8f0c;color: #FFFFFF;margin:40px 130px;text-decoration: none;font-size: 12px;}

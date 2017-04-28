@@ -1,0 +1,97 @@
+.content .title{position: relative;width: 64%;}
+.content .title .line-1{position: absolute;width: 84%;top: 18px;left:254px;border-top:1px solid #2165D3 ;}
+.content .title div{position: absolute;top: 18px;left:230px;}
+.content .title .line-2{position: relative;background-color: transparent;}
+.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 25px solid #2165D3 ;
+			 border-left: 25px solid transparent;content: "";
+    }
+.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 24px solid white;
+        border-left: 24px solid transparent;content: "";
+    }
+@media only screen and (max-width: 860px) {
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:170px;border-top:1px solid #2165D3 ;}
+	
+}    
+
+@media only screen and (max-width: 430px) {
+	.content .title .line-1{position: absolute;width: 45%;top: 18px;left:170px;border-top:1px solid #2165D3 ;}
+}    
+      
+.content .container h1 span{font-size: 40px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+.content .container h1 span:last-child{font-size: 16px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+    
+
+.text{position: relative;width: 64%;padding:0 10%}
+.text i{position: absolute;width: 190px;top: 0;height: 250px;left: -1%;border: 1px solid #b9b9b9;z-index: 1;}
+.text h3{font-size: 18px;font-family: "微软雅黑";color: #000000;text-align: center;}
+.text .text-title{font-size:14px;font-family: "微软雅黑";color:#b9b9b9;text-align: center;}
+.text .text-title a{overflow:hidden;font-size:14px;font-family: "微软雅黑";color:#b9b9b9;text-align: center;text-decoration: none;}
+.text .text-title a:hover{font-size:14px;font-family: "微软雅黑";color:#2165d3;text-align: center;text-decoration: none;}
+.text .text-title .right ul{margin-left: -100px;width: 280px;}
+.text .text-title .right ul li{float: left;}
+.text .text-title .right ul li figcaption{font-size: 12px;font-family: "微软雅黑";}
+.text-tet{z-index: 10;margin-top: 20px;text-align: left;font-size: 18px;font-family: "微软雅黑";color: #000000;}
+.text-tet p{margin-top: 20px;font-size: 16px;font-family: "微软雅黑";color: #000000;}
+.next-prev{padding-top: 10px;}
+.next-prev a{display: block;font-size: 18px;font-family: "微软雅黑";color: #000000;margin: 10px 0;}
+.next-prev a:hover{text-decoration: none;color:#2165d3;cursor: pointer;}
+
+.list{width: 30%;float: right;}
+.list h3{font-size: 18px;font-family: "微软雅黑";color: #000000;padding-left:5px;border-left: 4px solid #2165D3;}
+.list span{padding-right: 20px;font-size: 16px;color: #b9b9b9;background: url(../images/news_details/more.png) right center no-repeat;}
+.list span:hover{color: #2165D3;}
+.list ul{clear: both;}
+.list ul li{padding: 18px;float: left;width: 50%;display: flex;align-items: center;justify-content: center;}
+.list ul li:first-child{background: #dcdcdc;}
+.list ul li:first-child + li + li + li{background: #dcdcdc;}
+.list ul li:first-child + li + li + li + li{background: #dcdcdc;}
+
+@media only screen and (max-width:1036px ) {
+	.content .title .line-1{position: absolute;width: 64%;top: 18px;left:254px;border-top:1px solid #2165D3 ;}
+	.list{width: 100%;float: right;}
+	.text{position: relative;width: 100%;padding:0 10%}
+	.content .title{position: relative;width: 100%;}
+	.text-tet img{text-align: center;display:flex ;align-items: center;justify-content: center;width: 100%;}
+	.text .text-title .right ul li{float: none;}	
+}
+@media only screen and (max-width:716px ) {
+	.text{position: relative;width: 100%;padding:0 ;}
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 21px solid #2165D3 ;
+				 border-left: 21px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 20px solid white;
+	        border-left: 20px solid transparent;content: "";
+	    }
+	.content .title div{position: absolute;top: 18px;left:180px;}
+	.content .container h1 span{font-size: 32px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+	.content .container h1 span:last-child{font-size: 16px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:200px;border-top:1px solid #2165D3 ;}
+}
+
+@media only screen and (max-width: 536px) {
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 18px solid #2165D3 ;
+				 border-left: 18px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 17px solid white;
+	        border-left: 17px solid transparent;content: "";
+	    }
+	.content .title div{position: absolute;top: 18px;left:138px;}
+	.content .container h1 span{font-size: 24px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+	.content .container h1 span:last-child{font-size: 14px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:156px;border-top:1px solid #2165D3 ;}
+}
+@media only screen and (max-width: 432px) {
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 17px solid #2165D3 ;
+				 border-left: 17px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 16px solid white;
+	        border-left: 16px solid transparent;content: "";
+	    }
+	.content .title div{position: absolute;top: 18px;left:107px;}
+	.content .container h1 span{font-size: 18px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+	.content .container h1 span:last-child{font-size: 12px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+	.content .title .line-1{position: absolute;width: 30%;top: 18px;left:124px;border-top:1px solid #2165D3 ;}
+}

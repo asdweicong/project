@@ -1,0 +1,49 @@
+.contact{padding-top: 70px;}
+.contact ul {clear: both;overflow: hidden;}
+.contact ul li{cursor: pointer;font-family: "微软雅黑";float: left;width: 210px;height: 42px;font-size: 24px;text-align: center;line-height: 42px;color: #666666;border: 1px solid #666666;}
+.contact ul li.on{background:#e71f19;color:#FFFFFF;border-right:none;}
+.contact ul li:nth-child(2){border-right:none ;}
+.contact table{width: 100%; border-collapse:inherit;border-spacing:0 20px; }
+.contact table tr{ outline: 1px solid #666666;;}
+.contact table thead tr{ outline: none;}
+.contact table thead tr label{margin-left: 52px;font-weight: 500;line-height: 20px;padding-left: 5px;cursor: pointer;}
+.contact table thead .c-checkbox span{position: absolute;top: 7px;left:55px;;display: block;width: 12px;height: 12px;border: 1px solid #666;cursor: pointer;}
+.contact table tr td:first-child{position:relative ;}
+.contact table tr td:first-child input{visibility:hidden;}
+.contact table tr td:first-child img{padding: 20px 20px 30px 100px;}
+.contact table tr td:nth-child(2) a{text-decoration: none;color: #323333;font-size:12px ;}
+.contact table tr td{text-decoration: none;color: #323333;font-size:12px ;}
+.contact table tr td:nth-child(2) span{padding:0  60px 0 54px;}
+.contact table tr td:nth-child(3) strike{color: #666666;}
+.contact table tr td:nth-child(3) select{outline: none;margin-right: 54px;background: #f19149;color: #de562e;padding: 7px 12px;border: 1px solid #de562e;cursor: pointer;}
+.contact table tr td:nth-child(4) .input-in{width: 105px;margin-right: 120px;}
+.contact table tr td:nth-child(5) p{color: #e71f19;width: 100px;}
+.contact table tr td:nth-child(5) span{width: 100%;}
+.contact table tr td:nth-child(6) a{color: #323333;display: block;text-decoration: none;padding-right: 20px;}
+.contact table tr td:nth-child(6) span{cursor: pointer;}
+/*.input-group-btn .form-control{height: 24px;padding: 0;text-align: center;}*/
+tr td .form-control{padding: 0;text-align: center;outline: none;}
+.form-control,
+.input-group-addon,
+.input-group-btn > .btn {outline: none;height: 24px; padding:0 10px;font-size: 18px;line-height: 24px; border-radius: 6px;}
+.input-group-btn{background: #999999;border: none;}
+.input-group-btn:hover{background: #666666;}
+.input-group-btn .button-but{background: #999999;border-radius: 0;border: none;}
+.input-group-btn .button-but:hover{background: #666666;}
+.list{font-size: 12px;color: #323333;background: #999999;padding: 10px 0;margin-top: 30px;position: relative;}
+.list label{font-weight: 500;padding-right: 50px;cursor: pointer;margin: 0;padding-left:5px ;margin-left: 52px;}
+/*.list label.check_boxAll{background: url(../img/shop_car/checked_ed.png) left center no-repeat;}*/
+.list label{margin-left: 52px;font-weight: 500;line-height: 20px;padding-left: 5px;cursor: pointer;}
+.list .c-checkbox span{padding:0;position: absolute;top: 18px;left:52px;;display: block;width: 12px;height: 12px;border: 1px solid #666;cursor: pointer;}
+.list .c-checkbox input:checked + span:after{position: absolute;display: block;left:3px;width: 4px;height: 8px;border: solid #666;border-width: 0 2px 2px 0;transform: rotate(45deg);content: "";}
+.list label input{padding-left: 52px;visibility: hidden;}
+.list p{display: inline-block;margin: 0;}
+.list span:nth-child(2){padding-right: 40px;cursor: pointer;}
+.list label span:nth-child(2){padding-right: 00px;cursor: pointer;}
+.list span:nth-child(3){padding-right: 56px;cursor: pointer;}
+.list a:nth-child(4){padding-right: 30px;text-decoration: none;color:#323333;cursor: pointer;}
+.list a:nth-child(5){padding-right: 320px;text-decoration: none;color:#323333;cursor: pointer;}
+.list p:nth-child(6){padding-right: 58px;}
+.list p span{color: #e71f19;}
+.list p:nth-child(7){padding-right: 30px;}
+.list a:nth-child(8){position: absolute;right: 0;top: 0px;width: 85px;color: #FFFFFF;float: right;text-align: center;line-height:42px;height: 42px;text-decoration: none;background: #666666;;}

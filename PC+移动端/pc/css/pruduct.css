@@ -1,0 +1,158 @@
+.content .banner{
+	clear:both;
+	width:100%;
+	height:514px;
+	overflow:hidden;
+	position:relative;
+	*display:block;
+	*zoom:1;
+	z-index:1;
+	}
+.content .banner a{
+	display:block;
+	width:1920px;
+	height:514px;
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	}
+.content .banner img{
+	display:block;
+	height:514px;
+	}
+.contant .top .map{
+	height:86px;
+	font-size:18px;
+	}	
+.content .top .map p{
+	display:block;
+	float:left;
+	color:#787272;
+	font-size:18px;
+	line-height:36px;
+	margin-top:56px;
+	padding-left:48px;
+	font-weight: bold;
+	background:url(../images/news_images/map.png) no-repeat;
+	} 	
+.content .top .map p a{
+	padding-left:10px;
+	height:32px;
+	color:#5693f7;
+	}
+.content .top .title h1,.content .top .title h2{
+	display:block;
+	clear:both;
+	text-align:center;
+	}
+.content .top h1{
+	color:#0951fc;
+	font-size:36px;
+	line-height:42px;
+	font-family:"微软雅黑";
+	}	
+.content .top h2{
+	color:#6e6465;
+	font-size:36px;
+	line-height:36px;
+	font-family:"微软雅黑";
+	}
+	
+.content .top .left{
+	padding-top:50px;
+	}
+.content .top .left ul{
+	font-size:18px;
+	color:#6e6465;
+	font-family:"微软雅黑";
+	line-height:25px;
+	padding:40px 0 0 38px;
+	}
+.content .top .left ul dd{
+	text-indent:2em;
+}
+.content .top .right img{
+	padding-top:120px;
+	}		
+.content .main .left img{
+	padding:186px 60px 0 0;
+	}
+	
+.content .main .right{
+	padding-top:35px;
+	}	
+.content .main .right h1,.content .but .left h1,.content .top .left h1{
+	font-size:30px;
+	color:#5a4e50;
+	font-family:"微软雅黑";
+	padding-left:32px;
+	background:url(../images/product_images/triangle.png) no-repeat;
+	background-position:left center;
+	}
+.content .main .right li{
+	font-size:18px;
+	line-height:26px;
+	color:#6e6465;
+	font-family:"微软雅黑";
+	padding:35px 0 0 25px;
+	}
+.content .but .left,.content .but .right{
+	margin-top:72px;
+	}
+.content .but .left ul{
+	font-size:18px;
+	color:#6e6465;
+	font-family:"微软雅黑";
+	padding:82px 0 0 42px;
+	}	
+.content .but .right{
+	padding:12px 78px 0 0;
+	}	
+	
+.content .next{
+	display:block;
+	clear:both;
+	height:58px;
+	padding-top:30px;
+	text-align:center;
+	}
+.content .next ul{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	text-align:center;
+	}
+.content .next li{
+	float:left;
+	line-height:24px;
+	width:24px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	margin:32px 4px 0 4px;;
+	}
+.next li:first-child,.next li:last-child{
+	width:98px;
+	}
+.next .active a{
+	display:block;
+	width:24px;
+	color:#fff;
+	background:#0951fc;
+	}
+.next li:hover a{
+	display:block;
+	color:#fff;
+	background:#0951fc;
+	cursor:pointer;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

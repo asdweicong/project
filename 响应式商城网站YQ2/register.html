@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+
+	<body onload="loadCookie()">
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a href="index.html">您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /></a><span class="badge">18</span>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" class="left" /></a>
+						<span>欢迎登录</span>
+					</div>
+					<div class="has-account">
+						<span>账号已有</span>
+						<a href="login.html">登录</a>
+						<a href="contact.html">帮助中心</a>
+					</div>
+				</div>
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="container">
+			<!--form-fm--->
+			<div class="form-fm">
+				<h3>永辉乐科技用户注册</h3>
+				<!--form--->
+				<div class="form">
+					<form>
+						<i></i>
+						<div class="div">
+							<label>用 户 名</label>
+							<input type="text" placeholder="您的账户名或登录名" value="" id="userName" onblur="checkuserName(this.value)" />
+							<div id="userNameTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="亲，请输入用户名"></div>
+						</div>
+						<div class="div">
+							<label>密　　码 </label>
+							<input type="password" placeholder=" 至少输入两种字符组合" value="" id="password"  onblur="checkPassword(this.value)"/>
+							<div id="passwordTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="密码不合法"></div>
+						</div>
+						<div class="div">
+							<label>确认密码</label>
+							<input type="password" placeholder="再次输入密码" value="" id="password_p"  onblur="checkPassword_p(this.value)"/>
+							<div id="passwordTip_p" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="密码输入不一致"></div>
+						</div>
+						<div class="div">
+							<label>Email</label>
+							<input type="text" placeholder="请输入邮箱" value="" id="email"  onblur="Email(this.value)"/>
+						<div id="emailTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="亲，请输入正确邮箱地址"></div>
+						</div>
+						<div class="div">
+							<label>中国+86 </label>
+							<input type="text" placeholder="建议使用常用号码" value="" id="phone" onblur="Phone(this.value)"/>
+							<div id="phoneTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="亲，请输入正确的手机号码"></div>
+						</div>
+						<div class="div">
+							<label>验 证 码</label>
+							<input type="text" placeholder="请输入手机验证码" id="code"/>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="" id="checkedd"/>我已阅并同意
+							</label>
+						</div>
+						<a href="login.html" id="resize">立即注册</a>
+					</form>
+				</div>
+				<!--form- end-->
+			</div>
+			<!--form-fm end 	---->
+
+			<div class="phone-p">
+				<h4>短信快速注册</h4>
+				<p>中国大陆手机用户</p>
+				<p>编辑短信“XX”发送到</p>
+				<p>56781248326861</p>
+			</div>
+		</div>
+		<!--content end -->
+
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		</div>
+		<!--footer end-->
+	</body>
+	<script>
+		 $(function(){
+		 	$("[data-toggle='popover']").popover();
+		 });
+		var checkuserName = function(v) {
+			var reg = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+			if(reg.test(v)) {
+				$('#userNameTip').popover('hide'); //如果输入的值符合要求，提示语隐藏
+			} else {
+				$('#userNameTip').popover('show'); //如果输入的值不符合要求，提示语显示出来
+			}
+		}
+		var checkPassword = function(v) {
+			var reg = /^[a-z0-9_-]{6,12}$/;
+			if(reg.test(v)) {
+				$('#passwordTip').popover('hide'); //如果输入的值符合要求，提示语隐藏
+			} else {
+				$('#passwordTip').popover('show'); //如果输入的值不符合要求，提示语显示出来
+			}
+		}
+		var checkPassword_p = function(v){
+			var a = document.getElementById('password').value
+			if(v == a){
+				$('#passwordTip_p').popover('hide'); //如果输入的值符合要求，提示语隐藏
+			} else {
+				$('#passwordTip_p').popover('show'); //如果输入的值不符合要求，提示语显示出来
+			}
+		}
+		var Email = function(v){
+			//alert(123)
+			var reg = /^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/; 
+			if(reg.test(v)){
+				$('#emailTip').popover('hide');
+			}else{
+				$('#emailTip').popover('show');
+			}
+		}
+		var Phone = function(v){
+			var reg = /1[3|5|7|8][0-9]{9}$/
+			if(reg.test(v)){
+				$('#phoneTip').popover('hide');
+			}else{
+				$('#phoneTip').popover('show');
+			}
+		}
+		document.getElementById('resize').onclick = function(){
+			var user= document.getElementById('userName').value
+			var pas = document.getElementById('password').value
+			var pass = document.getElementById('password_p').value
+			var email =  document.getElementById('email').value
+			var phone = document.getElementById('phone').value
+			var code = document.getElementById('code').value
+			var bool = document.getElementById('checkedd').checked
+			if((user == "") || (pas == "") || (pass =="") || (email =="") || (phone == "") || (code=="") || bool == false){
+				return false;
+			}
+		}
+	</script>
+</html>

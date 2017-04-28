@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/hammer.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.hammer.js" ></script>
+		<script type="text/javascript" src="js/home.js" ></script>
+	</head>
+	<body>
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a href="order-details.html">您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /><span class="badge">18</span></a>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<!--container --->
+				<div class="container">
+					<a href="index.html"><img src="images/logo.png" class="left" /></a>
+					
+					<div class="nav-bar">
+						<!--nav-->
+						<nav class="navbar navbar-default nav-bg" role="navigation">
+							<div class="navbar-header nav-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						        <span class="sr-only">切换导航</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						    </button>
+							</div>
+							<div class="collapse navbar-collapse navbar-bg" id="example-navbar-collapse">
+								<div class="row">
+									<ul>
+										<li class="col-lg-2 col-md-2 col-sm-2 active">
+											<a href="index.html">首页</a>
+										</li>
+										<li class="col-lg-2 col-md-2 col-sm-2">
+											<a href="about.html">品牌介绍</a>
+										</li>
+										<li class="col-lg-2 col-md-2 col-sm-2">
+											<a href="news.html">新闻中心</a>
+										</li>
+										<li class="col-lg-2 col-md-2 col-sm-2">
+											<a href="product.html">产品中心</a>
+										</li>
+										<li class="col-lg-2 col-md-2 col-sm-2">
+											<a href="contact.html">联系我们</a>
+										</li>
+									</ul>
+									<!--search-->
+									<div class="search">
+										<form>
+											<div class="input-group input_in01">
+												<input type="text" class="form-control" />
+												<span class="input-group-btn">
+												<button class="btn btn-default btn-lg button-but" type="button">
+													<img src="images/search.png"/>
+												</button>
+											</span>
+											</div>
+										</form>
+									</div>
+									<!--search end-->
+								</div>
+							</div>
+						</nav>
+						<!--nav end -->
+					</div>
+
+					<!--search-->
+					<div class="search">
+						<form>
+							<div class="input-group input_in">
+								<input type="text" class="form-control" />
+								<span class="input-group-btn">
+									<button class="btn btn-default btn-lg button-but" type="button">
+										<img src="images/search.png"/>
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<!--search end-->
+				</div>
+				<!--container end--->
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="content">
+			<!--banner--->
+			<div class="banner">
+				<div id="myCarousel" class="carousel slide">
+				   <!-- 轮播（Carousel）指标 -->
+				   <ol class="carousel-indicators dot">
+				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="1"></li>
+				      <li data-target="#myCarousel" data-slide-to="2"></li>
+				   </ol>   
+				   <!-- 轮播（Carousel）项目 -->
+				   <div class="carousel-inner">
+				      <div class="item active">
+				         <img src="images/banner01.png" alt="First slide">
+				      </div>
+				      <div class="item">
+				         <img src="images/banner02.png" alt="Second slide">
+				      </div>
+				      <div class="item">
+				         <img src="images/banner03.png" alt="Third slide">
+				      </div>
+				      <script>
+						$(document).ready(function() {
+							$('.carousel').carousel({
+								interval: 2500
+							})
+						});
+					</script>
+				   </div>
+				   <script>
+		function show(){
+			$('#myCarousel').hammer().on('swipeleft', function(){
+				$(this).carousel('next');
+			});
+			$('#myCarousel').hammer().on('swiperight', function(){
+				$(this).carousel('prev');
+			});
+		}
+		show()
+	</script>
+				</div>
+			</div>
+			<!---banner end --->
+			
+			<div class="container">
+				<!--text-images--->
+				<div class="text-images">
+					<ul class="row">
+						<li class="col-lg-3 col-md-3 col-md-3 col-sm-3 col-xs-6 ">
+							<figure><a href="product.html"><img src="images/index/list-01.png" /></a></figure>
+							<figcaption><a href="product.html">全家出门度假如何才能防备小偷闯空门?</a></figcaption>
+						</li>
+						
+						<li class="col-lg-3 col-md-3 col-md-3 col-sm-3 col-xs-6">
+							<figure><a href="product.html"><img src="images/index/list-02.png" /></a></figure>
+							<figcaption><a href="product.html">不能经常陪在父母身边心中总有份牵挂 ?</a></figcaption>
+						</li>
+						
+						<li class="col-lg-3 col-md-3 col-md-3 col-sm-3 col-xs-6">
+							<figure><a href="product.html"><img src="images/index/list-03.png" /></a></figure>
+							<figcaption><a href="product.html">事业顺风顺水分店多每天忙的焦头烂额？</a></figcaption>
+						</li>
+						
+						<li class="col-lg-3 col-md-3 col-md-3 col-sm-3 col-xs-6">
+							<figure><a href="product.html"><img src="images/index/list-04.png" /></a></figure>
+							<figcaption><a href="product.html">请了保姆看孩子不知道他们相处怎样?</a></figcaption>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--text-images end--->
+			<!--about_us--->
+			<div class="about_us">
+				<div class="container">
+					<h1>
+						品牌介绍
+					</h1>
+					<p>Brand introduction</p>
+					<a href="about.html"><img src="images/index/introduction.png" class="left"/></a>
+					<div>
+						<p>
+							永辉乐科技有限公司专业从事闭路监控摄像机研发、生产、销售;公司主要产品有"标准枪机摄像机、防水摄像机、半球/防爆型摄像机、
+							迷你型摄像机、烟感型摄像机"等系列多达数百种。 永辉乐YHDO秉承严格执行质量管理的 企业发展理念、致力于"用品质、服务、价格
+							立足于市场"的营销理念!公司已经通 过德国TUV ISO9001(2000版)质量管理体系认证、获得欧盟CE证书、产品
+							均通过中国 公安部检测中心检测合格...	
+						</p>
+						<div class="more">
+							<a href="about.html">了解更多 &gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--about_us end--->
+			
+			<!---show-list--->
+			<div class="container">
+				<div class="list-show row">
+					<!--list-more--->
+					<div class="list-more">
+						<img src="images/index/list_list.png" />				
+					</div>
+					<!--list-more end --->
+					
+					<div class="contrast">
+						<ul>
+							<li>
+								<figure>
+									<a href="pro_details.html"><img src="images/index/list-big1.png" /></a>
+								</figure>
+								<figcaption>
+									<h3><a href="pro_details.html">C52夜间拍摄</a></h3>
+									<span>自动补光，夜间也清晰可y见</span>
+								</figcaption>
+							</li>
+							
+							<li>
+								<figure>
+									<a href="pro_details.html"><img src="images/index/list-big2.png" /></a>
+								</figure>
+								<figcaption>
+									<h3><a href="pro_details.html">其他品牌摄像头夜间实拍</a></h3>
+									<span>无法补光，夜晚一片黑暗</span>
+								</figcaption>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!---show-list end--->
+			
+			<!---show list-->
+			<div class="show-list">
+				<div class="container">
+					<div class="Product_display left">
+						产品展示
+					</div>
+					<div class="list-images">
+						<ul>
+							<li>
+								<a href="pro_details.html"><img src="images/index/list001.png" /></a>
+							</li>
+							
+							<li>
+								<a href="pro_details.html"><img src="images/index/list002.png" /></a>
+							</li>
+							
+							<li>
+								<a href="pro_details.html"><img src="images/index/list003.png" /></a>
+							</li>
+							
+							<li>
+								<a href="pro_details.html"><img src="images/index/list004.png" /></a>
+							</li>
+							<li>
+								<a href="pro_details.html"><img src="images/index/list005.png" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--show-list--->
+			
+			<!--- list-news-->
+			<div class="list-news">
+				<div class="container">
+					<h1>
+						新闻中心
+					</h1>
+					<p>News</p>
+					<div class="map-list-01">
+						<ul class="left">
+							<li>
+								<a href="news_details.html">东芝EXCERIA PRO M501 microSD...</a>
+							</li>
+							<li><a href="news_details.html">松下手持式专业摄像机HC-PV100发布...</a></li>
+							<li>
+								<a href="news_details.html">合租男同事装摄像机偷窥女同事....</a>
+								
+							</li>
+							<li><a href="news_details.html">360智能摄像机盗贼行动随时知...</a></li>
+							<li>
+								<a href="news_details.html">Simplicam监控摄像头评测...</a>
+							
+							</li>
+							<li><a href="news_details.html">高清网络摄像头 可远程监控监测温度...</a></li>
+							<li>
+								<a href="news_details.html">首款VR全景运动摄像机上线...</a>
+								
+							</li>
+							<li><a href="news_details.html">文艺范十足的枪式手持摄像机...</a></li>
+						</ul>
+						
+					</div>
+					<div class="map-list-02">
+						<img src="images/index/error02.png" />
+						<ul class="left">
+							<li>
+								<a href="news_details.html">东芝EXCERIA PRO M501 microSD...</a>
+							</li>
+							<li>
+								<a href="news_details.html">松下手持式专业摄像机HC-PV100发布...</a>
+							</li>
+							<li>
+								<a href="news_details.html">合租男同事装摄像机偷窥女同事....</a>
+							</li>
+							<li>
+								<a href="news_details.html">360智能摄像机盗贼行动随时知...</a>
+							</li>
+							<li>
+								<a href="news_details.html">Simplicam监控摄像头评测...</a>
+							</li>
+							<li>
+								<a href="news_details.html">高清网络摄像头 可远程监控监测温度...</a>
+							</li>
+							<li>
+								<a href="news_details.html">首款VR全景运动摄像机上线...</a>
+							</li>
+							<li>
+								<a href="news_details.html">文艺范十足的枪式手持摄像机...</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				
+			<!---list-news end -->
+			
+			<!--pay list-->
+			<div class="container">
+				<div class="pay-list">
+					<dl class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<dt><span><a href="contact.html">获取帮助</a></span></dt>
+						<dd><a href="contact.html">联系我们</a></dd>
+						<dd><a href="pro_details.html">立即选购</a></dd>
+						<dd><a href="about.html"><span>了解更多</span></a></dd>
+					</dl>
+					
+					<dl class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<dt><span><a href="order-details.html">定单</a></span></dt>
+						<dd><a href="pay.html">付款选项</a></dd>
+						<dd><a href="address.html">配送方式</a></dd>
+						<dd><a href="contact.html">退换货</a></dd>
+						<dd><a href="order-details.html"><span>定单状态</span></a></dd>
+					</dl>
+					
+					<dl class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<dt><span><a href="user.html">注册会员</a></span></dt>
+						<dd><a href="order.html">管理你的订单，所有购买项目</a></dd>
+						<dd><a href="contact.html">均享受免费退换等优惠政策</a></dd>
+						<dd><a href="product.html"><span>立即选购</span></a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--pay list end-->
+		</div>
+		<!--content end -->
+
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		</div>
+		<!--footer end-->
+
+	</body>
+
+</html>

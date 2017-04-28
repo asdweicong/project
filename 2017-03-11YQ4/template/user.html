@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>
+	<ion-view ng-controller="userController" class="user">
+		<!--header-->
+		<ion-header-bar align-title="left" class="bg-line header_bg">
+			<div class="title">
+				个人中心
+			</div>
+			<div class="aler_img">
+				<img src="img/dian.png" alt="" />
+			</div>
+		</ion-header-bar>
+		<!--header-->
+		<!--content-->
+		<ion-content class="user_content" ng-init="bool1=true">
+			<div class="user_top">
+				<img  src="img/user/user_head.png" ui-sref="login"/>
+				<p>宫品</p>
+				<a ui-sref="login">个人资料<span>&gt;</span></a>
+			</div>
+			
+			<div class="my_all_order">
+				<a ui-sref="my_order">我的全部订单></a>
+			</div>
+			
+			<div class="cont_top row">
+				<div class="col shop_on" ng-click="bool1=true;bool2=false;bool3=false;bool4=false">代付款(0)</div>
+				<div class="col" ng-click="bool1=false;bool2=true;bool3=false;bool4=false">代发货(0)</div>
+				<div class="col" ng-click="bool1=false;bool2=false;bool3=true;bool4=false">待收货(3)</div>
+				<div class="col" ng-click="bool1=false;bool2=false;bool3=flase;bool4=true">待评价(0)</div>
+			</div>
+			
+			<ion-list class="list" ng-show="bool1" show-delete="data.showDelect">
+				<ion-item ng-repeat="pro_list in pro_list">
+				</ion-item>
+				代付款
+			</ion-list>
+			<div ng-show="bool2" class="list" >代发货</div>
+			<div ng-show="bool3" class="list" >待收货</div>
+			<div ng-show="bool4" class="list" >待评价</div>
+			
+			<div class="title_list01">
+				<ul>
+					<li>我的地址&gt;</li>
+					<li>购买记录&gt;</li>
+					<li>我的收藏&gt;</li>
+					<li>我的积分&gt;</li>
+					<li ui-sref="car">我的购物车&gt;</li>
+				</ul>
+			</div>
+			<div class="title_list02">
+				<ul>
+					<li>我的地址&gt;</li>
+					<li>购买记录&gt;</li>
+				</ul>
+			</div>
+		</ion-content>	
+		<!--content-->
+		<!---footer-->
+		<ion-footer-bar>
+			<div class="tabs tabs-icon-top">
+				<a class="tab-item" ui-sref="home">
+					<i class="icon ion-home"></i>
+					<p>首页</p>
+				</a>
+				<a class="tab-item" ui-sref="pro_categories">
+					<i class="icon ion-android-apps"></i>
+					<p>分类</p>
+				</a>
+				<a class="tab-item" ui-sref="user">
+					<i class="icon ion-android-person"></i>
+					<p>我的</p>
+				</a>
+				<a class="tab-item" ui-sref="car">
+					<i class="icon ion-ios-cart"></i>
+					<p>购物车</p>
+				</a>
+			</div>
+		</ion-footer-bar>
+		<!---footer-->
+	</ion-view>
+	<script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>	

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>
+	<ion-view ng-controller="carController" class="car">
+		<ion-side-menus>
+			<ion-side-menu-content drag-content="false">
+				<!--header-->
+				<ion-header-bar align-title="left" class="bg-line header_bg">
+					
+					<div class="title">
+						购物车
+					</div>
+					<div class="aler_img">
+						<img src="img/dian.png" alt="" />
+					</div>
+				</ion-header-bar>
+				<!--header-->
+	
+				<!--content--->
+				<ion-content>
+					<ion-list show-delete="data.showDelect" >
+						<ion-item ng-repeat="list in car_list">
+							<label class="c-checkbox text_checked" on-tap="index($index)">
+								<input  type="checkbox" ng-model="list.checked" ng-click="checked_text(list.checked)"/>
+								<span></span>
+							</label>
+							<div class="pro_img" ui--sref="pr_detail">
+								<img ng-src="{{list.src}}">
+							</div>
+							<h2 ui-sref="pr_detail">{{list.h2}}</h2>
+							<div class="price">
+								<p>￥{{list.price}}</p>
+								<span>原价：{{list.old_price}}</span>
+							</div>
+							<div class="pro_input">
+								<i>数量:</i>
+								<p>
+									<span ng-click="reduce(list,$index)">-</span>
+									<input ng-model="list.number" id="pro_value" value="{{list.number}}" type="text" ng-focus="focusVal(list,$index)" ng-blur="inputVal(list,$index)" maxlength="2">
+									<span ng-click="add(list,$index)">+</span>
+								</p>
+								<button on-tap="remove_text($index)">删除</button>
+							</div>
+						</ion-item>
+						
+						<div class="all_ch">
+							<label class="c-checkbox" ng-click="allChecked(allarr.checked)">
+								<input  type="checkbox" ng-model="allarr.checked" />
+								<span></span><i>全选</i>
+							</label>
+							<p>总计：<span>￥<i id="all_price">0.00</i></span></p>
+							<button ui-sref="order">去结算</button>
+						</div>
+					</ion-list>
+				</ion-content>
+				<!--content--->
+				
+				<!---footer-->
+				<ion-footer-bar>
+					<div class="tabs tabs-icon-top">
+						<a class="tab-item" ui-sref="home">
+							<i class="icon ion-home"></i>
+							<p>首页</p>
+						</a>
+						<a class="tab-item" ui-sref="pro_categories">
+							<i class="icon ion-android-apps"></i>
+							<p>分类</p>
+						</a>
+						<a class="tab-item" ui-sref="user">
+							<i class="icon ion-android-person"></i>
+							<p>我的</p>
+						</a>
+						<a class="tab-item" ui-sref="car">
+							<i class="icon ion-ios-cart"></i>
+							<p>购物车</p>
+						</a>
+					</div>
+				</ion-footer-bar>
+				<!---footer-->
+			</ion-side-menu-content>
+		</ion-side-menus>
+	</ion-view>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>	

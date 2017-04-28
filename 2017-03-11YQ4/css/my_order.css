@@ -1,0 +1,33 @@
+.my_order .header_bg div.title{background: transparent;text-align: center;color: #FFFFFF;width:1.3rem;height: .55rem;line-height: .55rem;font-size: 0.30rem;position: absolute;left: 50%;margin-left: -0.65rem;}
+.my_order .tab-item-active{color: #ff0000;border: none;}
+.my_order .tab-item span{font-size: 0.26rem;}
+.my_order .tab-item i.ion-arrow-up-b{color: transparent;padding-top: 1.2rem;}
+.my_order .tabs-top.tabs-striped .tab-item.activated, 
+.my_order .tabs-top.tabs-striped .tab-item.active, 
+.my_order .tabs-top.tabs-striped .tab-item.tab-item-active{
+	border: none;
+}
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.activated .tab-title, 
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.activated i, 
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.active .tab-title, 
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.active i, 
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.tab-item-active .tab-title, 
+.my_order .tabs-top.tabs-striped:not(.tabs-icon-left):not(.tabs-icon-top) .tab-item.tab-item-active i{
+	color:red;
+}
+.my_order .cont_top{border-bottom: 1px solid #c9c9c9;height: 0.86rem;line-height: 0.5rem;font-size: 0.26rem;font-family: "微软雅黑";}
+.my_order .shop_on{color: red;}
+.my_order .list img{width: 2.6rem;height: 2.7rem;padding: 0.12rem;float: left;}
+.my_order .list .title_til{width: 3.8rem;float: right;}
+.my_order .list h1{margin: 0;width:3.5rem;font-size: 0.28rem;display: inline-block;padding-top:0.22rem ;color: #333333;font-family: "微软雅黑";}
+.my_order .list p{width:2.2rem;font-size: 0.42rem;color: #ff0000;font-family: "微软雅黑";margin: 0.12rem 0 0 0;line-height: 0.38rem;}
+.my_order .list strike{font-size: 0.16rem;color: #999999;display: block;padding-bottom: 0.15rem;}
+.my_order .list a{width: 1.5rem;height: 0.5rem;text-align: center;line-height:0.5rem;display: inline-block;border: 1px solid #afafaf;border-radius:0.2rem;font-size: 0.28rem;text-decoration: none;}
+.my_order .list a:nth-child(4){margin-right: 0.3rem;border: none;background:#fe0000;color: #fff;}
+.my_order .list a:nth-child(5){margin-right: 0.3rem;color: #000000;}
+.my_order .list .item h1{white-space:normal;overflow: visible;}
+.my_order .list .item{border: none;padding:  0;}
+.my_order .cont_top{position: fixed;z-index: 10;background: #FFFFFF;}
+.my_order .cont_button{margin-top: 0.9rem;}
+.my_order .list{font-size: 0.26rem}
+.my_order .has-footer{bottom: 0.00rem;}

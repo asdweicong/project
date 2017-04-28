@@ -1,0 +1,20 @@
+.pro_list .header_bg div.title{background: transparent;text-align: center;color: #FFFFFF;width:1.3rem;height: .55rem;line-height: .55rem;font-size: 0.30rem;position: absolute;left: 50%;margin-left: -0.65rem;font-family: "微软雅黑";}
+.pro_list .header_bg .buttons p{width: 0.88rem;height: 0.94rem;line-height: 0.94rem;position: absolute;left: 0.25rem;color: #FFFFFF;font-size: 0.3rem;margin-bottom: 0;top: -50%;margin-top: 0.47rem;font-family: "微软雅黑";font-weight: 500;}
+.pro_list .header_bg .buttons p span{font-family:-webkit-pictograph;margin-right: 0.05rem;font-weight: 500;}
+.pro_list .cont_top{border-bottom: 1px solid #c9c9c9;height: 0.86rem;line-height: 0.5rem;font-size: 0.26rem;font-family: "微软雅黑";}
+.pro_list .shop_on{color: red;}
+.pro_list .list img{width: 2.6rem;height: 2.7rem;padding: 0.12rem;float: left;}
+.pro_list .list .title_til{width: 4.2rem;float: right;}
+.pro_list .list h1{margin: 0;width:4.0rem;font-size: 0.28rem;display: block;padding-top:0.22rem ;color: #333333;font-family: "微软雅黑";padding-bottom: 0.15rem;}
+.pro_list .list p{width:1.8rem;font-size: 0.42rem;color: #ff0000;font-family: "微软雅黑";margin: 0.12rem 0;line-height: 0.38rem;float: left;}
+.pro_list .list strike{width: 1.6rem;font-size: 0.16rem;color: #999999;display: block;padding-bottom: 0.15rem;float: left;padding-top: 0.20rem;}
+.pro_list .list .queding{clear: both;overflow:hidden;display: block ;	}
+.pro_list .list .queding a{clear: both;overflow:hidden;width: 1.6rem;height: 0.5rem;text-align: center;line-height:0.5rem;display: inline-block;border: 1px solid #afafaf;font-size: 0.28rem;text-decoration: none;font-family: "微软雅黑";}
+.pro_list .list .queding a:nth-child(1){margin-right: 0.3rem;border: none;background:#fe0000;color: #fff;}
+.pro_list .list .queding a:nth-child(2){margin-right: 0.3rem;border:1px solid #FE0000;padding: 0 0.05rem;color: #333333;}
+.pro_list .list .item h1{white-space:normal;overflow: visible;}
+.pro_list .list .item{border: none;padding:  0;}
+.pro_list .cont_top{position: fixed;z-index: 10;background: #FFFFFF;}
+.pro_list .ionic-scroll{margin-top: 0.85rem;}
+.pro_list .list{font-size: 0.26rem;}
+.pro_list .has-footer{bottom: 0.00rem;}

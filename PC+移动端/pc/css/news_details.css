@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************** map  **********************************************/
+
+.content .banner{
+	claer:both;
+	width:100%;
+	height:514px;
+	overflow:hidden;
+	position:relative;
+	*display:block;
+	*zoom:1;
+	z-index:1;
+	}
+.content .banner a{
+	display:block;
+	width:1920px;
+	height:514px;
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	}
+.content .banner img{
+	display:block;
+	height:514px;
+	}	
+
+.content .map{
+	height:86px;
+	font-size:18px;
+	color:#787272;
+	font-weight:bold;
+	}	
+.content .map p{
+	display:block;
+	float:left;
+	margin-top:56px;
+	padding-left:48px;
+	background:url(../images/news_images/map.png) no-repeat;
+	} 	
+.content .map p a{
+	padding-left:10px;
+	height:32px;
+	color:#5693f7;
+	}
+	
+/*********************************  news h1 ************************************************************/	
+.content .news{
+	height:92px;
+	margin-top:10px;
+	text-align:center;
+	}
+.content .news h1{
+	color:#0951fc;
+	font-size:36px;
+	line-height:36px;
+	font-family:"微软雅黑";
+	}
+.content .news h2{
+	color:#6e6465;
+	font-size:36px;
+	line-height:36px;
+	font-family:"微软雅黑";
+	}
+
+/****************************************  zuo_ze*************************************************************/
+.content .left,.content .right{
+	font-size:18px;
+	line-height:30px;
+	font-family:"微软雅黑";
+	}
+.content .left{
+	padding-left:154px;
+	}
+.content .right{
+	padding-right:115px;
+	}	
+.content .author{
+	height:34px;
+	border-bottom:6px dotted #e1e0e0;
+	}
+.content .author .right{padding-right:25px;}
+.content .text{
+	clear:both;
+	width:100%;
+	}
+.content .text .right{
+	height:14px;
+	clear:both;
+	}
+.content .text .mg .right{
+	margin:10px -48px 0 0;
+	height:30px;
+	}
+.content .text .nr p{
+	clear:both;
+	font-size:18px;
+	color:#808080;
+	margin-top:14px;
+	margin-left:15.8%;
+	font-family:"微软雅黑";
+	text-indent: 2em;
+	}
+.content .text .but{
+	}	
+.content .text .but .pict{
+	display:block;
+	width:460px;
+	float:left;
+	}	
+.content .text .but img{
+	diaplay:block;
+	padding:12px 0 0 200px;
+	}
+.content .text .but .concept{
+	display:block;
+	float:left;
+	width:700px;;
+	padding:20px;
+	}
+.content .text .but .concept p{
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#727272;
+	line-height:26px;
+	}
+*/
+.content .text .next{margin-top:55px;}
+.content .text .next img{
+	float:right;
+	padding:80px 76px 10px 0;
+	}
+.content .text .next .page{
+	clear:both;
+	font-size:18px;
+	height:92px;
+	border-top:6px dotted #b6b4b4;
+	}
+.content .text .next .page span{
+	float:right;
+	color:#727272;
+	} 
+.content .text .next .page p{
+	float:left;
+	}
+

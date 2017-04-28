@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>登录</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/Land.js" ></script>
+	</head>
+
+	<body onload="loadCookie()">
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a>您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /><span class="badge">18</span></a>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<div class="container">
+					<a href="index.html"><img src="images/logo.png" class="left" /></a>
+					<span>欢迎登录</span>
+				</div>
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="content">
+			<div class="container">
+				<img src="images/login/list-.png" class="left img"/>
+				<div class="form right">
+					<form action="#" method="POST" onsubmit="return checkLogin()" class="form-horizontal" role="form">
+						<div class="the-login">
+							<a href="###" class="left">登录扫描</a>
+							<a href="###" class="right">账号验证</a>
+						</div>
+						<div class="input-group input_in">
+							<span class="input-group-btn">
+								<button class="btn btn-default btn-lg button-but" type="button">
+									<img src="images/login/user.png"/>
+								</button>
+							</span>
+							<input type="text" class="form-control"  id="userName" placeholder="邮箱/用户名/已验证手机"  onblur="checkuserName(this.value);"/>
+							<div id="userNameTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="请输入正确用户名"></div>
+							
+						</div>
+						
+						<div class="input-group input_in">
+							<span class="input-group-btn">
+								<button class="btn btn-default btn-lg button-but" type="button">
+									<img src="images/login/password.png"/>
+								</button>
+							</span>
+							<input type="password" class="form-control"  id="password" placeholder="密码" onblur="checkPassword(this.value);"/>
+							<div id="passwordTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="密码错误"></div>
+						</div>
+						
+						<div class="forget-password checkbox">
+							<label class="checkbox">
+								<input type="checkbox" id="isAutoLogin" style="cursor: pointer;"/>自动登录
+							</label>
+							<a href="###">忘记密码</a>
+						</div>
+						
+						<div class="login">
+							<a href="user.html" class="left" id="login">登录</button>
+							<a href="register.html" class="right">注册</a>
+						</div>
+					</form>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--content end -->
+
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		</div>
+		<!--footer end-->
+	</body>
+	<script>
+			document.getElementById('login').onclick = function(){
+		   		var userName = document.getElementById('userName').value
+			 	var passwords = document.getElementById('password').value
+			 	if(userName =="" || passwords == ""){
+			 		return false;
+			 	}
+		   	}
+	</script>
+	
+</html>

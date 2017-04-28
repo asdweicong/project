@@ -1,0 +1,36 @@
+*{
+		margin: 0;
+		padding:0}
+	.box{
+		width:320px;
+		margin:50px auto;}
+	li{
+		list-style-type: none;}
+	.swich{
+		clear:both;
+		overflow: hidden;
+		background: #FF00FF;
+		text-align: center;}
+	.swich li{
+		float: left;
+		width:25%;
+		padding:0 15px;
+		box-sizing:border-box;/*设置清除padding产生的内边距所占的位置，把内边距设置到内容里面*/
+		font-size: 16px;
+		line-height: 50px;
+		text-align:center;
+		cursor:pointer;}
+	.swich .on{
+		background: #FFFF00;}
+	.list{
+		height:100px;
+		text-align: center;
+		background: #FFFF00;
+		overflow: hidden;
+		margin-top:50px ;}
+	.list li{
+		height:25%;
+		overflow: hidden;
+		font-size:16px;
+		line-height: 100px;
+		display: none;}

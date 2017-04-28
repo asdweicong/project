@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去除字符</title>
+</head>
+<body>
+<script>
+    /*js 过滤特殊字符函数调用*/
+    function stripscript(s)
+    {
+        var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？%]")
+        var rs = "";
+        for (var i = 0; i < s.length; i++) {
+            rs = rs+s.substr(i, 1).replace(pattern, '');
+        }
+        return rs;
+    };
+    console.log(stripscript("啊还放35434--55**//？"))
+</script>
+</body>
+</html>

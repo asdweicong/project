@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选项选择对应的选项</title>
+		<style>
+			*{
+				margin: 0;
+				padding:0}
+			.box{
+				width:320px;
+				margin:50px auto;}
+			li{
+				list-style-type: none;}
+			.swich{
+				clear:both;
+				overflow: hidden;
+				background: #FF00FF;
+				text-align: center;}
+			.swich li{
+				float: left;
+				width:25%;
+				padding:0 15px;
+				box-sizing:border-box;/*设置清除padding产生的内边距所占的位置，把内边距设置到内容里面*/
+				font-size: 16px;
+				line-height: 50px;
+				text-align:center;
+				cursor:pointer;}
+			.swich .on{
+				background: #FFFF00;}
+			.list{
+				height:100px;
+				text-align: center;
+				background: #FFFF00;
+				overflow: hidden;
+				margin-top:50px ;}
+			.list li{
+				height:25%;
+				overflow: hidden;
+				font-size:16px;
+				line-height: 100px;
+				display: none;}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".swich ul li").eq(0).addClass("on");//获取当前第一个swich内的li元素
+				$(".list ul li").eq(0).show();//显示list内的第一个元素
+				$(".swich ul li").click(function(){//点击swich任何一个元素触发此函数
+					var index = $(this).index();//定义一个变量 ，把获取点击的swich里面的li元素的下标赋值给定义的变量
+					$(".box .swich ul li").removeClass("on");//移除当前显示swich里面的li元素的："on"选择器
+					$(this).addClass("on");//在点击的那个swich包含的那个li元素添加"on"选择器
+					$(".box .list ul li").fadeOut(300);//当前显示的list里面的Li隐藏
+					$(".box .list ul li").eq(index).fadeIn(300);//显示所点击对应的list元素对应的下标显示出来
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="swich">
+				<ul>
+					<li>选项一</li>
+					<li>选项二</li>
+					<li>选项三</li>
+					<li>选项四</li>
+				</ul>
+			</div>
+			
+			<div class="list">
+				<ul>
+					<li>选项一所对应的文本</li>
+					<li>选项二所对应的文本</li>
+					<li>选项三所对应的文本</li>
+					<li>选项四所对应的文本</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

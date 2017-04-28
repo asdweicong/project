@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>
+	<ion-view ng-controller="pro_cateController" class="pro_categories">
+				<!--header-->
+				<ion-header-bar align-title="left" class="bg-line header_bg">
+					<div class="title" ui-sref="search">
+						<button ng-click="search()">搜索产品</button>
+					</div>
+					<div class="aler_img">
+						<img src="img/dian.png" alt="" />
+					</div>
+				</ion-header-bar>
+				<!--header-->
+	
+				<!--content----->
+				<ion-content class="topcontent">
+	                <ion-list class="sortleft">
+	                    <ion-item ng-repeat="list in sortlist" class="listleft" on-tap="sortselect($index)">
+	                        {{list.text}}
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro001'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro002'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro003'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                   <ion-item ng-repeat='list_pro in list_pro004'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro005'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro006'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro007'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro008'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	                <ion-list class="sortright">
+	                    <ion-item ng-repeat='list_pro in list_pro009'>
+	                    	<img ng-src="{{list_pro.src}}" ui-sref="pr_detail"/>
+		                    <h1 ui-sref="pr_detail">{{list_pro.h1}}</h1>
+		                    <div class="list_left">
+		                    	<p>{{list_pro.new_price}}</p>
+		                    	<strike>原价:{{list_pro.old_price}}</strike>
+		                    </div>
+		                    <a ui-sref="order">立即购买</a>
+	                    </ion-item>
+	                </ion-list>
+	            </ion-content>
+				<!--content----->
+	
+				<!---footer-->
+		<ion-footer-bar>
+			<div class="tabs tabs-icon-top">
+				<a class="tab-item" ui-sref="home">
+					<i class="icon ion-home"></i>
+					<p>首页</p>
+				</a>
+				<a class="tab-item" ui-sref="pro_categories">
+					<i class="icon ion-android-apps"></i>
+					<p>分类</p>
+				</a>
+				<a class="tab-item" ui-sref="user">
+					<i class="icon ion-android-person"></i>
+					<p>我的</p>
+				</a>
+				<a class="tab-item" ui-sref="car">
+					<i class="icon ion-ios-cart"></i>
+					<p>购物车</p>
+				</a>
+			</div>
+		</ion-footer-bar>
+		<!---footer-->
+	</ion-view>
+	<script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>	

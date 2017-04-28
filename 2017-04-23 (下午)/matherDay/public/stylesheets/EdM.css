@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+.title{
+    height:1rem;
+    margin:0;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:10;
+    background-color: #fff;
+}
+.title p{
+    margin:0;padding: 0.2rem;
+    text-align: center;
+    font-size:0.32rem;
+}
+.edm_content{
+    margin-top: 1.0rem;
+    position: relative;
+}
+.edm_content img{
+    width:100%;
+    height:100%;
+}
+.edm_content .button{
+    font-size:0.34rem;
+    color: #fff;
+    line-height: 0.6rem;
+    height:0.6rem;
+    border:none;
+    width:3.2rem;
+    position: absolute;
+    background: url("../images/qietu/EDM/button.png") no-repeat;
+    background-size: 100%;
+    bottom:1.0rem;
+    left:1.85rem;
+}

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>我的购物车</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/my-shopping-cart.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a href="order-details.html">您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /></a><span class="badge">18</span>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<!--container --->
+				<div class="container">
+					<a href="index.html"><img src="images/logo.png" class="left" /></a>
+					
+					<div class="pay-current">
+						<ol>
+							<li class="active-2">
+								<div>
+                                    <i>1</i>
+                                    <p>我的购物车</p>
+                                </div>
+                                <i class="active-3"></i>
+							</li>
+							<li>
+								<div>
+                                    <i>2</i>
+                                    <p>填写核对订单详情</p>
+                                </div>
+                                <i class="active-3"></i>
+							</li>
+							<li>
+								<div>
+                                    <i>3</i>
+                                    <p>成功提交订单</p>
+                                </div>
+                                <i class="active-4"></i>
+							</li>
+						</ol>
+					</div>
+					<!--search-->
+					<div class="search">
+						<form>
+							<div class="input-group input_in">
+								<input type="text" class="form-control" />
+								<span class="input-group-btn">
+									<button class="btn btn-default btn-lg button-but" type="button">
+										<img src="images/search.png"/>
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<!--search end-->
+				</div>
+				<!--container end--->
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="content">
+			<div class="container">
+				<div class="top">
+					<span>全部商品</span>
+					<div>
+						<p>已选商品 	 （不含运费）<span id="sum_m">0.00</span><a href="confirm_order.html">结 算</a></p>
+					</div>
+				</div>
+				<!--table-->
+				
+				<ul>
+					<li>
+						<label style="text-align: center;"><input type="checkbox"  id="checkAll" onclick="checkAll()" style="float: left;"/><span>全选</span></label>
+					</li>
+					<li>商品信息</li>
+					<li>单价</li>
+					<li>数量</li>
+					<li>折扣价</li>
+				</ul>
+				<table class="table">
+					<tr id="tr">
+						<td>
+							<input type="checkbox" id="box" />
+							<a href="pro_details.html"><img src="images/order/product.png" /></a>
+							<div>
+								<p><a href="pro_details.html">防暴高解析红外日夜型半球摄像机</a></p>
+								<p>英飞拓 防爆半球</p>
+								<p>颜色：白色</p>
+								<a href="###"><img src="images/confirm_order/card01.png" /></a>
+								<a href="###"><img src="images/confirm_order/card02.png" /></a>
+								<a href="###"><img src="images/confirm_order/card03.png" /></a>
+							</div>
+						</td>
+						<td>
+							<div class="mon">
+								¥<span id="price">3189</span>元
+							</div>
+							<div class="input-group input-in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="reduce" style="outline: none;">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num" style="outline: none;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="add" style="outline: none;">
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<div class="price_pr">
+								<p>¥<span id="price_01">2998</span>元</p>
+							</div>
+							<div class="delte">
+								<a href="user.html">加入收藏</a>
+								<br/>
+								<b id="delete">删除</b>
+								<p>合计：　（不含运费）　<span>¥<em id="price_02">2998</em>元</span></p>
+							</div>
+							
+						</td>
+					</tr>
+					<tr id="tr">
+						<td>
+							<input type="checkbox" id="box" />
+							<a href="pro_details.html"><img src="images/order/product.png" /></a>
+							<div>
+								<p><a href="pro_details.html">防暴高解析红外日夜型半球摄像机</a></p>
+								<p>英飞拓 防爆半球</p>
+								<p>颜色：白色</p>
+								<a href="###"><img src="images/confirm_order/card01.png" /></a>
+								<a href="###"><img src="images/confirm_order/card02.png" /></a>
+								<a href="###"><img src="images/confirm_order/card03.png" /></a>
+							</div>
+						</td>
+						<td>
+							<div class="mon">
+								¥<span id="price">3189</span>元
+							</div>
+							<div class="input-group input-in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="reduce" style="outline: none;">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num" style="outline: none;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="add" style="outline: none;">
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<div class="price_pr">
+								<p>¥<span id="price_01">2998</span>元</p>
+							</div>
+							<div class="delte">
+								<a href="user.html">加入收藏</a>
+								<br/>
+								<b id="delete">删除</b>
+								<p>合计：　（不含运费）　<span>¥<em id="price_02">2998</em>元</span></p>
+							</div>
+						</td>
+					</tr>
+					<tr id="tr">
+						<td>
+							<input type="checkbox" id="box" />
+							<a href="pro_details.html"><img src="images/order/product.png" /></a>
+							<div>
+								<p><a href="pro_details.html">防暴高解析红外日夜型半球摄像机</a></p>
+								<p>英飞拓 防爆半球</p>
+								<p>颜色：白色</p>
+								<a href="###"><img src="images/confirm_order/card01.png" /></a>
+								<a href="###"><img src="images/confirm_order/card02.png" /></a>
+								<a href="###"><img src="images/confirm_order/card03.png" /></a>
+							</div>
+						</td>
+						<td>
+							<div class="mon">
+								¥<span id="price">3189</span>元
+							</div>
+							<div class="input-group input-in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="reduce" style="outline: none;">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num" style="outline: none;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="add" style="outline: none;">
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<div class="price_pr">
+								<p>¥<span id="price_01">2998</span>元</p>
+							</div>
+							<div class="delte">
+								<a href="user.html">加入收藏</a>
+								<br/>
+								<b id="delete">删除</b>
+								<p>合计：　（不含运费）　<span>¥<em id="price_02">2998</em>元</span></p>
+							</div>
+						</td>
+					</tr>
+					<tr id="tr">
+						<td>
+							<input type="checkbox" id="box" />
+							<a href="pro_details.html"><img src="images/order/product.png" /></a>
+							<div>
+								<p><a href="pro_details.html">防暴高解析红外日夜型半球摄像机</a></p>
+								<p>英飞拓 防爆半球</p>
+								<p>颜色：白色</p>
+								<a href="###"><img src="images/confirm_order/card01.png" /></a>
+								<a href="###"><img src="images/confirm_order/card02.png" /></a>
+								<a href="###"><img src="images/confirm_order/card03.png" /></a>
+							</div>
+						</td>
+						<td>
+							<div class="mon">
+								¥<span id="price">3189</span>元
+							</div>
+							<div class="input-group input-in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="reduce" style="outline: none;">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num" style="outline: none;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" id="add" style="outline: none;">
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<div class="price_pr">
+								<p>¥<span id="price_01">2998</span>元</p>
+							</div>
+							<div class="delte">
+								<a href="user.html">加入收藏</a>
+								<br/>
+								<b id="delete">删除</b>
+								<p>合计：　（不含运费）　<span>¥<em id="price_02">2998</em>元</span></p>
+							</div>
+							
+						</td>
+					</tr>
+				</table>
+				<!---table end --->
+				<div class="page">
+					<div class="left">
+						<div class="checkbox">
+							<label><input type="checkbox" id="checkAll01" onclick="checkAl()" style="cursor: pointer;"/>全选</label>
+						</div>
+						<span id="delete_All">删除</span>
+						<a href="shop_cart.html">移入收藏夹</a>
+						<a href="###">分享</a>
+						<a href="###">开始对比</a>
+					</div>
+					<div class="right">
+						<p>已选商品   <span id="number">0</span>  件（包邮）¥<span id="sum">0.00</span>元<a href="confirm_order.html">结 算</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content end -->
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		</div>
+		<!--footer end-->
+	</body>
+	<script>
+		var boxs = document.querySelectorAll('#box');
+		var checked = document.getElementById('checkAll');
+		var checked01 = document.getElementById('checkAll01');
+		var trs = document.querySelectorAll('tr')
+		var number_num = trs.length
+		var trs = document.querySelectorAll('tr')
+		var long = trs.length;//用于存储存在的产品个数
+		/*************************** show03()  刪除操作************************************************/
+		function show03(){
+			var price_02s = document.querySelectorAll('#price_02');
+			var deletes = document.querySelectorAll('#delete')
+			for(var i=0;i<deletes.length;i++){
+				deletes[i].onclick = function(index){
+					if(confirm("亲，您确定要删除此商品吗？")){
+//						var trs = document.querySelectorAll('tr')
+						number_num = trs.length-1
+//						var pro_nums = document.querySelectorAll('#prd_num');
+//						var price_02s = document.querySelectorAll('#price_02');
+//						var boxs = document.querySelectorAll('#box');
+						$(this).parent().parent().parent().remove();
+						long = long - 1;
+						show();
+					}
+				}
+			}
+		}
+		show03();
+		/*************************** show03() end************************************************/
+		var trs = document.querySelectorAll('tr')
+		var long = trs.length;//用于存储存在的产品个数
+		var abc =0;
+		$('#delete_All').click(function(){
+			if(confirm('亲， 你确定删除所选商品吗？')){
+				for(var i =0;i<long;i++){
+					if(boxs[i].checked){
+						trs[i].remove();
+						show02()
+						abc = abc + 1;
+					}
+				}
+				long = long - abc;
+				show();
+			}
+		})
+		/****************************** checkAll all 全選操作 **********************************/
+		function checkAll(){
+			for(var i=0 ; i<trs.length;i++){
+				console.log(i)
+				if(checked.checked){
+					boxs[i].checked=true;
+					checked01.checked = true;
+					show03();
+					show();
+				}else{
+					boxs[i].checked=false;
+					checked01.checked = false;
+					show02();
+				}
+			}
+		}
+		/****************************** checkAll all end**********************************/
+		
+		/**************************** checkAl all 全選操作**************************************/
+		function checkAl(){
+			for(var i=0 ; i<trs.length;i++){
+				if(checked01.checked){
+					checked.checked = true
+					boxs[i].checked=true;
+					show03();
+					show();
+				}else{
+					boxs[i].checked=false;
+					checked.checked = false;
+					if(checked.checked == false){
+						show02();	
+					}
+				}
+			}
+		}
+		/**************************** checkAl all end**************************************/
+		
+		/************************checked click 複選框點擊操作*********************************************/
+		for(var i=0; i<trs.length; i++){
+			boxs[i].onclick = function(){
+				show();
+				var q=0
+				//var array = []
+				for(var j=0;j<number_num ;j++){
+					if(boxs[j].checked){
+						q++
+						//array.push(boxs[j].checked)
+						if( q == number_num /* array.length == boxs.length*/){
+							checked.checked = true
+							checked01.checked = true
+						}else{
+							checked.checked = false
+							checked01.checked = false	
+						}
+					}
+				}
+			}
+		}
+		/************************checked click end*********************************************/
+		
+		/********************************  add reduce******************************************************/
+		var pro_nums = document.querySelectorAll('#prd_num');
+		var price_02s = document.querySelectorAll('#price_02');
+		var boxs = document.querySelectorAll('#box');
+		/***************************************** reduce 刪除點擊操作**********************************************************/
+		$('.input-in #reduce').click(function(){
+			var value = $(this).parent().parent().find("input").val();
+			if(value!=1){
+				value--;
+				$(this).parent().parent().find("input").val(value);
+				var money = $(this).parent().parent().parent().parent().find('td #price_01').text();
+				money = value * money;
+				$(this).parent().parent().parent().parent().find('td #price_02').html(money);
+			}
+			show();
+		})
+		/********************************************* reduce end********************************************************************/
+		$("input[id^='prd_']").change(function(v){
+			if(/^[1-9]+[0-9]*$/.test(this.value)){
+				 var a = $(this).parent().parent().parent().find('#price_01').text()
+				 var sum = this.value
+				 sum = parseInt(sum) * parseInt(a)
+				 $(this).parent().parent().parent().find('#price_02').text(sum)
+				 if(this.value>99){
+				 	var a = $(this).parent().parent().parent().find('#price_01').text()
+					 sum = 99 * parseInt(a)
+					 $(this).parent().parent().parent().find('#price_02').text(sum)
+				 }
+				 show()
+			}else{
+				this.value = 1;
+				var a = $(this).parent().parent().parent().find('#price_01').text()
+				var sum = this.value
+				sum = parseInt(sum) * parseInt(a)
+				$(this).parent().parent().parent().find('#price_02').text(sum)
+			}
+		})
+		/************************************************ add 添加點擊操作*****************************************************************************/
+		$('.input-in #add').click(function(){
+			var value = $(this).parent().parent().find('input').val();
+			if(value!=99){
+				value++;
+				$(this).parent().parent().find("input").val(value);
+				var money = $(this).parent().parent().parent().parent().find('td #price_01').text();
+				money = value * money;
+				$(this).parent().parent().parent().parent().find('td #price_02').html(money);
+			}
+			show();
+		})
+		/************************************************ add end**********************************************************************/
+		/********************************  add reduce end******************************************************/
+		
+		/**************************show() 賦值操作********************************/
+		
+		function show(){
+			var pro_nums = document.querySelectorAll('#prd_num');
+			var b=0.00;
+			var num=0;
+			var num_m =0;
+			show03();
+			for(var i=0;i<long;i++){
+				num = 0;
+				show03();
+				var a = price_02s[i].innerHTML;
+				num = pro_nums[i].value;
+				if(boxs[i].checked==true){
+					b = parseInt(a)+b
+					num_m = parseInt(num) + num_m
+				}
+			}
+			//console.log(b);
+			document.getElementById('sum').innerHTML = b+'.00'
+			document.getElementById('sum_m').innerHTML = b+'.00'
+			document.getElementById('number').innerHTML	 = num_m
+		}
+		show();
+		/**************************show() end********************************/
+		
+		/***************************show02() 重置為空的操作****************************************/
+		function show02(){
+			document.getElementById('sum').innerHTML = 0
+			document.getElementById('sum_m').innerHTML = 0
+			document.getElementById('number').innerHTML	 = 0
+		}
+		/***************************show02() end****************************************/
+	</script>
+</html>

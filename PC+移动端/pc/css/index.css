@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar .nav_shouye a{
+	display:block;
+	background:url(../images/nav_bg.png);
+	color:#FFF;
+	}
+
+.banner{
+	clear:both;
+	width:100%;
+	height:448px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	}
+.banner .bd{
+	width:100%;
+	height:448px;
+	overflow:hidden;
+	}
+.banner .bd li{
+	width:100%;
+	height:448px;
+	position:relative;
+	overflow:hidden;
+	}
+.banner .bd li a{
+	position:absolute;
+	width:1920px;
+	height:448px;
+	left:50%;
+	margin-left:-960px;
+	}
+.banner .bd li img{
+	display:block;
+	height:448px;
+	}
+
+/**************************************  轮播点 ***************************************************************/
+.banner .hd{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:20px;
+	}
+.banner .hd ul{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	}
+.banner .hd li{
+	float:left;
+	height:14px;
+	width:60px;
+	overflow:hidden;
+	background:#ddbe05;
+	text-align:center;
+	margin:0 6px;
+	cursor:pointer;
+	}
+.banner .hd li.on{
+	background:#ddbe05;
+	width:136px;
+	}
+.banner .hd li:hover{
+	background:#ddbe05;
+	}
+	
+.banner .prev,.banner .next{
+	position:absolute;
+	width:84px;
+	height:168px;
+	top:50%;
+	margin-top:-84px;
+	}		
+.banner .prev{
+	left:50px;
+	background:url(../images/prev_01.png) no-repeat;
+	}
+.banner .next{
+	right:50px;
+	background:url(../images/nex_01.png) no-repeat;
+	}
+.banner .prev:hover{
+	background:url(../images/prev_02.png) no-repeat;
+	}
+.banner .next:hover{
+	background:url(../images/nex_02.png) no-repeat;
+	}
+	
+	
+/***********************************  About Us  *************************************************************/
+
+
+.about_us .top .left{
+	float:left;
+	width:436px;
+	margin-top:66px;
+	}
+
+.about_us .top .right{
+	float:right;
+	width:744px;
+	margin-left:20px;
+	}
+.about_us .top .right .about{
+	width:500px;
+	padding-left:76px;
+	}
+.about_us .top .right .about h1{
+	font-size:36px;
+	height:46px;
+	color:#838380;
+	font-family:"Impact";
+	}
+.about_us .top .right .about span{
+	font-size:18px;
+	font-family:"微软雅黑";
+	padding-left:30px;
+	color:#838380;
+	}
+.about_us .top .right p{
+	text-indent: 2em;
+	width:744px;
+	padding-top:62px;
+	font-size:14px;
+	font-family:"宋体";
+	}
+.about_us .top .right a{
+	display:block;
+	text-align:center;
+	padding-top:15px;
+	}
+.about_us .top .right b{
+	display: block;
+	color: #FFFFFF;
+	width: 43px;
+	height: 43px;
+	font-size:14px;
+	line-height: 43px;
+	margin:0 auto;
+	background:url(../images/more.png) no-repeat;
+}
+/********************************** about buttom ************************************************/
+.about_us .list{
+	clear:both;
+	height:178px;
+	overflow:hidden;
+	text-align:center;
+	}
+.about_us .list ul{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+
+	}
+.about_us .list li{
+	float:left;
+	padding:0 101px;
+	}
+.about_us .list li img{
+	display:block;
+	}
+.about_us .list li:first-child img{
+	margin-top:40px;
+	}
+.list li:first-child p{
+	padding-top:20px;
+	}
+.list li:first-child + li p{
+	padding-top:2px;
+	}
+.list li:first-child + li + li p{
+	padding-top:8px;
+	}	
+.about_us .list li:first-child + li img{
+	margin-top:20px;
+	}
+.about_us .list li:first-child + li + li img{
+	margin-top:28px;
+	}
+/****************************************  new_center  **************************************/
+.new_center{
+	height:514px;
+	width:100%;
+	background:#0267ff;}
+.new_center .text i,.new_center .text span{
+	display:block;
+	text-align:center;}
+.new_center .text p{text-indent: 2em;}
+.new_center .text i{
+	font-size:36px;
+	color:#ffffff;
+	font-family:"Impact";
+	padding-top:51px;}
+.new_center .text span{
+	font-size:18px;
+	color:#FFFFFF;
+	font-family:"微软雅黑";
+	margin-top:-50px;
+	padding:0 150px;background:url(../images/new_line.png)no-repeat;background-position:center;}
+.new_center .text p{
+	width:730px;
+	font-size:14px;
+	font-family:"宋体";
+	color:#FFFFFF;
+	margin-top:54px;}
+.new_center .right{
+	margin:-315px 32px 0 0;
+	}
+.index_about .list li:first-child h3{background: url(../images/line_1.png) no-repeat center bottom;}
+.index_about .list li:first-child + li h3{background: url(../images/line_2.png) no-repeat center bottom;}
+.index_about .list li:first-child + li + li h3{background: url(../images/line_3.png) no-repeat center bottom;}
+.index_about .list li p{font-size: 14px;font-family: '宋体';color: #727070;line-height: 24px;margin-top: 25px;}
+
+

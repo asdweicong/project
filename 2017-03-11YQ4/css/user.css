@@ -1,0 +1,23 @@
+.user .bar-header{border: none;}
+.user .header_bg div.title{background: transparent;text-align: center;color: #FFFFFF;width:1.3rem;height: .55rem;line-height: .55rem;font-size: 0.30rem;position: absolute;left: 50%;margin-left: -0.65rem;}
+.user .user_top{background: url(../img/user/user_big.png); height: 2.0rem;background-size: 100%;}
+.user .user_top img{width:1.40rem ;margin: 0.3rem 1.0rem;float: left;}
+.user .user_top p{width:3.80rem ;margin-top: 0.5rem;float:right;color: #FFFFFF;font-family: "微软雅黑";font-size: 0.24rem;}
+.user .user_top a{width:3.80rem ;text-decoration: none;color: #FFFFFF;float: right;display: block;font-family: "微软雅黑";font-size: 0.24rem;}
+.user .user_top a span{padding-left: 0.8rem;}
+.user .my_all_order{margin: 0.4rem 0.3rem 0.2rem;}
+.user .my_all_order a{font-size: 0.3rem;font-family: "微软雅黑";}
+.user .cont_top .col{text-align: center;color: #333333;font-family: "微软雅黑";font-size: 0.26rem;}
+.user .title_list01{border-top: 1px solid #EEEEEE;padding:0.3rem 0.6rem ;}
+.user .title_list01 li{padding-left:0.6rem ;font-size:0.28rem;line-height: 0.7rem ;background-size: 0.46rem;font-family: "微软雅黑";}
+.user .title_list01 li:nth-child(1){background: url(../img/user/user_01.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list01 li:nth-child(2){background: url(../img/user/user_02.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list01 li:nth-child(3){background: url(../img/user/user_03.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list01 li:nth-child(4){background: url(../img/user/user04.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list01 li:nth-child(5){background: url(../img/user/user_05.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list02 li{padding-left: 0.6rem;font-size:0.28rem;line-height: 0.7rem ;font-family: "微软雅黑";}
+.user .title_list02 li:nth-child(1){background: url(../img/user/user_06.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list02 li:nth-child(2){background: url(../img/user/user_07.png) no-repeat left;background-size: 0.46rem;}
+.user .title_list02{border-top: 1px solid #EEEEEE;padding: 0.3rem 0.6rem;}
+.user .list{font-size: 0.26rem;margin: 0;}
+.user .has-footer{bottom: 0.00rem;}

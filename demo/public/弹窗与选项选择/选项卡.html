@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选项选择对应的选项</title>
+		<style>
+			*{
+				margin: 0;
+				padding:0;
+			}
+			#box{
+				width:320px;
+				margin:50px auto;}
+			li{
+				list-style-type: none;}
+			#swich{
+				clear:both;
+				overflow: hidden;
+				background: #FF00FF;
+				text-align: center;}
+			#swich li{
+				float: left;
+				width:25%;
+				padding:0 15px;
+				box-sizing:border-box;/*设置清除padding产生的内边距所占的位置，把内边距设置到内容里面*/
+				font-size: 16px;
+				line-height: 50px;
+				text-align:center;
+				cursor:pointer;}
+			#swich li:first-child{
+				background: #FFFF00;}
+			#list{
+				height:100px;
+				text-align: center;
+				background: #FFFF00;
+				overflow: hidden;
+				margin-top:50px ;}
+			#list dd:first-child{display: block;}	
+			#list dd span{
+				color: red;
+				font-size: 46px;
+			}
+			#list dd{
+				height:25%;
+				overflow: hidden;
+				font-size:16px;
+				line-height: 100px;
+				display: none;}
+		</style>
+		<script type="text/javascript">
+		window.onload = function(){
+			var li = document.getElementsByTagName('li');
+			var dd = document.getElementsByTagName('dd');
+			console.log(dl.length);
+			for(var i=0 ; i<li.length ; i++){
+				li[i].index = i;
+				li[i].onclick = function(){
+					for(var i=0; i<li.length ; i++){
+						li[i].style.background = '#FF00FF';
+						dd[i].style.display = "none";
+					}
+					dd[this.index].style.display = 'block';
+					li[this.index].style.background = '#FFFF00';
+				}
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<div id="swich">
+				<ul>
+					<li>选项一</li>
+					<li>选项二</li>
+					<li>选项三</li>
+					<li>选项四</li>
+				</ul>
+			</div>
+			<div id="list">
+				<dl>
+					<dd>选项<span>一</span>所对应的文本</dd>
+					<dd>选项<span>二</span>所对应的文本</dd>
+					<dd>选项<span>三</span>所对应的文本</dd>
+					<dd>选项<span>四</span>所对应的文本</dd>
+				</dl>
+			</div>
+		</div>
+	</body>
+</html>

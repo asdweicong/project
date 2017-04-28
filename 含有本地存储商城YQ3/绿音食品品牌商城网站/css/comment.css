@@ -1,0 +1,45 @@
+.choose{margin: 24px 24px 0;width: 450px;float: left;}
+.choose img{cursor: pointer;padding-bottom: 10px;}
+.pro_intro{width: 400px;float: left;margin-top: 24px;color: #666666;font-size: 14px;}
+.pro_intro h2{font-size: 18px;color:#323333;margin: 5px 0 15px;font-family: "微软雅黑";font-weight: 600;}
+.pro_intro div{margin-bottom: 18px;}
+.pro_intro div:nth-child(2) span{margin-right:18px ;}
+.pro_intro div:nth-child(5) span{color: #e71f19;font-size: 36px;font-family: "微软雅黑";}
+.pro_intro div:nth-child(6) span{margin-left: 20px;}
+.pro_intro div:nth-child(6) select{margin-right: 10px;cursor: pointer;outline: none;padding-right:30px;border: none;;appearance: none;-moz-appearance:none;-webkit-appearance: none ;background:url(../img/com_details/triangle.png) right 10px center no-repeat;}
+.pro_intro div:nth-child(7) span{padding: 0 10px;border: 1px solid #666666;margin: 0 12px;cursor: pointer;}
+.pro_intro .bulb img{float: left;padding: 10px;}
+.pro_intro .bulb p{float: left;width: 230px;padding: 10px 2px;}
+.comment{clear: both;}
+.comment .title{border: 2px solid #000000 ;font-size: 20px;}
+.comment .title span{line-height: 34px;display: inline-block;margin: 0;}
+.comment .title span:nth-child(1){color: #FFFFFF;background:#999999;padding: 0 5px 0 34px;margin: 0;margin:0px -5px 0 -2px;border-left: 2px solid #000000;}
+.comment .title span:nth-child(2){border-right: 2px solid #000000;background: #999999;padding-right: 34px;color:#e71f1c;}
+.comment .talk p{background: #634772;padding: 5px 36px;font-size: 14px;color: #FFFFFF}
+.comment .talk ul li{color: #323333;margin: 6px 35px;}
+.comment .talk ul li img{cursor: pointer;}
+.form{background: #e6e6e5;padding: 5px 26px;overflow: hidden;}
+.form .left{float: left;}
+.form .left h2{font-family: "微软雅黑";font-size: 20px;color: #323333;margin: 0;}
+.form .left div{border: 1px solid #9b9a9b;margin: 0;padding: 0;width: 552px;}
+.form .left div:nth-child(2){border-bottom: none;margin-top: 20px;}
+.form .left div:nth-child(2) label{padding:50px 0 ;}
+.form .left div:nth-child(2) textarea{height: 112px;}
+.form .left div:nth-child(3){border-bottom: none;}
+.form .left div:nth-child(3) label{padding:18px 0;}
+.form .left div:nth-child(3) textarea{height: 48px;}
+.form .left div:nth-child(4){height: 54px;}
+.form .left div:nth-child(4) label{padding:18px 0;}
+.form .left div:nth-child(4) img{padding:6px 10px;cursor:pointer}
+.form .left div:nth-child(5){border: none;padding:10px 20px	;cursor:pointer;color: #333333;height: 40px;}
+.form .left div:nth-child(5) label{border: none;cursor: pointer;text-align: center;}
+.form .left div:nth-child(5) input{float: left;margin-top: 2px ;}
+.form .left label{width:64px;margin:0;padding: 0;color: #323333;font-size:12px;font-family: "宋体" ;font-weight: 500;float: left;text-align: center;border-right: 1px solid #9B9A9B;}
+.form .left textarea{resize: none;background: transparent;border: none;outline: none;width: 486px;padding: 10px;}
+.form .right{width: 596px;float: left;padding: 60px 0 0 70px;}
+.form .right ul{margin-left: 30px;overflow: hidden;clear: both;} 
+.form .right ul li{float: left;width: 33.3%;font-size: 22px;color: #323333;background: url(../img/comment/flower.png) right 50px center no-repeat;}
+.form .right ol{padding: 30px 0 0 25px;}
+.form .right ol li{margin: 25px 0;}
+.form .right ol li img{cursor: pointer;}
+.form .right input[type="button"]{background: #e71f19;color: #FFFFFF;padding: 6px 16px;border: none;}n

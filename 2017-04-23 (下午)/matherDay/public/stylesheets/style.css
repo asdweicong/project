@@ -1,0 +1,96 @@
+body {
+  /*padding: 50px;*/
+  padding:0px;
+  margin: 0px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+a {
+  color: #00B7FF;
+}
+input{
+  outline:none
+;}
+.title{
+  margin:0;
+  position: fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:10;
+  background-color: #fff;
+}
+.title p{
+  margin:0;padding: 0.2rem;
+  text-align: center;
+  font-size:0.32rem;
+}
+.next_content{
+  text-align: center;
+  background: url("../images/qietu/active/conclusion_bg.png") no-repeat;
+  background-position: 50% 0;
+  -webkit-background-size:100%;
+  background-size:100%;
+  margin: .2rem;
+  padding-top: 0.2rem;
+  font-size:0.26rem;
+  height:2.3rem;
+  display: none;
+}
+.next_content div p{
+  font-size:0.26rem;
+  padding-top:0.2rem;
+  margin:0;
+}
+.content {
+  margin-top: 0.8rem;
+  height: 17.3em;
+  background: url("../images/qietu/active/bg.png");
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+/*.content .subject .proble_checked{*/
+  /*padding:0.32rem 0.45rem 0;*/
+/*}*/
+.content .subject{padding-top: 2.2rem}
+.content .subject .proble{
+  color: #6d635e;
+  padding: 0 0.82rem;
+}
+.content .subject .proble_checked{
+  border-bottom:1px dashed #9d505d;
+  padding-bottom:0.3rem;
+
+}
+.content .subject .proble .proble_number{
+  border-top:1px dashed #9d505d;
+  font-size:0.26rem;
+  font-weight:500;
+  color: #6d635e;
+  padding:0rem;
+  padding-top: 0.3rem;
+  margin:0rem;
+}
+.content .subject .proble .c-checkbox01 {
+  display: inline-block;
+  font-size: 0.26rem;
+  width: 2.25rem;
+  padding: 0 0.12rem;
+  text-align: center;
+}
+.content .subject .proble .c-checkbox01 input{
+  opacity: 0;
+}
+.content .subject .proble .c-checkbox01{
+  border:1px solid #9d505d;
+  border-radius: 12px;
+  line-height:0.5rem;
+}
+.content .subject .proble .c-checkbox02{
+  border-radius: 12px;
+}
+.proble .active{
+  background: #9d505d;
+  color: #FFFFFF;
+}
+
+

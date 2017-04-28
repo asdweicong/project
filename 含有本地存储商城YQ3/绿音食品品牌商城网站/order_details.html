@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>订单详情</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/conn.css" />
+		<link rel="stylesheet" href="css/order_details.css" />
+	</head>
+	<body>
+		<!---header-->
+		<div class="header">
+			<!---top---->
+			<div class="top">
+				<div class="mg">
+					<div class="left">
+						<span>你好，请</span>
+						<a href="login.html">登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div class="right">
+						<a href="user.html">个人信息</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="order.html">我的订单</a>
+						<a href="shop_cart.html">收藏夹</a>
+					</div>
+				</div>
+			</div>
+			<!---top end---->
+			<!---logo------>
+			<div class="mg">
+				<div class="logo">
+					<a href="index.html"><img src="img/index/logo.png" /></a>
+				</div>
+				<div class="search">
+					<form class="input-group">
+				        <input type="text" class="form-control">
+				        <span class="input-group-addon"><img src="img/index/search.png" /></span>
+				    </form>
+				</div>
+			</div>
+			<!---- logo end--->
+			
+			<!--nav--->
+			<div class="nav">
+				<div class="mg">
+					<ul>
+						<li class="aaa active" id="down">
+							<a href="javascript:;">全部商品</a>
+							<dl id="ul_list">
+								<dd><a href="shop_list.html">项链</a></dd>
+								<dd><a href="shop_list.html">戒指</a></dd>
+								<dd><a href="shop_list.html">耳饰</a></dd>
+								<dd><a href="shop_list.html">身体珠宝</a></dd>
+							</dl>
+						</li>
+						<li class="aaa"><a href="index.html">首页</a></li>
+						<li class="aaa"><a href="shop_list.html">个性商品</a></li>
+						<li class="aaa"><a href="shop_list.html">爆款热卖</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--nav end--->
+		</div>
+		<!--header end-->
+		
+		<!---contact----->
+		<div class="contact">
+			<div class="mg">
+				<div class="top">
+					<ul>
+						<li><span>拍下的宝贝</span></li>
+						<li><span>付款</span></li>
+						<li><span>发货</span></li>
+						<li><span>确认收货</span></li>
+					</ul>
+				</div>
+				<div class="state">
+					<dl>
+						<dt>当前订单状态：卖家已经发货，请查看页面下方物流信息链接宝贝寄送情况</dt>
+						<dd>如果您已收到货，且对商品满意，您可以 <a href="">确认收货</a> 打款给卖家</dd>
+						<dd>如果您未收到货，请注意自动打款时间，您可以 <a href="">延长收货时间</a> 或<a href=""> 申请退款</a></dd>
+					</dl>
+				</div>
+				<!---message--->
+				<div class="message">
+					<h2>包裹信息</h2>
+					<ul>
+						<li>
+							<dl>
+								<dt>包裹<span>1</span>1天01小时33分05秒后打款给卖家 <a href="">延长该包裹收货时间</a></dt>
+								<dd>发货时间：2016-11-22 09:59：:59</dd>
+								<dd>发货方式：快递</dd>
+								<dd>物流公司：顺丰</dd>
+								<dd>运单号码：9523654789632</dd>
+								<dd>
+									<a href="pro_details.html"><img src="img/order_derails/list.png" /></a>
+									<a href="pro_details.html">四叶草....</a>
+									<p>￥369.00</p>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>包裹<span>2</span>1天01小时33分05秒后打款给卖家 <a href="">延长该包裹收货时间</a></dt>
+								<dd>发货时间：2016-11-22 09:59：:59</dd>
+								<dd>发货方式：快递</dd>
+								<dd>物流公司：顺丰</dd>
+								<dd>运单号码：9523654789632</dd>
+								<dd>
+									<a href="pro_details.html"><img src="img/order_derails/list.png" /></a>
+									<a href="pro_details.html">四叶草....</a>
+									<p>￥369.00</p>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<!---message- end-->
+				
+				<!--order_details--->
+				<div class="order_details">
+					<h3>订单详情</h3>
+					<ul>
+						<li>
+							<p><label>收货地址：</label>刘志，17711739999，湖南省 长沙市 岳麓区 洋湖小区XX栋X单元X楼</p>
+						</li>
+						<li>
+							<label>订单信息：</label>
+							<p>
+								<span>订单编号：132456789</span>
+								<span>支付编号：123456789</span>
+								<span>创建时间：2016-11-22 09:59:59</span>
+							</p>
+							<p>
+								<span>发货时间：2016-11-22 09:59:59</span>
+								<span>付款时间：2016-11-22 09:59:59</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--order_details end--->
+				
+				<div class="table">
+					<table>
+					<thead>
+						<tr>
+							<td>商品</td>
+							<td>商品属性</td>
+							<td>状态</td>
+							<td>单价</td>
+							<td>数量</td>
+							<td>已使用优惠券</td>
+							<td>商品总价</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<a href="pro_details.html"><img src="img/order_derails/list.png"  /></a>
+								<a href="pro_details.html">四叶草925银镶托石项链</a>
+							</td>
+							<td>
+								<span>尺码：M</span>
+							</td>
+							<td>
+								<span>已发货</span>
+							</td>
+							<td>
+								<strike>￥420</strike>
+								<p>￥369</p>
+							</td>
+							<td>
+								<span>
+									1
+								</span>
+							</td>
+							<td>
+								<select>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+								</select>
+							</td>
+							<td>
+								<span>￥369</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="pro_details.html"><img src="img/order_derails/list.png"  /></a>
+								<a href="pro_details.html">四叶草925银镶托石项链</a>
+							</td>
+							<td>
+								<span>尺码：M</span>
+							</td>
+							<td>
+								<span>已发货</span>
+							</td>
+							<td>
+								<strike>￥420</strike>
+								<p>￥369</p>
+							</td>
+							<td>
+								<span>
+									1
+								</span>
+							</td>
+							<td>
+								<select>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+									<option>我的优惠券</option>
+								</select>
+							</td>
+							<td>
+								<span>￥369</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+			</div>
+		</div>
+		<!---contact----->
+		
+			<!--footer--->
+		<div class="footer">
+			<div class="mg">
+				<ul>
+					<li><span>正</span>正品行货，精致服务</li>
+					<li><span>多</span>品种齐全，轻松购物</li>
+					<li><span>快</span>多仓直发，极速配送</li>
+					<li><span>省</span>天天低价，畅选无忧</li>
+				</ul>
+				<dl>
+					<dt>购物指南</dt>
+					<dd><a href="">购物流程</a></dd>
+					<dd><a href="">会员介绍</a></dd>
+					<dd><a href="">常见问题</a></dd>
+					<dd><a href="">联系客服</a></dd>
+				</dl>
+				<dl>
+					<dt>配送方式</dt>
+					<dd><a href="">上门自提</a></dd>
+					<dd><a href="">211限时达</a></dd>
+					<dd><a href="">配送服务查询</a></dd>
+					<dd><a href="">配送费收取标准</a></dd>
+					<dd><a href="">海外配送</a></dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd><a href="">货到付款</a></dd>
+					<dd><a href="">在线支付</a></dd>
+					<dd><a href="">分期付款</a></dd>
+					<dd><a href="">邮局汇款</a></dd>
+					<dd><a href="">公司转账</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="">售后政策</a></dd>
+					<dd><a href="">价格保护</a></dd>
+					<dd><a href="">退款说明</a></dd>
+					<dd><a href="">返修/退换货</a></dd>
+					<dd><a href="">取消订单</a></dd>
+				</dl>
+			</div>
+			<p>版权所有<span>oohdear商城</span></p>
+		</div>
+		<!--footer end--->
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="js/er_jixiala.js" ></script>
+	<script type="text/javascript" src="js/comom.js" ></script>
+</html>

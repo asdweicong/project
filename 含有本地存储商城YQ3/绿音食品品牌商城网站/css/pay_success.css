@@ -1,0 +1,12 @@
+.popup_window{z-index: 100;position: absolute;width: 500px;height:300px;background: #FFFFFF;left: 50%;margin-left: -250px;top: 50%;margin-top: 50px;}
+.popup_window h1{font-size: 36px;color:#e71f19;font-family: "微软雅黑";text-align: center;line-height: 110px;margin: 0;}
+.popup_window .successed h2{font-size: 18px;color:#323333;font-family: "微软雅黑";line-height: 60px;padding: 0;margin: 0;font-weight: 600;}
+.popup_window .successed h2 span{font-size: 18px;color:#e71f19;font-family: "微软雅黑";line-height: 60px;padding: 0;margin: 0;font-weight: 500;}
+.popup_window .successed{overflow: hidden;clear: both;padding-left: 220px;background: url(../img/pay_success/pay_cuccrss.png) left 70px center no-repeat;position: relative;}
+.popup_window .successed a{color: #E71F19;font-size: 14px;color: #E71F19;margin-top: 40px;text-decoration: none;cursor: pointer;z-index: 100;}
+.popup_window .successed p:nth-child(2){margin-bottom: 15px;font-family: "微软雅黑";font-size: 14px;color: #323333;}
+.popup_window .successed label:nth-child(3){float: left;font-weight: 500;margin-bottom: 0px;font: 14px "微软雅黑";color: #666666;width: 70px;}
+.popup_window .successed p:nth-child(4){float: left;font: 14px "微软雅黑";color: #666666;width:174px ;}
+.popup_window .back{clear: both;position: relative;}
+.popup_window .back a:nth-child(1){font-size: 14px;position: absolute;left: 400px;bottom: -55px;color: #e71f19;text-decoration: none;padding-bottom: 30px;}
+.mg{opacity: 0.5;}

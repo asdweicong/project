@@ -1,0 +1,42 @@
+.contact .mg .left{float: left;width: 16.7%;background: #efefef;margin: 0;padding: 0;height: 930px;}
+.contact .mg .left img{width: 100px;margin: 36px 70px 30px 30px;}
+.contact .mg .left dl dt{font-size: 14px;font-family: "宋体";color: #000000;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl .dd a{color: #000000;background: #999899;}
+.contact .mg .left dl dd a{display: block;font-size: 14px;font-family: "宋体";color: #666666;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl dd:hover a{color: #000000;background: #999899;}
+
+.contact .mg .right{float: left;width: 83.3%;}
+.contact .mg .right .top{margin-top:18px;border-bottom:1px solid #999999;width: 100%;}
+.contact .mg .right .top span{display: block;font-size: 14px;font-family: "宋体" ;border: 1px solid #999999;width: 76px;height: 35px;margin-left: 50px;border-bottom:none ;text-align: center;line-height: 35px;}
+.contact .mg .right .form{padding: 60px 96px;}
+.contact .mg .right .form div{clear: both;color: #333333;font-size: 14px;font-family: "宋体";font-weight: 500;margin: 8px 0;position: relative;}
+.contact .mg .right .form div:first-child{margin-bottom: 15px;}
+.contact .mg .right .form div:first-child label{background: none;padding: 0;color: #ff6600;}
+.contact .mg .right .form div:nth-child(2){height: 60px;}
+.contact .mg .right .form div:nth-child(4) label{background: none;padding: 0;}
+.contact .mg .right .form label{font-weight: 500;font-family: "宋体";float: left;width: 110px;text-align: right;padding-right: 6px;margin-right: 15px;background: url(../img/address/xing.png) right center no-repeat;}
+.contact .mg .right .form div span{font-family: "宋体";font-size: 14px;color:#333333;}
+.contact .mg .right .form div select{outline: none;float:left;padding: 0 10px;width: 105px;height: 35px;cursor: pointer;appearance: none;-moz-appearance: none;-webkit-appearance: none;background: url(../img/address/select01.png) right 10px center no-repeat;}
+.contact .mg .right .form div select option{outline: none;}
+.contact .mg .right .form div div:nth-child(3){border: 1px solid #999;cursor: pointer;position: relative;top: -34px;line-height: 33px;padding-left: 10px;left: 250px;width: 400px;height: 33px;color: #999999;background: url(../img/address/select02..png) right 10px center no-repeat;}
+.contact .mg .right .form div textarea{resize: none;width: 512px;height: 160px;padding: 6px;outline: none;}
+.contact .mg .right .form div input{resize: none;width: 206px;height: 32px;padding: 6px;outline: none;}
+.contact .mg .right .form input[type="button"]{width: 50px;height: 36px;padding: 6px;background: #ff4502;border: none;color: #FFFFFF;margin:22px 0 0 320px;}
+#addresss{border: none;width: 120px;font-size: 12px ;color: red;background: none;position: absolute;left: 620px;display: none;}
+#detailed_add{border: none;width: 120px;font-size: 12px ;color: red;background: none;position: absolute;left: 650px;top: -75px;display: none;}
+#postcode_code{border: none;width: 120px;font-size: 12px ;color: red;background: none;position: absolute;left: 330px;top: -10px;display: none;}
+#phone_phone{border: none;width: 120px;font-size: 12px ;color: red;background: none;position: absolute;left: 330px;top: -8px;display: none;}
+#mobie_ho{border: none;width: 120px;font-size: 12px ;color: red;background: none;position: absolute;left: 330px;top: -8px;display: none;}
+
+.address{padding-left: 96px;}
+.address thead{background: #d3d3d3;}
+.address thead th{padding:10px 34px;font-family: '宋体';font-size: 14px;font-weight: 500;}
+.address tbody tr{background: #e6e6e6;border: 1px solid #b2b2b2;font-family: '宋体';font-size: 14px;}
+.address tbody td{padding:30px 10px;text-align: center;}
+.address tbody tr td:nth-child(6){text-align: left;}
+.address tbody tr td:nth-child(6) a{color: #002aff;border-right: 1px solid #000000;padding: 0 10px;text-decoration: none}
+.address tbody tr td:nth-child(6) span:nth-child(2){color: #002aff;cursor: pointer;padding-left: 10px;}
+.address tbody tr:first-child td:nth-child(6) span:nth-child(3){color: #ff4502;display: inline-block;}
+.address tbody tr td:nth-child(6) span:nth-child(3){color: #ff4502;display: none;cursor: pointer;}
+.address tbody tr:hover td:nth-child(6) span:nth-child(3){display: inline-block;}
+

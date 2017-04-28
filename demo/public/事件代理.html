@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件代理</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        #asd{
+            display: none}
+    </style>
+</head>
+<body>
+    <div id="q1" class="proble proble001">
+        <div class="proble_number">妈妈最喜欢吃得菜?</div>
+        <div class="proble_checked">
+            <label id="q1_l"><input type="radio" name="p001">知道</label>
+            <label id="q1_r"><input type="radio" name="p001">不知道</label>
+        </div>
+    </div>
+
+    <div id="q2" class="proble proble002 hide">
+        <div class="proble_number">不知道妈妈最喜欢的颜色?</div>
+        <div class="proble_checked">
+            <label id="q2_l"><input type="radio" name="p002">知道</label>
+            <label id="q2_r"><input type="radio" name="p002">不知道</label>
+        </div>
+    </div>
+
+    <div id="q3" class="proble proble003 hide">
+        <div class="proble_number">妈妈的口头禅?</div>
+        <div class="proble_checked">
+            <label id="q3_l"><input type="radio" name="p003">知道</label>
+            <label id="q3_r"><input type="radio" name="p003">不知道</label>
+        </div>
+    </div>
+
+    <div id="q4" class="proble proble004 hide">
+        <div class="proble_number">妈妈最近的愿望?</div>
+        <div class="proble_checked">
+            <label id="q4_l"><input type="radio" name="p004">知道</label>
+            <label id="q4_r"><input type="radio" name="p004">不知道</label>
+        </div>
+    </div>
+
+    <div id="asd">
+        请熟悉事件代理用法
+    </div>
+</body>
+<script type="text/javascript" src="javascripts/jquery-1.11.0.js"></script>
+<script>
+    //事件响应
+    new clickEvent('q1_l', 'q1_r', 0);
+    new clickEvent('q2_l', 'q2_r', 1);
+    new clickEvent('q3_l', 'q3_r', 2);
+    new clickEvent('q4_l', 'q4_r', 3);
+    function clickEvent(id1, id2, index) {
+        $('#' + id1).click(function () {
+            setTimeout(function () {
+                showSlideDown(index);
+            }, 100);
+        });
+        $('#' + id2).click(function () {
+            setTimeout(function () {
+                showSlideDown(index);
+            }, 100);
+        })
+    }
+
+    //问题处理
+    function showSlideDown(index) {
+        for (var num = 0; num < 5; num++) {
+            $('#q' + num).css("display", "none");
+        }
+        if (index == 3) {
+            $('#asd').slideDown();
+        } else {
+            var qNum = index + 2;
+            console.log(qNum)
+            $('#q' + qNum).slideDown();
+        }
+    }
+
+</script>
+</html>

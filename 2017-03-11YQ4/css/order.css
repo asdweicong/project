@@ -1,0 +1,44 @@
+.order .header_bg div.title{background: transparent;text-align: center;color: #FFFFFF;width:1.3rem;height: .55rem;line-height: .55rem;font-size: 0.30rem;position: absolute;left: 50%;margin-left: -0.65rem;}
+.order .header_bg .buttons p{width: 0.88rem;height: 0.94rem;line-height: 0.94rem;position: absolute;left: 0.25rem;color: #FFFFFF;font-size: 0.3rem;margin-bottom: 0;top: -50%;margin-top: 0.47rem;font-family: "微软雅黑";font-weight: 500;}
+.order .header_bg .buttons p span{font-family:-webkit-pictograph;margin-right: 0.05rem;font-weight: 500;}
+.order .content-top{margin-top: 0.1rem;margin-left: 0.2rem;}
+.order .content-top span{font-size: 0.3rem;color: #1a1a1a;margin-right: 0.3rem;font-family: "微软雅黑";font-weight: 500;}
+.order .content-top p{font-size: 0.3rem;color: #1a1a1a;margin-top: 0.1rem;font-family: "微软雅黑";font-weight: 500;}
+.order .content-top p span{float: right;font-family:-webkit-pictograph;color: #000000;font-weight: 500;}
+.order .content-img{background:#eeeeee;height: 3.2rem;clear: both;overflow: hidden;}
+.order .content-img img{float: left;width: 3rem;height: 3.2rem;margin:0 0.3rem 0 0.2rem;}
+.order .content-img h1:nth-child(2){font-family: "微软雅黑";margin-top: 0.9rem;color: #1A1A1A;font-size: 0.28rem;font-weight: 500;}
+.order .content-img p:nth-child(3){color: #ff0000;font-size: 0.36rem;margin-top: 0.65rem;font-weight: 500;}
+.order .content-img p:nth-child(3) span{color: #333333;margin-left: 0.9rem;font-weight: 500;}
+.order .content-footer{margin:0 0.2rem;}
+.order .content-footer p{border-bottom: 1px solid #eeeeee;font-size: 0.3rem;;font-family:"微软雅黑" ;color: #333333;line-height: 1.17rem;margin-bottom: 0;font-weight: 500;}
+.order .content-footer p span{float: right;text-align: left;font-weight: 500;width: 1.8rem;}
+.order .content-footer div{float: right;margin-top: 1.20rem;}
+.order .content-footer div span{font-size: 0.3rem;font-family:"微软雅黑" ;display: block;width:4.2rem}
+.order .content-footer div span i:nth-child(2){color: #FF0000;}
+.order .content-footer div button{float: right;background: #ff0000;border: 0;border-radius: 0.08rem;width: 2.0rem;height: 0.7rem;color: #FFFFFF;font-size: 0.36rem;font-family: "微软雅黑";font-weight: normal;}
+.order .popover {top: 0;left: 0;}
+.order .action-sheet-backdrop.button{position: relative;top: -20px;}
+.order .has-footer{bottom: 0.00rem;}
+/*.action-sheet-cancel{position: absolute;top:-1.3rem;background: transparent;left:-3rem;}*/
+ .action-sheet-cancel{position: absolute;bottom:5.55rem;background: transparent;left:0.2rem;}
+ .action-sheet-cancel button:after{color: #808080;}
+ .action-sheet .button{color:#808080}
+ .ng-binding h4{margin: 0;text-align: center;}
+ .action-sheet-option span{padding: 0 .15rem;font-size: 0.3rem;color: #666666;}
+ .action-sheet-option span:nth-child(1){float: left;}
+ .action-sheet-option span:nth-child(2){float: right;}
+ .action-sheet-option .dater_pay{display: block;color: #FFFFFF;text-align: center;float: none;background: #0d96d3;width: 5.0rem;0.9rem;border-radius: 0.08rem;margin: 0.15rem auto;}
+ /*.action-sheet-option .pay_accound{color: #0A9DC7;}*/
+ .action-sheet-option .black{color: #1A1A1A;}
+ .popup-body {margin: 0;padding: 0.1rem 0.2rem;height: auto;}
+ .popup-body .success_img{width:1.6rem;height: 1.15rem ;margin: 0 1.6rem;}
+ .popup-body .error_img{width:1.5rem;height: 1.5rem ;margin: 0 1.6rem;}
+ .popup-body p{text-align: center;color: #4c4c4c;font-size: 0.3rem;font-family: "微软雅黑";margin: 0.5rem 0 0 0;}
+ .popup-buttons .button.button-assertive{background:transparent;color: #333333;border: none;color:#333333;font-family: "微软雅黑";font-size: 0.3rem;}
+ .popup-buttons .button.button-royal{background:transparent;color: #333333;border: none;color: #333333;font-family: "微软雅黑";font-size: 0.3rem;}
+ .popup-head h3{color: #1a1a1a;font-size: 0.6rem;font-family: "微软雅黑";}
+.popup-showing .popup{padding: 0.3rem ;width: 6.0rem;}
+.popup-container.active .popup{width: 6.0rem;}
+.button.action-sheet-option.ng-binding.dater_pay{text-align: center;}
+.close{width:0.4rem;}

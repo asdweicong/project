@@ -1,0 +1,29 @@
+.introduce .top span{font-weight: 500;font-size:14px;font-family: "微软雅黑";color: #e71f1c;}
+.introduce .top label{font-weight: 500;font-size:14px;font-family: "微软雅黑";color: #e71f1c;}
+.introduce .top div{margin: 20px 0;}
+.introduce .top div:nth-child(1) span{margin-right: 20px;}
+.introduce .top div:nth-child(2) span{margin-right: 56px;}
+.introduce .top div:nth-child(3) span{margin-right: 56px;}
+.main div{clear: both;overflow: hidden;}
+.main div:nth-child(1) img{float: left;}
+.main div:nth-child(1) img:nth-child(2){float: left;width: 600px;height: 940px;}
+.main div:nth-child(1) img:nth-child(3){float: left;width: 600px;height: 470px;}
+.main div:nth-child(1) img:nth-child(4){float: left;width: 600px;height: 470px;}
+.main div:nth-child(1) p{border-bottom:1px solid #6f6f6f;position: relative;height: 23px;}
+.main p span{color: #6f6f6f;background:#FFFFFF;padding-bottom: 3px;margin-left: 26px;position: absolute;bottom: -7px ;}
+.main div:nth-child(2) .img{position: relative;}
+.main div:nth-child(2) .img p{position: absolute;top:330px;font-size: 22px;color: #323333;width: 340px;border: none;left: 50%;margin-left: -140px;}
+.main div:nth-child(3) p:nth-child(2){border: none;font-size: 22px;color: #323333;text-indent: 2em;}
+.main div:nth-child(3) img{margin: 0 80px;}
+.main div:nth-child(4) ul{margin-top: 40px;}
+.main div:nth-child(4) ul li{float: left;width: 33%;text-align: center;font-family: "微软雅黑";font-size: 22px;}
+.main div:nth-child(4) ul li p{border: none;color: #999999;width: 226px;text-align: left;margin: 0 auto;padding-top: 10px;}
+.main div:nth-child(4) ul li p span{border: none;color:#272727 ;padding: 0;margin: 0;}
+.main div:nth-child(4) ol{padding: 20px 80px 10px;}
+.main div:nth-child(4) ol li:nth-child(1) p{border: none;color: #272727;font-size: 26px;}
+.main div:nth-child(4) ol li p{border: none;color: #272727;font-size: 22px;font-family: "微软雅黑";}
+.guess{margin-top: 70px;}
+#box{float:left;margin:50px 0 0 50px; overflow:hidden; position:absolute;left:420px;top: -50px;z-index: 100;}
+#box img{width: 900px;height: 900px;}
+#box1{position:absolute;width:160px;height:160px;background:#cccccc;opacity:0.5;display:none;cursor: pointer;}
+#smll_box{overflow:hidden;position:relative;float:left;}

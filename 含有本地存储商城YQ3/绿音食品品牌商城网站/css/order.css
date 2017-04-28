@@ -1,0 +1,32 @@
+.contact .mg .left{float: left;width: 16.7%;background: #efefef;margin: 0;padding: 0;height: 680px;}
+.contact .mg .left img{width: 100px;margin: 36px 70px 30px 30px;}
+.contact .mg .left dl dt{font-size: 14px;font-family: "宋体";color: #000000;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl .dd a{color: #000000;background: #999899;}
+.contact .mg .left dl dd a{display: block;font-size: 14px;font-family: "宋体";color: #666666;text-decoration: none;padding: 3px 30px;}
+.contact .mg .left dl dd:hover a{color: #000000;background: #999899;}
+
+.contact .mg .right{float: left;width: 83%;}
+.contact .mg .right .title{height: 52px;padding:18px  0 0 64px;border-bottom: 1px solid #666666;}
+.contact .mg .right .title span{margin-left: -5px;cursor: pointer;color: #040000;font-size: 14px;font-family: '宋体' ;padding: 0 15px;height: 34px;line-height: 34px;display: inline-block;border: 1px solid #999999;}
+.contact .mg .right .title span.span{background: #666666;color: #FFFFFF;}
+.table thead tr th{font-weight: 500;font-family: '宋体';font-size: 14px;}
+.table thead tr th:nth-child(1){padding:20px 0 20px 56px ;}
+.table table tr td a{display: block;text-decoration: none;font-size: 14px;color: #323333;}
+.table table tr td:nth-child(1){padding:20px 0 20px 56px ;}
+.table table tr td:nth-child(1)>a{float: left;}
+.table table tr td:nth-child(1) div{float: left;}
+.table table tr td:nth-child(1) div p:nth-child{margin-bottom: 10px;}
+.table table tr td:nth-child(1) p{margin: 42px 5px 0 0; padding: 5px;color:#000000;font-size: 12px;}
+.table table tr td:nth-child(1) p a{color:#000000;font-size: 14px;}
+.table table tr td:nth-child(1) p:nth-child(2){margin: 0px 5px 0 0; padding: 0;padding-left: 5px;color:#323333;font-size: 12px;}
+.table table tr td:nth-child(2){padding-right: 45px;}
+.table table tr td:nth-child(2) strike{color: #666666;}
+.table table tr td:nth-child(3){padding-right: 80px;}
+.table table tr td:nth-child(4){padding-right: 50px;}
+.table table tr td:nth-child(5){padding-right: 60px;color: #666666;}
+.table table tr td:nth-child(6) p{margin: 0;padding: 0;}
+.table table tr td:nth-child(6){padding-right: 46px;}
+.table table tr td:nth-child(7){padding-right: 46px;}
+.table table tr td:nth-child(7) a{padding: 10px;}
+.table table tr td:nth-child(7) a:nth-child(1){color: #FFFFFF;background:#eb6100 ;}
+

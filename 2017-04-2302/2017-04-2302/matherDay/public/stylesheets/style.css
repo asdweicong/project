@@ -1,0 +1,81 @@
+body {
+  /*padding: 50px;*/
+  padding:0px;
+  margin: 0px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+a {
+  color: #00B7FF;
+}
+.title{
+  margin:0;
+  position: fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:10;
+  background-color: #fff;
+}
+.title p{
+  margin:0;padding: 0.2rem;
+  text-align: center;
+  font-size:0.32rem;
+}
+.content {
+  margin-top: 0.2rem;
+  height: 17.3em;
+  background: url("../images/qietu/active/bg.png");
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.content .asd{
+  height: 6.2rem;
+}
+.content .subject form{
+  padding:0.32rem 0.45rem 0;
+  /*margin: 2.2rem 0.52rem 0;*/
+  height:2.0rem;
+  border-top:2px dashed #9d505d;
+  border-bottom:2px dashed #9d505d;
+  position: relative;
+}
+.content .subject .proble:nth-child(1) {
+  padding-top: 2.2rem;
+}
+.content .subject .proble{
+  /*position: absolute;*/
+  color: #6d635e;
+}
+.content .subject .proble h3{
+  font-size:0.26rem;
+  font-weight:500;
+  color: #6d635e;
+  padding:0rem;
+  margin:0rem;
+}
+.content .subject .proble label{
+  display: inline-block;
+  font-size:0.26rem;
+
+  width:2.25rem;
+  padding:0 0.12rem;
+  text-align: center;
+  position: relative;
+}
+.content .subject .proble label input{
+  opacity: 0;
+}
+.content .subject .proble .c-checkbox01{
+  border:1px solid #9d505d;
+  border-radius: 12px;
+}
+.content .subject .proble .c-checkbox02{
+  border:1px solid #9d505d;
+  border-radius: 12px;
+}
+.proble .active{
+  background: #9d505d;
+  color: #FFFFFF;
+}
+
+

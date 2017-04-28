@@ -1,0 +1,328 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.lf {
+    float: left;
+}
+
+input {
+    border: 0;
+    outline: none;
+    width: 90%;
+    padding: 1.8% 0;
+    font-size: 1.2em;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #E2BDB4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #E2BDB4;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #E2BDB4;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #E2BDB4;
+}
+
+select {
+    border: 0;
+    outline: none;
+    width: 96%;
+    padding: 1.4% 0;
+    background-color: rgba(201, 132, 116, 0);
+    font-size: 1.2em;
+}
+
+option {
+  color:black ;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 240%;
+    background: url("../img/bg.png") no-repeat;
+    background-size: 100% auto;
+}
+
+.hide {
+    display: none;
+}
+
+
+.c_content {
+    position: absolute;
+    width: 88%;
+    top: 16%;
+    left: 6%;
+}
+
+.x1_contain {
+    border-top: 1px dashed #c98474;
+    border-bottom: 1px dashed #c98474;
+    width: 100%;
+    height: 0;
+    padding-bottom: 36%;
+}
+
+.x1_contain_t p {
+    color: #c98474;
+    margin: 8% 0% 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.x1_contain_a {
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 0%;
+    overflow: hidden;
+}
+
+.x_contain_select_l {
+    float: left;
+    width: 45%;
+    height: 0;
+    padding-bottom: 12%;
+    color: #c98474;
+    border: 1px solid #c98474;
+    text-align: center;
+    padding-right: 2%;
+    line-height: 250%;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.x_contain_select_r {
+    float: left;
+    width: 45%;
+    margin-left: 4%;
+    height: 0;
+    padding-bottom: 12%;
+    color: #c98474;
+    border: 1px solid #c98474;
+    text-align: center;
+    padding-right: 2%;
+    line-height: 250%;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+.tab1 {
+    display: none;
+    background: url("../img/conclusion_bg.png") no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width: 90%;
+    top: 16%;
+    left: 5%;
+    height: 0;
+    text-align: center;
+    color: #c98474;
+    padding-bottom: 25%;
+    padding-top: 8%;
+    line-height: 150%;
+}
+
+.tab2 {
+    background: url("../img/form_bg.png") no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width: 90%;
+    top: 33%;
+    left: 5%;
+    height: 0;
+    padding-bottom: 144%;
+}
+
+.tab2 .form {
+
+    position: absolute;
+    width: 86%;
+    top: 19%;
+    left: 7%;
+    height: 23%;
+}
+
+.tab2 .form .name {
+    position: relative;
+    height: 30%;
+    /*padding-bottom: 13%;*/
+}
+
+.tab2 .form .lableTips {
+    position: absolute;
+    left: 2%;
+    top: 26%;
+    /*line-height: 254%;*/
+    color: #c98474;
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+
+.tab2 .form .input {
+    border: 1px solid #c98474;
+    border-radius: 7px;
+    padding-left: 2%;
+    margin-left: 3%;
+    width: 77%;
+    margin-top: 1.5%;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    /*height: 67%;*/
+}
+
+.tab2 .form .man {
+   position: absolute;
+    top:0%;
+    left: 76%;
+    height: 100%;
+    background-color: #c98474;
+    width: 12%;
+    color: white;
+    text-align: center;
+    border-left: 1px solid #c98474;
+    font-size: 1.4em;
+    line-height: 200%;
+}
+
+.tab2 .form .female {
+    position: absolute;
+    top:0%;
+    left: 88%;
+    background-color: white;
+    width: 11.6%;
+    color: #c98474;
+    text-align: center;
+    height: 100%;
+    line-height: 200%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid #c98474;
+    font-size: 1.4em;
+}
+
+
+.tab2 .form .mobile {
+    margin-top: 2%;
+    position: relative;
+    height: 30%;
+    padding-bottom: 0;
+}
+
+
+.tab2 .form .city {
+    margin-top: 2%;
+    position: relative;
+    height: 30%;
+    padding-bottom: 0%;
+}
+
+
+.tab2 .form .DownIcon {
+    position: absolute;
+    right: 6.5%;
+    top: 35%;
+    background: white url("../img/choice_icons.png") no-repeat;
+    background-size: 100% auto;
+    width: 6%;
+    padding-bottom: 5%;
+}
+
+
+.tab2 .form .clause {
+    position: absolute;
+    left: 2%;
+    top: 112%;
+    width: 103%;
+
+}
+
+
+.tab2 .form .clause .icon {
+    margin-top: 0.3%;
+    width: 4%;
+
+}
+
+
+
+.tab2 .form .clause .clauseTips {
+    width: 93%;
+    font-size: 1em;
+    margin-left: 2%;
+    color: #c98474;
+    letter-spacing: 0.5px;
+}
+
+
+
+.tab2 .form .commit {
+    position: absolute;
+    top: 142%;
+    left: 5%;
+    width: 90%;
+    background-color: #F56266;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 3.5% 0;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.PopUpBG{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+
+.successPopUp{
+    background: url("../img/aio_pop.png") no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    top: 25%;
+    width: 86%;
+    height: 0%;
+    padding-bottom: 62%;
+    left: 7%;
+    border-radius: 10px;
+}
+.successPopUp .successPopUpTips{
+    position: absolute;
+    top: 40%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    color: #4c4c4c;
+
+}
+.successPopUp .PopUpBtn{
+    position: absolute;
+    top: 68%;
+    width: 82%;
+    left: 9%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #F56266;
+    border-radius: 18px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}

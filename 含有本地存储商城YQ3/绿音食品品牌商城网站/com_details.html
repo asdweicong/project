@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>产品详情</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/conn.css" />
+		<link rel="stylesheet" href="css/com_details.css">
+		<link rel="stylesheet" href="css/pro_details.css" />
+	</head>
+
+	<body>
+		<!---header-->
+		<div class="header">
+			<!---top---->
+			<div class="top">
+				<div class="mg">
+					<div class="left">
+						<span>你好，请</span>
+						<a href="login.html">登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div class="right">
+						<a href="user.html">个人信息</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="order.html">我的订单</a>
+						<a href="shop_cart.html">收藏夹</a>
+					</div>
+				</div>
+			</div>
+			<!---top end---->
+			<!---logo------>
+			<div class="mg">
+				<div class="logo">
+					<a href="index.html"><img src="img/index/logo.png" /></a>
+				</div>
+				<div class="search">
+					<form class="input-group">
+						<input type="text" class="form-control">
+						<span class="input-group-addon"><img src="img/index/search.png" /</span>
+					</form>
+				</div>
+			</div>
+			<!---- logo end--->
+
+			<!--nav--->
+			<div class="nav">
+				<div class="mg">
+					<ul>
+						<li class="aaa active" id="down">
+							<a href="javascript:0;">全部商品</a>
+							<dl id="ul_list">
+								<dd>
+									<a href="shop_list.html">项链</a>
+								</dd>
+								<dd>
+									<a href="shop_list.html">戒指</a>
+								</dd>
+								<dd>
+									<a href="shop_list.html">耳饰</a>
+								</dd>
+								<dd>
+									<a href="shop_list.html">身体珠宝</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="aaa">
+							<a href="index.html">首页</a>
+						</li>
+						<li class="aaa">
+							<a href="shop_list.html">个性商品</a>
+						</li>
+						<li class="aaa">
+							<a href="shop_list.html">爆款热卖</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--nav end--->
+		</div>
+		<!--header end-->
+
+		<!--contact-->
+		<div class="contact">
+			<!---mg--->
+			<div class="mg">
+				<!--choose--->
+				<div class="choose">
+					<div id="smll_box">
+						<ul>
+							<li><img src="img/com_details/big_img01.png" /></li>
+						</ul>
+						<div id="box1"></div>
+					</div>
+					<div id="box"></div>
+					<dl>
+						<dd><img src="img/com_details/big_img01.png" /></dd>
+						<dd><img src="img/com_details/big_img02.png" /></dd>
+						<dd><img src="img/com_details/big_img03.png" /></dd>
+						<dd><img src="img/com_details/big_img04.png" /></dd>
+						<dd><img src="img/com_details/big_img05.png" /></dd>
+					</dl>
+				</div>
+				<!--choose end--->
+
+				<!---pro_intro--->
+				<div class="pro_intro">
+					<h2>369包邮  四叶草 银镶托帕石项链</h2>
+
+					<div>
+						<span>925银</span>
+						<span>帕石</span>
+						<span>项链</span>
+					</div>
+
+					<div>
+						原价：<strike>￥420</strike>
+					</div>
+
+					<div>
+						数量：<span>250</span>
+					</div>
+
+					<div>
+						现价：<span>￥369</span>
+					</div>
+
+					<div>
+						配送方式：上海 至
+						<select>
+							<option>湖南 长沙</option>
+							<option>湖南 长沙</option>
+							<option>湖南 长沙</option>
+							<option>湖南 长沙</option>
+							<option>湖南 长沙</option>
+							<option>湖南 长沙</option>
+						</select>
+						快递：
+						<select>
+							<option>免运费</option>
+							<option>免运费</option>
+							<option>免运费</option>
+							<option>免运费</option>
+							<option>免运费</option>
+							<option>免运费</option>
+						</select>
+					</div>
+
+					<div>
+						尺码：<span>S</span><span>M</span><span>L</span>
+					</div>
+
+					<div>
+						<span class="span">数量：</span>
+						<div class="input-group">
+							<span class="input-group-btn">
+							<button class="btn" type="button" id="reduce" onclick="reduce()" >
+								-
+							</button>
+							</span>
+							<input type="text" class="form-control text-num" value="1" id="prd_num" />
+							<span class="input-group-btn">
+								<button class="btn" type="button" id="add" onclick="add()">
+									+
+								</button>
+							</span>
+						</div>
+						<div>
+							件（库存<span>250</span>件）
+						</div>
+					</div>
+
+					<div>
+						<a href="pay.html">立即购买</a>
+						<a href="javascript:addShopCar()"><span>加入购物车</span></a>
+					</div>
+
+					<div>
+						<span>承诺</span>
+						<span>7天无理由</span>
+					</div>
+
+					<div>
+						<span>支付</span>
+						<a>支付宝</a>
+						<a>财付通</a>
+						<a>微信支付</a>
+					</div>
+				</div>
+				<!---pro_intro end--->
+
+				<!--same-->
+				<div class="same">
+					<h2>同款热推</h2>
+					<a href="shop_list.html"><img src="img/com_details/host_push.png" /></a>
+					<p>印记925纯银项链</p>
+					<p>￥：<span>239</span></p>
+					<strike>￥：399</strike>
+				</div>
+				<!--same end-->
+
+				<!--recommended-->
+				<div class="recommended">
+					<h2>店长推荐</h2>
+					<ul>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/list-001.png" /></a>
+								<a href="pro_details.html">印记</a>
+								<a>Seal</a>
+							</div>
+							<div>
+								<p>925银项链</p>
+								<p>925 Silver Necklace</p>
+							</div>
+							<div>
+								<strike>¥399</strike>
+								<span>¥239</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/listbig001.png" /></a>
+								<a href="pro_details.html">瓢虫 </a>
+								<a>Ladybird</a>
+							</div>
+							<div>
+								<p>925银耳骨夹</p>
+								<p>925 Silver Ear Ring</p>
+							</div>
+							<div>
+								<strike>¥299</strike>
+								<span>¥199</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/list-001.png" /></a>
+								<a href="pro_details.html">印记</a>
+								<a>Seal</a>
+							</div>
+							<div>
+								<p>925银项链</p>
+								<p>925 Silver Necklace</p>
+							</div>
+							<div>
+								<strike>¥399</strike>
+								<span>¥239</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/listbig001.png" /></a>
+								<a href="pro_details.html">瓢虫 </a>
+								<a>Ladybird</a>
+							</div>
+							<div>
+								<p>925银耳骨夹</p>
+								<p>925 Silver Ear Ring</p>
+							</div>
+							<div>
+								<strike>¥299</strike>
+								<span>¥199</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--recommended end0-->
+				
+				<!--comment-->
+				<div class="comment">
+					<div class="title">
+						<span>商品详情</span>
+						<span>评价详情<i>(709)</i></span>
+					</div>
+					
+					<div class="product_details">
+						<!---introduce-->
+						<div class="introduce">
+							<!--top-->
+							<div class="top">
+								<div>
+									<span>
+ 									商品名称：oohDear幸运四叶草925银饰天然托帕石女士项链
+ 								</span>
+									<span>
+ 									商品编号：10802853534
+ 								</span>
+								</div>
+								<div>
+									<span>商品毛重：200.00g</span>
+									<span>货号：ES00039</span>
+									<span>材质：银链子</span>
+									<span>样式：十字链 </span>
+									<span>风格：欧美风格，甜美可爱</span>
+									<span>坠子材质：银</span>
+									<span>分类：项链 </span>
+								</div>
+								<div>
+									<span>适用人群：女</span>
+									<span>规格：21cm（含）~50cm(含)</span>
+								</div>
+								<img src="img/pro_details/big-img.png" />
+							</div>
+							<!--top end-->
+
+							<div class="main">
+								<div>
+									<p>
+										<span>佩戴展示</span>
+									</p>
+									<img src="img/pro_details/people_01.png" />
+									<img src="img/pro_details/people_02.png" />
+									<img src="img/pro_details/people_03.png" />
+								</div>
+								<div>
+									<p>
+										<span>品牌介绍</span>
+									</p>
+									<div class="img">
+										<img src="img/pro_details/big_02.png" />
+										<p>
+											ooh Dear与I Do同为HIERSUN（恒信）钻石机构旗下品牌，用原创设计的珠宝，展现你时尚、个性、自信的生活态度，并不断为你带来极具设计感且高品质的全新珠宝。
+										</p>
+									</div>
+								</div>
+								<div>
+									<p>
+										<span>工艺解读</span>
+									</p>
+									<p>ooh Dear 精选925银，表面采用独特的抗氧化处理，让光彩更温和，每个细节都呈现出饰品的光泽和质感。从制模到雕琢均由珠宝匠人亲手完成，更关注人体工程学，结合先进科学，融合精湛工艺，呈现出一件件设计独到，匠心独运的珠宝。</p>
+									<img src="img/pro_details/big_03.png" />
+								</div>
+								<div>
+									<p>
+										<span>保养方法</span>
+									</p>
+									<ul>
+										<li>
+											<img src="img/pro_details/tit_list01.png" />
+											<p>
+												请将手势<span>单件存放</span>以免造成刮痕
+											</p>
+										</li>
+										<li>
+											<img src="img/pro_details/tit_list02.png" />
+											<p>
+												<span>避免接触</span>化学，酸碱性物质，易遭腐蚀损坏
+											</p>
+										</li>
+										<li>
+											<img src="img/pro_details/tit_list03.png" />
+											<p>
+												佩戴后，需<span>软布擦拭</span>才能美态常呈
+											</p>
+										</li>
+									</ul>
+									<ol>
+										<li>
+											<p>首饰不佩戴时应该单件存放，避免相互摩擦损坏</p>
+										</li>
+										<li>
+											<p>唯有经过悉心保养，心爱的手势才能如新绽放光滑</p>
+										</li>
+										<li>
+											<p>为避免色泽变暗，银饰应经常擦拭或密封保存</p>
+										</li>
+										<li>
+											<p>应该避免首饰于化妆品先睡等挥发性化学物质及酸碱物质接触，以免遭受腐蚀损坏</p>
+										</li>
+										<li>
+											<p>如银饰表面轻微氧化，可以用少许牙膏或洗银水浸泡，也可以用银布直接擦拭，避免于洗澡，游泳时候佩戴</p>
+										</li>
+										<li>
+											<p>镶嵌类饰品，做旧工艺饰品，镀白金饰品不能用牙刷直接刷洗，以免损伤配石及饰品表面，可用软布擦拭</p>
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+						<!---introduce-->
+					</div>
+					
+					<!----->
+					<div class="comment_details">
+						<!--talk-->
+						<div class="talk" id="evaluation">
+							<p>累计评价119</p>
+							<ol>
+								<li>
+									好评：
+									<img src="img/com_details/Yellow_star.png" />
+									<img src="img/com_details/Yellow_star.png" />
+									<img src="img/com_details/Yellow_star.png" />
+									<img src="img/com_details/Yellow_star.png" />
+									<img src="img/com_details/Yellow_star.png" />
+								</li>
+								<li>
+									中评：
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+								</li>
+								<li>
+									差评：
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+									<img src="img/com_details/white_star.png" />
+								</li>
+							</ol>
+							<ul>
+								<li>
+									<label class="c-radio">
+ 									<input type="radio" name="radio"/>
+ 									<span></span>
+ 									全部
+ 								</label>
+								</li>
+								<li>
+									<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									好评
+ 								</label>
+								</li>
+								<li>
+									<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									中评
+ 								</label>
+								</li>
+								<li>
+									<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									差评
+ 								</label>
+								</li>
+								<li>
+									<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									图片
+ 								</label>
+								</li>
+							</ul>
+						</div>
+						<!--talk end-->
+						<!---message-->
+						<div class="message">
+							<ul>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+								<li>
+									<p>不错，很精致的项链，很喜欢</p>
+									<div>
+										<p>分类：项链</p>
+										<p>LZ***89(佚名)</p>
+									</div>
+									<span>2016.11.11</span>
+								</li>
+							</ul>
+						</div>
+						<!---message end-->
+					</div>
+					<!------->
+
+				</div>
+				<!--comment end-->
+				
+				<!--comment-->
+				<!--<div class="comment">-->
+					<div class="title">
+						<span>商品详情</span>
+						<span>评价详情</span>
+						<span>(709)</span>
+					</div>
+
+					<div class="product_details">
+						<!---introduce-->
+						<div class="introduce">
+							<!--top-->
+							<div class="top">
+								<div>
+									<span>
+ 									商品名称：oohDear幸运四叶草925银饰天然托帕石女士项链
+ 								</span>
+									<span>
+ 									商品编号：10802853534
+ 								</span>
+								</div>
+								<div>
+									<span>商品毛重：200.00g</span>
+									<span>货号：ES00039</span>
+									<span>材质：银链子</span>
+									<span>样式：十字链 </span>
+									<span>风格：欧美风格，甜美可爱</span>
+									<span>坠子材质：银</span>
+									<span>分类：项链 </span>
+								</div>
+								<div>
+									<span>适用人群：女</span>
+									<span>规格：21cm（含）~50cm(含)</span>
+								</div>
+								<img src="img/pro_details/big-img.png" />
+							</div>
+							<!--top end-->
+
+							<div class="main">
+								<div>
+									<p>
+										<span>佩戴展示</span>
+									</p>
+									<img src="img/pro_details/people_01.png" />
+									<img src="img/pro_details/people_02.png" />
+									<img src="img/pro_details/people_03.png" />
+								</div>
+								<div>
+									<p>
+										<span>品牌介绍</span>
+									</p>
+									<div class="img">
+										<img src="img/pro_details/big_02.png" />
+										<p>
+											ooh Dear与I Do同为HIERSUN（恒信）钻石机构旗下品牌，用原创设计的珠宝，展现你时尚、个性、自信的生活态度，并不断为你带来极具设计感且高品质的全新珠宝。
+										</p>
+									</div>
+								</div>
+								<div>
+									<p>
+										<span>工艺解读</span>
+									</p>
+									<p>ooh Dear 精选925银，表面采用独特的抗氧化处理，让光彩更温和，每个细节都呈现出饰品的光泽和质感。从制模到雕琢均由珠宝匠人亲手完成，更关注人体工程学，结合先进科学，融合精湛工艺，呈现出一件件设计独到，匠心独运的珠宝。</p>
+									<img src="img/pro_details/big_03.png" />
+								</div>
+								<div>
+									<p>
+										<span>保养方法</span>
+									</p>
+									<ul>
+										<li>
+											<img src="img/pro_details/tit_list01.png" />
+											<p>
+												请将手势<span>单件存放</span>以免造成刮痕
+											</p>
+										</li>
+										<li>
+											<img src="img/pro_details/tit_list02.png" />
+											<p>
+												<span>避免接触</span>化学，酸碱性物质，易遭腐蚀损坏
+											</p>
+										</li>
+										<li>
+											<img src="img/pro_details/tit_list03.png" />
+											<p>
+												佩戴后，需<span>软布擦拭</span>才能美态常呈
+											</p>
+										</li>
+									</ul>
+									<ol>
+										<li>
+											<p>首饰不佩戴时应该单件存放，避免相互摩擦损坏</p>
+										</li>
+										<li>
+											<p>唯有经过悉心保养，心爱的手势才能如新绽放光滑</p>
+										</li>
+										<li>
+											<p>为避免色泽变暗，银饰应经常擦拭或密封保存</p>
+										</li>
+										<li>
+											<p>应该避免首饰于化妆品先睡等挥发性化学物质及酸碱物质接触，以免遭受腐蚀损坏</p>
+										</li>
+										<li>
+											<p>如银饰表面轻微氧化，可以用少许牙膏或洗银水浸泡，也可以用银布直接擦拭，避免于洗澡，游泳时候佩戴</p>
+										</li>
+										<li>
+											<p>镶嵌类饰品，做旧工艺饰品，镀白金饰品不能用牙刷直接刷洗，以免损伤配石及饰品表面，可用软布擦拭</p>
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+						<!---introduce-->
+					</div>
+
+					<!--talk-->
+					<div class="talk">
+						<p>累计评价119</p>
+						<ol id="evaluation">
+							<li>
+								好评：
+								<img src="img/com_details/Yellow_star.png" />
+								<img src="img/com_details/Yellow_star.png" />
+								<img src="img/com_details/Yellow_star.png" />
+								<img src="img/com_details/Yellow_star.png" />
+								<img src="img/com_details/Yellow_star.png" />
+							</li>
+							<li>
+								中评：
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+							</li>
+							<li>
+								差评：
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+								<img src="img/com_details/white_star.png" />
+							</li>
+						</ol>
+						<ul>
+							<li>
+								<label class="c-radio">
+ 									<input type="radio" name="radio"/>
+ 									<span></span>
+ 									全部
+ 								</label>
+							</li>
+							<li>
+								<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									好评
+ 								</label>
+							</li>
+							<li>
+								<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									中评
+ 								</label>
+							</li>
+							<li>
+								<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									差评
+ 								</label>
+							</li>
+							<li>
+								<label class="c-radio">
+ 									<input type="radio" name="radio" />
+ 									<span></span>
+ 									图片
+ 								</label>
+							</li>
+						</ul>
+					</div>
+					<!--talk end-->
+				</div>
+				<!--comment end-->
+
+				<!---message-->
+				<div class="message">
+					<ul>
+						<li>
+							<p>不错，很精致的项链，很喜欢</p>
+							<div>
+								<p>分类：项链</p>
+								<p>LZ***89(佚名)</p>
+							</div>
+							<span>2016.11.11</span>
+						</li>
+						<li>
+							<p>不错，很精致的项链，很喜欢</p>
+							<div>
+								<p>分类：项链</p>
+								<p>LZ***89(佚名)</p>
+							</div>
+							<span>2016.11.11</span>
+						</li>
+						<li>
+							<p>不错，很精致的项链，很喜欢</p>
+							<div>
+								<p>分类：项链</p>
+								<p>LZ***89(佚名)</p>
+							</div>
+							<span>2016.11.11</span>
+						</li>
+						<li>
+							<p>不错，很精致的项链，很喜欢</p>
+							<div>
+								<p>分类：项链</p>
+								<p>LZ***89(佚名)</p>
+							</div>
+							<span>2016.11.11</span>
+						</li>
+					</ul>
+				</div>
+				<!---message end-->
+
+				<div class="guess">
+					<h2>猜猜你喜欢</h2>
+					<ul>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/list-001.png" /></a>
+								<a href="pro_details.html">印记</a>
+								<a>Seal</a>
+							</div>
+							<div>
+								<p>925银项链</p>
+								<p>925 Silver Necklace</p>
+							</div>
+							<div>
+								<strike>¥399</strike>
+								<span>¥239</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/listbig001.png" /></a>
+								<a href="pro_details.html">瓢虫 </a>
+								<a>Ladybird</a>
+							</div>
+							<div>
+								<p>925银耳骨夹</p>
+								<p>925 Silver Ear Ring</p>
+							</div>
+							<div>
+								<strike>¥299</strike>
+								<span>¥199</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/list-001.png" /></a>
+								<a href="pro_details.html">印记</a>
+								<a>Seal</a>
+							</div>
+							<div>
+								<p>925银项链</p>
+								<p>925 Silver Necklace</p>
+							</div>
+							<div>
+								<strike>¥399</strike>
+								<span>¥239</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="pro_details.html"><img src="img/index/listbig001.png" /></a>
+								<a href="pro_details.html">瓢虫 </a>
+								<a>Ladybird</a>
+							</div>
+							<div>
+								<p>925银耳骨夹</p>
+								<p>925 Silver Ear Ring</p>
+							</div>
+							<div>
+								<strike>¥299</strike>
+								<span>¥199</span>
+							</div>
+							<div>
+								<strike>免运费</strike>
+								<a href="javascript:addShopCar()">加入购物车</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!---mg end--->
+		</div>
+		<!--contact-->
+
+		<!--footer--->
+		<div class="footer">
+			<div class="mg">
+				<ul>
+					<li><span>正</span>正品行货，精致服务</li>
+					<li><span>多</span>品种齐全，轻松购物</li>
+					<li><span>快</span>多仓直发，极速配送</li>
+					<li><span>省</span>天天低价，畅选无忧</li>
+				</ul>
+				<dl>
+					<dt>购物指南</dt>
+					<dd>
+						<a href="">购物流程</a>
+					</dd>
+					<dd>
+						<a href="">会员介绍</a>
+					</dd>
+					<dd>
+						<a href="">常见问题</a>
+					</dd>
+					<dd>
+						<a href="">联系客服</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>配送方式</dt>
+					<dd>
+						<a href="">上门自提</a>
+					</dd>
+					<dd>
+						<a href="">211限时达</a>
+					</dd>
+					<dd>
+						<a href="">配送服务查询</a>
+					</dd>
+					<dd>
+						<a href="">配送费收取标准</a>
+					</dd>
+					<dd>
+						<a href="">海外配送</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd>
+						<a href="">货到付款</a>
+					</dd>
+					<dd>
+						<a href="">在线支付</a>
+					</dd>
+					<dd>
+						<a href="">分期付款</a>
+					</dd>
+					<dd>
+						<a href="">邮局汇款</a>
+					</dd>
+					<dd>
+						<a href="">公司转账</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd>
+						<a href="">售后政策</a>
+					</dd>
+					<dd>
+						<a href="">价格保护</a>
+					</dd>
+					<dd>
+						<a href="">退款说明</a>
+					</dd>
+					<dd>
+						<a href="">返修/退换货</a>
+					</dd>
+					<dd>
+						<a href="">取消订单</a>
+					</dd>
+				</dl>
+			</div>
+			<p>版权所有<span>oohdear商城</span></p>
+		</div>
+		<!--footer end--->
+	</body>
+	<script type="text/javascript" src="js/ShopCar.js"></script>
+	<script type="text/javascript" src="js/products.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/magnifying_glass.js"></script>
+	<script type="text/javascript" src="js/pro_details.js"></script>
+	<script type="text/javascript" src="js/star.js"></script>
+	<script type="text/javascript" src="js/er_jixiala.js"></script>
+	<script type="text/javascript" src="js/comom.js"></script>
+	<script>
+		$(".comment .title span").eq(0).addClass("span")
+		$(".comment .title span").click(function(){
+			$(".comment .title span").removeClass("span")
+			$(this).addClass("span")
+			if($(this).index() == 0){
+				$(".product_details").css("display","block")
+				$(".comment_details").css("display","none")
+			}else{
+				$(".product_details").css("display","none")
+				$(".comment_details").css("display","block")
+			}
+		})
+	</script>
+</html>

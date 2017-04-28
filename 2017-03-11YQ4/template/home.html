@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>
+<ion-view ng-controller="homeController" class="Home">
+			<!--header-->
+			<ion-header-bar align-title="left" class="bg-line header_bg">
+				<div class="buttons mar-btn">
+					<img src="img/code.png" alt="" />
+				</div>
+				<div class="title">
+					<button ng-click="search()" ui-sref="search">搜索产品</button>
+				</div>
+				<div class="aler_img">
+					<img src="img/dian.png" alt="" />
+				</div>
+			</ion-header-bar>
+			<!--header-->
+
+			<!--content----->
+			<ion-content class="content">
+				<!--<ion-refresher on-refresh = "refre()" on-pulling="pull()"  pulling-text="刷新之前。。。" pulling-icon="ion-android-arrow-down" spinner="dots" class="spinner-assertive" refreshing-text="加载完成……">
+				
+				</ion-refresher>-->
+				<!--banner-->
+				<ion-slide-box auto-play="true" does-continue="true">
+					<ion-slide>
+						<img src="img/banner1.png" alt="" width="100%">
+					</ion-slide>
+					<ion-slide>
+						<img src="img/banner2.png" alt="" width="100%">
+					</ion-slide>
+					<ion-slide>
+						<img src="img/banner3.png" alt="" width="100%">
+					</ion-slide>
+				</ion-slide-box>
+				<!--banner--->
+
+				<!--导航-->
+				<div class="nav">
+					<ul class="row">
+						<li class="col" ui-sref="pro_list"><img src="img/new_pro_listed.png" />
+							<p>新品上市</p>
+						</li>
+						<li class="col" ui-sref="pro_categories"><img src="img/pro_recommended.png" />
+							<p>精品推荐</p>
+						</li>
+						<li class="col" ui-sref="pro_list"><img src="img/hot_products.png" />
+							<p>热销产品</p>
+						</li>
+						<li class="col" ui-sref="pro_categories"><img src="img/pref_products.png" />
+							<p>优惠产品</p>
+						</li>
+					</ul>
+				</div>
+				<!--导航-->
+
+				<!--新品上市-->
+				<div class="new_products_listed">
+					<h1>新品上市</h1>
+					<ul>
+						<li>
+							<a ui-sref="pro_list"><img src="img/homepage/list_01.png" /></a>
+						</li>
+						<li>
+							<a ui-sref="pro_categories"><img src="img/homepage/list_02.png" /></a>
+						</li>
+						<li>
+							<a ui-sref="pro_list"><img src="img/homepage/list_03.png" /></a>
+						</li>
+					</ul>
+					<a ui-sref="pro_categories" class="big_img"><img src="img/homepage/full_big01.png" /></a>
+				</div>
+				<!--新品上市-->
+
+				<!--热销产品-->
+				<div class="hot_pro">
+					<h1>热销产品</h1>
+					<div class="big_pro">
+						<a ui-sref="pro_list"><img src="img/homepage/hot_list01.png" /></a>
+						<div>
+							<h2>宫品野生底播参</h2>
+							<a ui-sref="order">立即购买</a>
+						</div>
+					</div>
+					<div class="small_pro">
+						<a ui-sref="pro_list"><img src="img/homepage/hot_list03.png" /></a>
+						<a ui-sref="pro_list"><img src="img/homepage/hot_list02.png" /></a>
+					</div>
+				</div>
+				<!----热销产品-->
+
+				<!--优惠产品--->
+				<div class="preferential_products">
+					<h1>优惠产品</h1>
+					<div>
+						<a ui-sref="pro_list">
+							<img src="img/homepage/big_img.png"/>
+						</a>
+						<div>
+							<p>优惠专区</p>
+							<p>全场<span>5</span>折</p>
+							<button ui-sref="pr_detail">立即抢购</button>
+							<ion-infinite-scroll on-infinite="loadMore()" ng-if="moreBool" distance = "10%">
+					
+							</ion-infinite-scroll>
+						</div>
+					</div>
+				</div>
+				<!--优惠产品--->
+			</ion-content>
+			<!--content----->
+
+			<!---footer-->
+			<ion-footer-bar class="footer_text">
+				<div class="tabs tabs-icon-top">
+					<a class="tab-item" ui-sref="home">
+						<i class="icon ion-home"></i>
+						<p>首页</p>
+					</a>
+					<a class="tab-item" ui-sref="pro_categories">
+						<i class="icon ion-android-apps"></i>
+						<p>分类</p>
+					</a>
+					<a class="tab-item" ui-sref="user">
+						<i class="icon ion-android-person"></i>
+						<p>我的</p>
+					</a>
+					<a class="tab-item" ui-sref="car">
+						<i class="icon ion-ios-cart"></i>
+						<p>购物车</p>
+					</a>
+				</div>
+			</ion-footer-bar>
+			<!---footer-->
+</ion-view>
+	<script>
+		document.getElementsByClassName("footer_text")[0].style.display = "block"
+		console.log(123465789)
+	</script>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>	

@@ -1,0 +1,171 @@
+.container .top{margin-top: 20px;border-bottom: 1px solid #a0a0a0;}
+.container .top div{float: right;}
+.container .top span{font-size: 16px;font-family: "微软雅黑";color: #2165d3;}
+.container .top div p{font-size: 14px ;font-family: "微软雅黑";color:#000000;}
+.container .top div span{color: red;padding: 0 12px;}
+.container .top div a{border-radius: 4px;background: #a0a0a0;padding: 2px 6px;text-align: center;color:#FFFFFF;text-decoration: none;cursor: pointer;}
+.container .top div a:hover{background: #2165D3;}
+
+.header_bottom .container .pay-current{width: 90%;}
+.header_bottom .container ol:before{clear: both;overflow: hidden;}
+.header_bottom .container ol:after{clear: both;overflow: hidden;}
+.header_bottom .container ol{width: 80%;margin: 0 10%;padding-top: 20px;overflow: hidden;}
+.header_bottom .container ol li{position: relative;float: left;font-size: 18px;font-family: "微软雅黑";width: 25%;padding: 0 ;margin: 0;text-align: center;display: flex;align-items: center;justify-content: center;}
+.header_bottom .container ol li .active-3{position: absolute;top: 10px;left: 55%;;display:block;background: #2165D3;padding: 2px 45%;}
+.header_bottom .container ol li .active-4{position: absolute;top: 10px;left: -5px;;display:block;background: #d3d3d3;padding: 2px 22%;}
+.header_bottom .container ol li div i{font-style: normal;background: #2165D3;color: #FFFFFF;;padding: 8px 14px;border-radius: 50%;text-align: center;}
+.header_bottom .container ol li:last-child div i{background: #D3D3D3;color: #FFFFFF;;padding: 8px 14px;border-radius: 50%;text-align: center;}
+.header_bottom .container ol li div p{margin: 10px 0 0 0;font-size: 16px;font-family: "微软雅黑";}
+.delte p{width: 100%;}
+.container ul{margin:15px 0 0 0 ;clear: both;overflow: hidden;}
+.container ul li{float: left;}
+.container ul li:nth-child(1){padding: 0 0.8%;}
+.container ul li:nth-child(2){padding:0 10.8%;}
+.container ul li:nth-child(3){padding: 0 8%;}
+.container ul li:nth-child(4){padding: 0 1%;}
+.container ul li:nth-child(5){padding: 0 6.7%;}
+.container table a{text-decoration: none;}
+.container table{width: 100%; border-collapse:inherit;border-spacing:0 20px; }
+.container table tr{width: 100%;margin: 20px 0;outline: 1px solid #a0a0a0;vertical-align: top;}
+.container .table{width: 100%;}
+.container ul li input{cursor: pointer;}
+.container .table tr{width: 100%;}
+.container .table tr td button{outline: none;}
+.container .table tr td div button{line-height: 10px;}
+.container .table tr td:nth-child(1){width: 38%;position: relative;padding:10px;}
+.container .table tr td:nth-child(1) input[type=checkbox]{position: absolute;top: 10px;left: 10px;cursor: pointer;}
+.container .table tr td:nth-child(1) div{width: 100%;height: 100%;}
+.container .table tr td:nth-child(1) img{width: 37%;float: left;padding:30px 10px 10px 0 ;}
+.container .table tr td:nth-child(1) div img{width: 20px;float: left;padding:0;padding-top:20px;margin-right:10px ;}
+.container .table tr td:nth-child(1) div a{color: #000000;}
+.container .table tr td:nth-child(2){width: 23%;padding: 10px 0;}
+.container .table tr td:nth-child(2) .input-in{float: right;margin-right: 50px;}
+.container .table tr td:nth-child(2) .mon{;color: #a0a0a0;float: left;}
+.container .table tr td:nth-child(3){}
+.container .table tr td:nth-child(3){padding: 10px 0;}
+.container .table tr td:nth-child(3) div{float: left;}
+.container .table tr td:nth-child(3) span{color: red;}
+.container .table tr td:nth-child(3) .price_pr{padding: 0;color: #A0A0A0;padding:0 30px;}
+.container .table tr td:nth-child(3) .price_pr p{padding: 0;color: #A0A0A0;}
+.container .table tr td:nth-child(3) .price_pr span{color: #A0A0A0;}
+.container .table tr td:nth-child(3) .delte{float: right;color: #000000;cursor: pointer;font-weight: normal;padding: 10px;}
+.container .table tr td:nth-child(3) .delte a{float: right;color: #000000;cursor: pointer;font-weight: normal;}
+.container .table tr td:nth-child(3) .delte b{float: right;;color: #000000;cursor: pointer;font-weight: normal;}
+.container .table tr td:nth-child(3) .delte p{padding-top:60px;clear: both;margin: 0;}
+.text-num{padding: 0;text-align: center;}
+@media only screen and (max-width:1199px ) {
+	.container .table tr td:nth-child(1){width: 40%;position: relative;padding:10px;}
+	.container .table tr td:nth-child(1) input[type=checkbox]{position: absolute;top: 10px;left: 10px;}
+	.container .table tr td:nth-child(1) div{width: 100%;height: 100%;}
+	.container .table tr td:nth-child(1) img{width: 37%;float: left;padding:30px 10px 10px 0 ;}
+}
+label{cursor: pointer;text-align: center;}
+.text-num{border: 1px solid #000000;}
+.content .container .input-in{width: 62px;margin-top: -20px;height: 18px;} 
+.contnet .container .text-num{padding:0;}
+.header_bottom .input_in{width:25%;position: absolute;top: 16px;right: 12px;}
+.content .container .form-control{height:18px;border: 1px solid #0;padding: 0;}
+.content .button-but{height: 18px;margin: 0;padding: 0;width: 20px;border: 1px solid #000000;border-radius: 0;}
+.page{background: #c4c4c4;clear: both;overflow: hidden;margin: 20px 0;}
+.page .left .checkbox{float: left;margin-left: 30px;padding: 0;}
+.page .left a{color: #000000;line-height: 40px;margin: 0 20px;font-size: 16px;font-family: "微软雅黑";}
+.page .left span{cursor: pointer;color: #000000;line-height: 40px;margin: 0 20px;font-size: 16px;font-family: "微软雅黑";}
+.page .left a:hover{color: #2165D3;text-decoration: none;}
+.page .right p{font-size: 16px;font-family: "微软雅黑";color:#000000;line-height: 40px;padding: 0;margin: 0;}
+.page .right p span{color: red;}
+.page .right p a{border-radius: 4px;background: #a0a0a0;padding: 7px 6px;text-align: center;color:#FFFFFF;text-decoration: none;cursor: pointer;}
+.page .right p a:hover{background: #2165D3;}
+.text-num{text-align: center;}
+
+@media only screen and (max-width:991px ) {
+	.header_bottom .container ol{width: 100%;margin: 0;}	
+	.header_bottom .container ol li{width: 33%;margin: 0;}	
+	.header_bottom .container ol li div p{font-size: 12px;}	
+	.search .input_in .form-control{width: 80%;}
+	.container table{width: 100%; }
+	.header_bottom .input_in{width:200px;position: absolute;top: 16px;right: 12px;display: block;}
+	.container table tr td:first-child{position: relative;padding: 20px 10px;}
+	.container table tr td input[type=checkbox]{position: absolute;top: 8px;left: 8px;}
+	.container table tr:first-child + tr td:first-child{text-align: center;}
+	.container table tr:last-child td:last-child p{padding-top:45px;float: right;}
+	.container table tr td{padding: 0 15px;}
+	.container ul li:nth-child(1){padding: 0 0.8%;}
+	.container ul li:nth-child(2){padding:0 10%;}
+	.container ul li:nth-child(3){padding: 0 7%;}
+	.container ul li:nth-child(4){padding: 0 1%;}
+	.container ul li:nth-child(5){padding: 0 :;%;}
+	
+	.container .table tr td:nth-child(1){width: 38%;position: relative;padding:10px;}
+	.container .table tr td:nth-child(1) img{width: 140px;float: left;padding:30px 10px 10px 0 ;}
+	.container .table tr td:nth-child(2){width: 25%;padding: 10px 0;}
+	.container .table tr td:nth-child(2) .input-in{float: right;margin-right: 0px;}
+}
+@media only screen and (max-width: 688px) {
+	
+	.content .container .input-in{width: 62px;margin-top: 50px;height: 18px;} 	
+	.container .table tr td:nth-child(1){position: relative;padding:10px;}
+	.container .table tr td:nth-child(1) input[type=checkbox]{position: absolute;top: 10px;left: 10px;}
+	.container .table tr td:nth-child(1) div{width: 100%;height: 100%;}
+	.container .table tr td:nth-child(1) img{width:120px;float: none;padding:30px 10px 10px 0 ;}
+	.container .table tr td:nth-child(1) div img{width: 20px;float: left;padding:0;padding-top:20px;margin-right:10px ;}
+	.container .table tr td:nth-child(1) div a{color: #000000;}
+	.container .table tr td:nth-child(2){padding: 10px 0;text-align: center;}
+	.container .table tr td:nth-child(2) .input-in{float: right;margin-right: 50px;}
+	.container .table tr td:nth-child(2) .mon{;color: #a0a0a0;float: left;}
+	.container .table tr td:nth-child(3){}
+	.container .table tr td:nth-child(3){padding: 10px 0;}
+	.container .table tr td:nth-child(3) div{float: left;}
+	.container .table tr td:nth-child(3) span{color: red;}
+	.container .table tr td:nth-child(3) .price_pr p{padding: 0 120px;color: #A0A0A0;}
+	.container .table tr td:nth-child(3) .price_pr span{color: #A0A0A0;}
+	.container .table tr td:nth-child(3) .delte{text-align: center;margin-top: 50px;float: none;color: #000000;cursor: pointer;font-weight: normal;padding: 10px;}
+	.container .table tr td:nth-child(3) .delte a{float: none;color: #000000;cursor: pointer;font-weight: normal;}
+	.container .table tr td:nth-child(3) .delte b{float: none;color: #000000;cursor: pointer;font-weight: normal;}
+	.container .table tr td:nth-child(3) .delte p{padding-top:60px;clear: both;margin: 0;}
+}
+@media only screen and (max-width:640px ) {
+	.container .table tr td:nth-child(3) .price_pr p{padding: 0 50px;color: #A0A0A0;}			
+	.container table{width: 100%;margin: 15px 0; }
+	.container table tr td:first-child{position: relative;padding: 10px 5px;}
+	.container table tr td input[type=checkbox]{position: absolute;top: 8px;left: 8px;}
+	.container table tr:last-child td:last-child p{padding-top:35px;float: right;}
+	.container table tr td{padding: 0 5px;}
+	.container ul li:nth-child(1){padding: 0 0.8%;}
+	.container ul li:nth-child(2){padding:0 8%;}
+	.container ul li:nth-child(3){padding: 0 7%;}
+	.container ul li:nth-child(4){padding: 0 1%;}
+	.container ul li:nth-child(5){padding: 0 5%;}
+}
+
+@media only screen and (max-width:511px ) {	
+	.header_bottom .container .pay-current{width: 100%;}
+	.container .table tr td:nth-child(2) .input-in{float: right;margin-right: 0px;margin-top: 100px;}	
+	.container .table tr td:nth-child(1){width: 120px;}
+	
+	.container .table tr td:nth-child(3) .price_pr p{padding: 0;color: #A0A0A0;}	
+	.container table tr td:nth-child(2) p{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width:50px;}
+	.container table tr td:first-child img{width: 100%;}
+	.container table{width: 100%;margin: 15px 0; }
+	.container table tr td:first-child{position: relative;padding: 5px 2px;}
+	.container table tr td input[type=checkbox]{position: absolute;top: 4px;left: 4px;}
+	.container table tr:last-child td:last-child p{padding-top:25px;float: right;}
+	.container table tr td{padding: 0 2px;}
+	.container ul li:nth-child(1){padding: 0 0.7%;}
+	.container ul li:nth-child(2){padding:0 7%;}
+	.container ul li:nth-child(3){padding: 0 6%;}
+	.container ul li:nth-child(4){padding: 0 1%;}
+	.container ul li:nth-child(5){padding: 0 3%;}
+}
+@media only screen and (max-width: 420px) {
+	.container .table tr td:nth-child(2) .input-in{float: right;margin-right: 0;margin: 100px 0 0 0 ;}
+}
+@media only screen and (max-width: 380px) {
+	.container .table tr td:nth-child(1) img{width: 90px;float: left;padding:30px 10px 10px 0 ;}	
+}
+
+@media only screen and (max-width:360px ) {
+	.search .input_in .form-control{width: 50%;}
+	.search .input_in{left:120px;}
+}
+.content>table>tr>td>div>span>button{outline:none;}
+

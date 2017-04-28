@@ -1,0 +1,11 @@
+
+.search .header_bg .buttons p{width: 0.88rem;height: 0.94rem;line-height: 0.94rem;position: absolute;left: 0.25rem;color: #FFFFFF;font-size: 0.3rem;margin-bottom: 0;top: -50%;margin-top: 0.47rem;font-family: "微软雅黑";font-weight: 500;}
+.search .header_bg .buttons p span{font-family:-webkit-pictograph;margin-right: 0.05rem;font-weight: 500;}
+.search h1{font-size: 0.3rem;font-family: "微软雅黑";margin:0.3rem;color: #000000;padding-top: 0.4rem;}
+.search .search_content{float: left;text-align: center;padding: 0.15rem 0.05rem;margin-bottom: 0.25rem;}
+.search .item{border: none;}
+.search .item span{border: 1px solid #a0a0a0;padding:0.1rem 0.32rem;border-radius: 0.05rem;font-family: "微软雅黑";}
+.search .header_bg div input{background: transparent ;padding: 0 0.2rem;border-radius: 0.05rem;line-height:.55rem;min-height: 0.55rem;border: none;text-align: left;font-size: .2rem;font-family: '微软雅黑';color: #b2b2b2;width:3.50rem;height: .55rem ;position: absolute;}
+.search .header_bg div button{background: transparent ;border: none;width:0.50rem;height: 0.55rem ;position: relative;left: 2.8rem;top: 0.01rem;}
+.search .header_bg div button:after{content: "" ;width: 0.44rem;height: 0.36rem;background: url(../img/search.png) no-repeat;background-size:0.44rem;top: 0.05rem;position: absolute;right: 0rem;max-width: 100%;}
+.search .has-footer{bottom: 0.00rem;}

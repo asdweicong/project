@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>确认订单页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/confirm-order.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/Confirm-order-page.js" ></script>
+	</head>
+	<body>
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a>您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /><span class="badge">18</span></a>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+			
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<div class="container">
+					<a href="index.html"><img src="images/logo.png" class="left" /></a>
+					<div>
+						<ol>
+							<li class="active-2">
+								<div>
+                                    <i>1</i>
+                                    <p>我的购物车</p>
+                                </div>
+                                <i class="active-3"></i>
+							</li>
+							<li>
+								<div>
+                                    <i>2</i>
+                                    <p>成功提交订单</p>
+                                </div>
+                                <i class="active-3"></i>
+							</li>
+							<li>
+								<div>
+                                    <i>3</i>
+                                    <p>付款</p>
+                                </div>
+                                <i class="active-4"></i>
+							</li>
+							<li>
+								<div>
+                                    <i>4</i>
+                                    <p>确认收货</p>
+                                </div>
+                                <i class="active-4"></i>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="container">
+			<div class="content-top">
+				<div class="title-add">
+					<p>
+						<span>确认收货地址</span>
+						<a href="address.html" style="color: #2165D3;">管理收货地址</a>
+					</p>
+				</div>
+				<ul class="address">
+					<li class="list_li acticcc">
+						<p class="p">
+							<input type="radio" name="radio" class="radio">广东省 广州市 海珠区 新港街道 广州市海珠区新港中路艺苑路5号港艺商务大厦1201（村长 收）132406729XX
+							<span>设为默认</span>
+						</p>
+						<a href="address.html" class="a">修改地址</a>
+					</li>
+					<li class="list_li">
+						<p>
+							<input type="radio" name="radio" class="radio">广东省 广州市 海珠区 新港街道 广州市海珠区新港中路艺苑路5号港艺商务大厦1201（村长 收）132406729XX
+						</p>
+						<a href="address.html">修改地址</a>
+					</li>
+					<li class="list_li">
+						<p>
+							<input type="radio" name="radio" class="radio">广东省 广州市 海珠区 新港街道 广州市海珠区新港中路艺苑路5号港艺商务大厦1201（村长 收）132406729XX				
+						</p>
+						<a href="address.html">修改地址</a>		
+					</li>
+					<li class="list_li">
+						<p>
+							<input type="radio" name="radio" class="radio">广东省 广州市 海珠区 新港街道 广州市海珠区新港中路艺苑路5号港艺商务大厦1201（村长 收）132406729XX
+						</p>
+						<a href="address.html">修改地址</a>
+					</li>
+					<li class="list_li">
+						<p>
+							<input type="radio" name="radio" class="radio">广东省 广州市 海珠区 新港街道 广州市海珠区新港中路艺苑路5号港艺商务大厦1201（村长 收）132406729XX
+						</p>
+						<a href="address.html">修改地址</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="content-main">
+				<p class="determine">确认订单信息</p>
+				<table class="table-1">
+					<tr>
+						<td></td>
+						<td>商品信息</td>
+						<td>单价</td>
+						<td>单价</td>
+						<td>折扣价</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="pro_details.html"><img src="images/confirm_order/llist-left.png" /></a>
+						</td>
+						<td>
+							<p><a href="pro_details.html">防暴高解析红外日夜型半球摄像机</a></p>
+							<p>英飞拓 防爆半球</p>
+							<p>颜色：白色</p>
+							<a href="pay.html"><img src="images/confirm_order/card01.png" /></a>
+							<a href="pay.html"><img src="images/confirm_order/card02.png" /></a>
+							<a href="pay.html"><img src="images/confirm_order/card03.png" /></a>
+						</td>
+						<td>¥3198元</td>
+						<td>
+							<div class="input-group input_in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" value="123" type="button" class="reduce_01" onclick="reduce()"style="outline: none;">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num_01" style="text-align: center;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" class="add_01" onclick="add()" style="outline: none;">
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<p>¥2998元</p>
+						</td>
+						<td>
+							<a href="shop_cart.html">加入收藏</a>
+							<br/>
+							<a href="">删除</a>
+							<p>合计：　（不含运费）　<span>¥<em id="money_02">2998</em>元</span></p>
+						</td>
+					</tr>
+				</table>
+				
+				<table class="table-2">
+					<tr>
+						<td></td>
+						<td>商品信息</td>
+						
+					</tr>
+					<tr>
+						<td class="img">
+							<a href="pro_details.html"><img src="images/confirm_order/llist-left.png" /></a>
+						</td>
+						<td>
+							<p>防暴高解析红外日夜型半球摄像机</p>
+							<p>英飞拓 防爆半球</p>
+							<p>颜色：白色</p>
+							<a href="pay.html"><img src="images/confirm_order/card01.png" /></a>
+							<a href="pay.html"><img src="images/confirm_order/card02.png" /></a>
+							<a href="pay.html"><img src="images/confirm_order/card03.png" /></a>
+						</td>
+						
+					</tr>
+					<tr>
+						<td>单价</td>
+						<td>单价</td>
+						<td>折扣价</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>¥3198元</td>
+						<td>
+							<div class="input-group input_in">
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" class="reduce" onclick="reduce()">
+										-
+									</button>
+								</span>
+								<input type="text" class="form-control text-num" value="1" id="prd_num_num" style="text-align: center;"/>
+								<span class="input-group-btn">
+									<button class="btn btn-default button-but" type="button" class="add" onclick="add()" >
+										+
+									</button>
+								</span>
+							</div>
+						</td>
+						<td>
+							<p>¥2998元</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="shop_cart.html">加入收藏</a>
+							<br/>
+							<a href="###">删除</a>
+							<p>合计：　（不含运费）　<span>¥<em id="money_002">2998</em>元</span></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="content-bottom">
+				<div class="left">
+					<label>给卖家留言</label>
+					<input type="text" value=""/>
+				</div>
+				<div class="right">
+					<p>
+						<span>运送方式：</span>
+						普通配送  快递  包邮
+						<span class="express_charge">0.00</span>
+					</p>
+					<p><span>发货时间：</span>卖家承诺订单在买家付款后, 48小时内发货</p>
+					<p>
+						<span>运费险：</span>
+						<label style="cursor: pointer;font-weight: normal;"><input type="checkbox" value="" style="cursor: pointer;float: left;"/>投保退货运费险，确认收货前退货可赔付8元</label>
+					</p>
+					<p>合计：　（含运费）　<span>¥<em id="money_01">2998</em>元</span></p>
+				</div>
+			</div>
+			
+			<div class="submit">
+				<a href="pay.html">提交订单</a>
+			</div>
+		</div>
+		
+		<!--content end -->
+
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		
+		</div>
+		<!--footer end-->
+	</body>
+	<script>
+	
+		$('table tr td input').change(function(){
+			if(/^[1-9]+[0-9]*$/.test(this.value)){
+				$('#prd_num_num').val(this.value)
+				if(this.value>99){
+					$('#prd_num_num').val(99)
+				}
+			}else{
+				this.value = 1
+			}
+		})
+		
+		$(function(){
+			$(".address").find("li").click(function(){
+				$(".address li").removeClass('acticcc');
+				$(".address li").find("p").removeClass('p');
+				$(".address li").find("a").removeClass('a');
+				$(this).find('p').addClass('p')
+				$(this).find('a').addClass('a')
+				$(this).addClass('acticcc')
+			})
+		})
+		var list_lis = document.querySelectorAll('.list_li')
+		var radios = document.querySelectorAll('.radio')
+		var long = list_lis.length
+		var show = function(){
+			for(var i= 0;i<long ;i++){
+				list_lis[i].index = i 
+				list_lis[i].onclick = function(){
+					list_lis[i]
+					radios[this.index].checked =true;
+				}
+			}
+		}
+		show();
+		var money = document.getElementById('money_01').innerText
+		var num = document.getElementById('prd_num_num').value
+		money = parseInt(money)
+		num = parseInt(num)
+		sum = 0;
+		function reduce(){
+			if(num>1){
+				num--
+				$('.input_in input').val(num);
+				sum = num * money;
+				$('#money_01').html(sum);
+				$('#money_02').html(sum);
+				$('#money_002').html(sum);
+				
+			}
+		}
+		function add(){
+			if(num<99){
+				num++;
+				$('.input_in input').val(num);
+				sum = num * money;
+				$('#money_01').html(sum);
+				$('#money_02').html(sum);
+				$('#money_002').html(sum);
+				
+			}
+		}
+	</script>
+	
+</html>

@@ -1,0 +1,147 @@
+.content .banner{
+	width:100%;
+	height:514px;
+	position:relative;
+	overflow:hidden;
+	clear:both;
+	}
+.content .banner a{
+	width:1920px;
+	height:514px;
+	overflow:hidden;
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	}	
+.content .banner img{
+	display:block;
+	height:514px;
+	}
+.contant .map{
+	height:126px;
+	font-size:18px;
+	
+	}	
+.content .map p{
+	font-size:18px;
+	line-height:36px;
+	margin:56px 0 30px;
+	color:#787272;
+	font-weight: bold;
+	padding-left:48px;
+	background:url(../images/news_images/map.png) no-repeat;
+	} 	
+.content .map p a{
+	padding-left:10px;
+	height:32px;
+	color:#5693f7;
+	}	
+	
+.content .the_map{
+	text-align:center;
+	}
+.content .con{
+	font-size:24px;
+	font-family: "微软雅黑";
+	}	
+.content .left h1,.content .right h1{
+	font-size:36px;
+	}	
+.content .left{
+	padding-left:44px;
+	
+	}
+input{padding:0 10px;}	
+.content .left .name{
+	height:54px;
+	width:230px;
+	font-size:24px;
+	color:#727272;
+	margin-left:26px;
+	font-family:"微软雅黑";
+	outline:none;
+	}	
+.content .left .email{
+	height:54px;
+	width:230px;
+	font-size:24px;
+	color:#727272;
+	margin-left:26px;
+	font-family:"微软雅黑";
+	outline:none;
+	}	
+.content .left .message{
+	width:448px;
+	height:174px;
+	font-size:24px;
+	color:#727272;
+	padding:0 15px;
+	margin:-35px 0 5px 80px;
+	font-family:"微软雅黑";
+	resize:none;
+	outline:none;
+	}
+.content .left .code{ 
+	height:37px;
+	width:138px;
+	color:#727272;
+	line-height:37px;
+	outline:none;
+	}
+.content .left img{
+	float:right;
+	margin:5px 15px 0 0 ;
+}
+.content .left a{
+	font-size:14px;
+	text-decoration: underline;
+	font-family: "微软雅黑";
+	float: right;
+	margin:15px 45px 0 0;
+} 
+.content .left .submit,.content .left .reset{
+	width:130px;
+	height:36px;
+	font-size:24px;
+	color:#727272;
+	background-color:transparent;
+	border:1px solid #000000;
+	text-align:center;
+	line-height:36px;
+	cursor:pointer;
+	}
+.content .left .submit{
+	margin:12px 32px 0 82px;
+	}	
+.content .left .submit:hover,.content .left .reset:hover{
+	background:#f91414;
+	color:#FFFFFF;
+	border:none;
+	}
+.content form{
+	color:#727272;
+}	
+.content .right{
+	height:610px;
+	float:left;
+	margin-left:112px;
+	}	
+.content .right p{
+	padding-bottom:34px;
+	color:#727272;
+	}	
+.content .right img{
+	padding-left:45px;
+}	
+.content .con .left span{
+	float:left;
+	height:60px;
+	}	
+.for{
+	display:block;
+	height:60px;
+	}	
+
+	
+	
+	

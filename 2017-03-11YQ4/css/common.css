@@ -1,0 +1,23 @@
+.bar{height: 0.94rem;}
+.has-header{top: 0.94rem;}
+.has-footer{bottom: 0.96rem;}
+.header_bg{background: #313131;position: relative;}
+/*.header_bg .buttons{width: 0.4rem;height: 0.4rem;position: absolute;left: 0.65rem;top:50%;margin-top: -0.2rem;}*/
+.header_bg .buttons img{width: 0.4rem;height: 0.4rem;position: absolute;left: 0.65rem;top:50%;margin-top: -0.2rem;}
+.header_bg div.title{border-radius: 0.04rem;background: #EEEEEE;text-align: left;width:3.50rem;height: .55rem ;position: absolute;left: 1.86rem;top: 50%;margin-top:-0.275rem ;}
+.header_bg div button{border-radius: 0.05rem;line-height:.55rem;min-height: 0.55rem;border: none;text-align: left;font-size: .2rem;font-family: '微软雅黑';color: #b2b2b2;width:3.50rem;height: .55rem ;position: absolute;}
+.header_bg div button:after{content: "" ;width: 0.44rem;height: 0.36rem;background: url(../img/search.png) no-repeat;background-size:0.44rem;top: 0.12rem;position: absolute;right: 11px;max-width: 100%;}
+.header_bg .aler_img img{width:0.6rem ;height: 0.13rem;position: absolute;right:0.5rem;height:0.14rem;top: 50%;margin-top:-0.07rem;}
+.slider-pager-page .ion-record{opacity: 1;}
+.slider-pager-page .ion-record:before{content: "" ;width: 0.2rem;height: 0.2rem;background: #666;border-radius: 50%;opacity: 1;}
+.slider-pager-page.active .icon.ion-record:before{content: "" ;background:#235e05 ;}
+.slider-pager .slider-pager-page{opacity: 1;margin: 0 0.04rem;}
+.tabs{height: 0.94rem}
+/*@font-face{
+			font-family: 'SourceHanSansCN-Normal';
+			src:url("fonts/SourceHanSansCN-Normal.otf");
+			src: url('fonts/SourceHanSansCN-Normal.otf'); 
+			src: url('fonts/SourceHanSansCN-Normal.otf?#iefix') format('embedded-opentype'), url('fonts/SourceHanSansCN-Normal.woff') format('woff'), url('fonts/SourceHanSansCN-Normal.ttf') format('truetype'), url('fonts/SourceHanSansCN-Normal.svg#svgFontName') format('svg');
+		}*/
+
+.tab-item .icon{font-size: 0.5rem;height: 0.5rem;}

@@ -1,0 +1,111 @@
+.header_bottom .container .img{width: 75%;padding-left: 10%;}
+.title-title{width: 16%;border: 1px solid #c2c2c2;float: left;margin-top: 30px;margin-right: 20px;}
+.title-title dl{margin: 0;}
+.title-title dl dt{color: #FFFFFF;font-size:16px;padding: 4px 0 ;font-family: "宋体";;background-color: #2165d3;text-align: center;}
+.title-title dl dt:first-child span{padding-left:20px;background: url(../images/order/order.png) left center no-repeat;}
+.title-title dl dt:first-child + li span{padding-left:20px;background: url(../images/order_details/System-information.png) left center no-repeat;;}
+.title-title dl dt:first-child + li + li span{padding-left:20px;background: url(../images/order_details/The-member-center.png) left center no-repeat;} 
+.title-title dl dd{color:#000000;text-align: center;line-height: 24px;font-size: 12px;font-family:"微软雅黑" ;}
+.title-title dl dd a{color: #000000;text-decoration:none;}
+.title-title dl dd a:hover{color: #2165d3;cursor: pointer;}
+.title-title .active-1{color: #2165D3;}
+
+.main{width: 50%;float: left;margin-top: 10px;}
+.main .top h3{font-size: 16px;font-family: "微软雅黑";color: #FFFFFF;background: #649CF7;padding: 5px 12px;}
+.main .top{overflow: hidden;clear: both}
+.main .top div{border: 1px solid #bfbfbf;clear: both;}
+.main .top table img{padding: 6px;}
+.main .top table{font-size: 12px;font-family: "微软雅黑";}
+.weak{width: 82px;height: 20px;background: #649cf7;margin: 0 5px;text-align: center;}
+.middle{width: 82px;height: 20px;background: #649cf7;margin: 0 5px;;text-align: center;}
+.strong{width: 82px;height: 20px;background: #c2c2c2;margin: 0 5px;;text-align: center;}
+.main .top ul{clear: both;overflow: hidden;margin: 20px 0 0;border-top: 1px solid #c2c2c2;padding-top: 20px;} 
+.main .top ul li{float: left;width: 20%;text-align: center;}
+.main a{cursor: pointer;}
+.str{line-height: 20px;}
+.main .main-main{width: 100%;}
+.main .main-main h3{font-size: 16px;font-family: "微软雅黑";color: #FFFFFF;background: #649CF7;padding: 5px 12px;}
+.main .main-main table{font-size: 12px;color: #000000;font-family: "微软雅黑";}
+.main .main-main table p{margin-bottom: 5px;}
+.main .main-main table td{padding: 15px 10px;}
+.main .main-main table td a{display: block;color: #000000;text-decoration: none;}
+.main .main-main table tr{border-bottom:1px solid #C2C2C2 ;}
+
+.main .bottom{width: 100%;}
+.main .bottom h3{font-size: 16px;font-family: "微软雅黑";color: #FFFFFF;background: #649CF7;padding: 5px 12px;}
+.main .bottom h4{font-size: 14px;font-family: "微软雅黑";color: #000000;}
+
+.main .bottom table{font-size: 12px;font-family: "微软雅黑";color: #a9a9a9;}
+.main .bottom table tr{border-bottom: 1px solid #C2C2C2;}
+.main .bottom table td{padding: 10px 20px;}
+.main .bottom table td p:last-child{text-indent: 2em;}
+.main .bottom table td a{color: #a9a9a9;text-decoration: none;}
+.main .bottom .h4 a{display: block;font-size: 14px;font-family: "微软雅黑";color: #000000;}
+.page{text-align: center;}
+.page ul li a{border: none;color: #000000;}
+.page ul li input{width: 50px;}
+.page ul li a:hover{background: transparent;color: #2165d3;}
+.list{width: 26%;float: right;margin-bottom:20px ;}
+.list h3{font-size: 18px;font-family: "微软雅黑";color: #000000;padding-left:5px;border-left: 4px solid #2165D3;}
+.list span{padding-right: 20px;font-size: 16px;color: #b9b9b9;background: url(../images/news_details/more.png) right center no-repeat;}
+.list span:hover{color: #2165D3;}
+.list ul{clear: both;}
+.list ul li{padding: 18px;float: left;width: 50%;display:flex ;align-items: center;justify-content: center;}
+.list ul li:first-child{background: #dcdcdc;}
+.list ul li:first-child + li + li + li{background: #dcdcdc;}
+.list ul li:first-child + li + li + li + li{background: #dcdcdc;}
+
+
+.list-left{width: 100%;margin-bottom:20px ;float: left;}
+.list-left h3{font-size: 18px;font-family: "微软雅黑";color: #000000;padding-left:5px;border-left: 4px solid #2165D3;}
+.list-left span{padding-right: 20px;font-size: 16px;color: #b9b9b9;background: url(../images/news_details/more.png) right center no-repeat;}
+.list-left span:hover{color: #2165D3;}
+.list-left ul{clear: both;}
+.list-left ul li{padding: 18px;;width: 100%;display:flex ;align-items: center;justify-content: center;}
+.list-left ul li:nth-child(2){background: #dcdcdc;}
+.table_01{display: block;}
+.table_02{display: none;}
+
+@media only screen and (max-width: 1199px) {	
+	.title-title{width: 20%;border: 1px solid #c2c2c2;float: left;}
+	.list{width: 100%;float: right;margin-bottom:20px ;}
+	.main{width: 70%;float: left;margin-top: 10px;}
+	
+}
+@media only screen and (max-width: 993px) {
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:flex ;justify-content: center;margin: 0 auto}
+	.title-title dl{float: left;padding: 5px 10px ;}
+	.title-title dl dt{padding:5px 10px ;}
+	.list-left{display: none;}
+	.main{width: 100%;float: left;margin-top: 10px;}
+	.main .top{margin: 0 5%;}	
+	.main .top table{width: 90%;margin:0 5%;}
+	.main .main-main{margin: 0 5% ;width: 90%;}
+	.main .main-main table{width: 90%;margin:0 5%;} 
+	.main .bottom{margin: 0  ;width: 100%;} 
+	.main .bottom table{width: 90%;margin:0 5%;}
+}
+@media only screen and (max-width: 586px) {
+	.main-main{font-size: 12px;}
+	.main{font-size: 12px;}
+	.table_01{display: none;}
+	.table_02{display: block;}
+	.table_02 p{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width:20px;}
+	.main{width: 100%;}
+	.container{padding: 0;margin: 0;}
+	.img_user{width: 50px;}
+	.img_list img{width: 60px;}
+	.main .main-main{width: 100%;margin: 0;}
+	.main .main-main table tr td p{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 50px;}
+	.main .bottom table tr p{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 50px;}
+	.main .bottom table tr h4{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 50px;}
+	.header_bottom .container .img{width: 100%;padding-left: 10%;clear:both ;overflow: hidden;}	
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:block ;justify-content:center;margin:60px auto 0;clear:both ;overflow: hidden;}
+	
+}
+@media only screen and (max-width: 454px) {
+	.header_bottom .container .img{width: 100%;padding-left: 10%;clear:both ;overflow: hidden;}	
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:block ;justify-content:center;margin:40px auto 0;clear:both ;overflow: hidden;}
+	.title-title dl{float: none;padding: 5px 10px ;width: 100%;clear: both;}
+	.title-title dl dt{padding:5px 10px ;}
+}

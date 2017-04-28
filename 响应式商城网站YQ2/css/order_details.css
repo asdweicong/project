@@ -1,0 +1,108 @@
+
+.title-title{width: 16%;border: 1px solid #c2c2c2;float: left;}
+.title-title dl{margin: 0;}
+.title-title dl dt{color: #FFFFFF;font-size:16px;padding: 4px 0 ;font-family: "宋体";;background-color: #2165d3;text-align: center;}
+.title-title dl dt:first-child span{padding-left:20px;background: url(../images/order/order.png) left center no-repeat;}
+.title-title dl dt:first-child + li span{padding-left:20px;background: url(../images/order_details/System-information.png) left center no-repeat;;}
+.title-title dl dt:first-child + li + li span{padding-left:20px;background: url(../images/order_details/The-member-center.png) left center no-repeat;} 
+.title-title dl dd a{text-decoration: none;color:#000000;text-align: center;line-height: 24px;font-size: 12px;font-family:"微软雅黑" ;}
+.title-title dl dd{text-decoration: none;color:#000000;text-align: center;line-height: 24px;font-size: 12px;font-family:"微软雅黑" ;}
+.title-title dl dd a:hover{color: #2165d3;cursor: pointer;}
+.title-title .active-1 a{color: #2165D3;}
+.the-order-details{width:55%;float: left;margin: 0 1%;}
+.the-order-details .order-top{border: 1px solid #c2c2c2;padding-bottom: 15px;margin-bottom: 20px;}
+.the-order-details h3{font-size: 16px;color: #FFFFFF;background: #649cf7;padding:5px 27px;margin: 0;overflow: hidden;clear: both;}
+.the-order-details div{width: 100%;}
+.the-order-details ol:before{clear: both;overflow: hidden;}
+.the-order-details ol:after{clear: both;overflow: hidden;}
+.the-order-details ol{width: 90%;margin: 0 5%;padding-top: 20px;overflow: hidden;}
+.the-order-details ol li{position: relative;float: left;font-size: 16px;font-family: "微软雅黑";width: 25%;padding: 0 ;margin: 0;text-align: center;display: flex;align-items: center;justify-content: center;}
+.the-order-details ol li .active-3{position: absolute;top: 10px;left: 55%;;display:block;background: #2165D3;padding: 2px 45%;}
+.the-order-details ol li .active-4{position: absolute;top: 10px;left: -5px;;display:block;background: #d3d3d3;padding: 2px 22%;}
+.the-order-details ol li div i{font-style: normal;background: #2165D3;color: #FFFFFF;;padding: 5px 11px;border-radius: 50%;text-align: center;}
+.the-order-details ol li:last-child div i{background: #D3D3D3;color: #FFFFFF;;padding: 8px 14px;border-radius: 50%;text-align: center;}
+.the-order-details ol li div p{margin: 10px 0 0 0;font-size: 14px;font-family: "微软雅黑";}
+
+
+
+.name{float: left;}
+.email{float: right;}
+.the-order-details .order-main{border: 1px solid #c2c2c2;padding-bottom: 15px;margin-bottom: 20px;}
+.the-order-details .order-main span{color: #000000;font-size:14px;font-family: "微软雅黑";padding:5px 10px;}
+.the-order-details .order-main .phone{padding-left: 22%;margin-top:5px;clear: both;}
+.the-order-details .order-main p{color: #000000;font-size: 12px;font-family: "微软雅黑";padding:0 10px;clear: both}
+.the-order-details .order-bottom{overflow: hidden;border: 1px solid #c2c2c2;clear: both}
+.the-order-details .order-bottom .message{width: 90%;margin: 0 auto 10px;}
+.the-order-details .order-bottom input{width: 80%;}
+.the-order-details .order-bottom ul{overflow: hidden;clear: both}
+.the-order-details .order-bottom ul li{float: left;text-align: center;}
+.the-order-details .order-bottom ul li:first-child + li span{text-align: left;}
+.the-order-details .order-bottom ul li img{float: left;padding:5px 5px 0 0;}
+.the-order-details .order-bottom ul li:last-child h3{padding:5px 33px;}
+.the-order-details .order-bottom ul li div{padding-top: 25px;}
+.the-order-details .order-bottom ul li span{display: block;color: #000000;font-size: 12px;font-family: "微软雅黑";}
+.display span{padding-top: 30px;}
+
+.the-order{color: #FFFFFF;background: #649cf7;font-size:14px;padding:5px 10px;margin: 0;overflow: hidden;clear: both;}
+.the-order span{padding: 0 10px;}
+.list{width: 26%;float: right;margin-bottom:20px ;}
+.list h3{font-size: 18px;font-family: "微软雅黑";color: #000000;padding-left:5px;border-left: 4px solid #2165D3;}
+.list span{padding-right: 20px;font-size: 16px;color: #b9b9b9;background: url(../images/news_details/more.png) right center no-repeat;}
+.list span:hover{color: #2165D3;}
+.list ul{clear: both;}
+.list ul li{padding: 18px;float: left;width: 50%;display:flex ;align-items: center;justify-content: center;}
+.list ul li:first-child{background: #dcdcdc;}
+.list ul li:first-child + li + li + li{background: #dcdcdc;}
+.list ul li:first-child + li + li + li + li{background: #dcdcdc;}
+
+@media only screen and (max-width:1036px ) {
+	.content .title .line-1{position: absolute;width: 64%;top: 18px;left:254px;border-top:1px solid #2165D3 ;}
+	.list{width: 100%;float: right;}
+	.text{position: relative;width: 100%;padding:0 10%}
+	.content .title{position: relative;width: 100%;}
+	.text-tet img{text-align: center;display:flex ;align-items: center;justify-content: center;width: 100%;}
+}
+
+
+
+@media only screen and (max-width: 1199px) {	
+	.the-order-details h3{font-size: 16px;color: #FFFFFF;background: #649cf7;padding:5px 18px;margin: 0;overflow: hidden;clear: both;}	
+	.title-title{width: 20%;border: 1px solid #c2c2c2;float: left;}
+	.the-order{color: #FFFFFF;background: #649cf7;font-size:12px;padding:5px 20px;margin: 0;overflow: hidden;clear: both;}
+	.list{width: 100%;float:left;}
+	.the-order-details{width:61%;float: left;margin: 0 5%;}
+	.the-order-details .order-bottom ul li{}
+}
+@media only screen and (max-width: 993px) {
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:flex ;justify-content: center;margin: 0 auto}
+	.title-title dl{float: left;padding: 5px 10px ;}
+	.title-title dl dt{padding:5px 10px ;}
+	.the-order-details{width:80%;float: left;margin: 2% 10%;}
+}
+
+@media only screen and (max-width:746px ) {
+	.the-order-details{width:98%;float: left;margin: 0 1%;}
+	.the-order-details .order-top{border: 1px solid #c2c2c2;padding-bottom: 15px;margin-bottom: 20px;}
+	.the-order-details h3{display: block;}
+	.name{float: none;display: block;}
+	.email{float: none;display: block;}
+	.the-order-details .order-top img{width: 100%;padding:0 10px;}
+	.the-order-details .order-main{border: 1px solid #c2c2c2;padding-bottom: 15px;margin-bottom: 20px;}
+	.the-order-details .order-main span{color: #000000;font-size:14px;font-family: "微软雅黑";padding:5px 10px;}
+	.the-order-details .order-main .phone{display: block;padding-left:10px;}
+	.the-order-details .order-main p{color: #000000;font-size: 12px;font-family: "微软雅黑";padding:0 10px;clear: both}
+	.the-order-details .order-bottom ul li{display: block;width: 100%;text-align: center;}
+	.the-order-details .order-bottom ul li:first-child + li span{text-align: left;}
+	.the-order-details .order-bottom ul li img{float: left;margin-left:20%;}
+	.the-order-details .order-bottom ul li:last-child h3{padding:5px 33px;}
+	.the-order-details .order-bottom ul li div{padding: 8px 0;}
+	.the-order-details .order-bottom ul li span{display: block;color: #000000;font-size: 12px;font-family: "微软雅黑";}
+	.display span{padding: 15px 0;}
+	.the-order span{padding: 0 10px;display: block;text-align: center;}
+}
+
+@media only screen and (max-width: 454px) {
+	.title-title{width: 100%;border: 1px solid #c2c2c2;display:block ;justify-content:center;margin: 0 auto}
+	.title-title dl{float: none;padding: 5px 10px ;width: 100%;clear: both;}
+	.title-title dl dt{padding:5px 10px ;}
+}

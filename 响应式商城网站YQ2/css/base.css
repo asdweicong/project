@@ -1,0 +1,24 @@
+*{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/2 Verdana, 宋体, Helvetica, sans-serif;}/*雅黑：\5FAE\8F6F\96C5\9ED1  Verdana, Helvetica, sans-serif*/
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a:link,a:visited{text-decoration:none;outline: none;}
+a{color:#FFFFFF;}
+a:hover{color:#f31a1a;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#555;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+
+
+
+.mg{ width:1200px; margin:0 auto;}
+.ov{ overflow:hidden; clear:both;}
+.left{ float:left; display:inline;}
+.right{ float:right; display:inline;}
+
+

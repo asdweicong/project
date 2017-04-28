@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta charset="UTF-8">
+    <title>一网通母亲节互动</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/information_table.css">
+    <link rel="stylesheet" href="stylesheets/popup.css">
+</head>
+<body>
+    <!---弹窗--->
+    <div class="warpe"></div>
+    <div class="popup">
+        <p>服务专员将尽快通过400-719-5555与你联系。</p>
+        <p>为您提供专业的产品咨询服务，祝您生活愉快。</p>
+        <button id="i_know">我知道了</button>
+    </div>
+    <!---弹窗 end--->
+
+    <div class="content" id="content">
+        <div class="title">
+            <p>一网通母亲节互动</p>
+        </div>
+
+        <!----subject--->
+        <div class="subject">
+            <!--next_content-->
+            <div class="next_content">
+                <div>
+                    <p>不管知不知道，从心开始，爱永远不会晚。</p>
+                    <p>母亲节，做个番茄炒蛋，带上贴心保单，回家示爱。</p>
+                </div>
+            </div>
+            <!--next_content end-->
+            <div class="proble proble001">
+                <div class="proble_number">妈妈最喜欢吃得菜?</div>
+                <div class="proble_checked">
+                    <div class="c-checkbox01">知道</div>
+                    <div class="c-checkbox01">不知道</div>
+                </div>
+            </div>
+
+            <div class="proble proble002">
+                <div class="proble_number">不知道妈妈最喜欢的颜色?</div>
+                <div class="proble_checked">
+                    <div class="c-checkbox01">知道 </div>
+                    <div class="c-checkbox01">不知道 </div>
+                </div>
+            </div>
+
+            <div class="proble proble003">
+                <div class="proble_number">妈妈的口头禅?</div>
+                <div class="proble_checked">
+                    <div class="c-checkbox01">知道 </div>
+                    <div class="c-checkbox01">不知道 </div>
+                </div>
+            </div>
+
+            <div class="proble proble004">
+                <div class="proble_number">妈妈最近的愿望?</div>
+                <div class="proble_checked">
+                    <div class="c-checkbox01">知道 </div>
+                    <div class="c-checkbox01">不知道 </div>
+                </div>
+            </div>
+
+            <div class="proble proble005">
+                <div class="proble_number">妈妈的身体状况?</div>
+                <div class="proble_checked">
+                    <div class="c-checkbox01">知道 </div>
+                    <div class="c-checkbox01">不知道 </div>
+                </div>
+            </div>
+        </div>
+        <!-----subject end---->
+
+        <!--information_table-->
+        <div class="information_table">
+            <div class="from">
+                <div class="name">姓名:<input type="text" placeholder="请输入" maxlength="6">
+                    <div class="sex">
+                        <div class="boy sexactive">男</div>
+                        <div class="girl">女</div>
+                    </div>
+                </div>
+                <div class="name">手机:<input type="text" placeholder="请输入"></div>
+                <div class="name">省份:<input type="text" placeholder="请输入">
+                    <!--<select style=";" class="select">-->
+                        <!--<option>请输入</option>-->
+                        <!--<option>123</option>-->
+                        <!--<option>123</option>-->
+                        <!--<option>123</option>-->
+                        <!--<option>123</option>-->
+                        <!--<option>123</option>-->
+
+                    <!--</select>-->
+                    <div class="choice"></div>
+                </div>
+                <div class="checkedbox">
+                    <label id="label">
+                        <input type="checkbox" id="input_checked">
+                        <div class="checked_span"></div>
+                        授权将本人相关信息转交给招商信诺以提供后续保障服务。
+                    </label>
+                </div>
+            </div>
+
+            <div class="buttom">
+                <input type="button" value="提交" id="submit">
+            </div>
+        </div>
+        <!--information_table end-->
+    </div>
+</body>
+<script type="text/javascript" src="javascripts/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="javascripts/choice.js"></script>
+<script type="text/javascript" src="javascripts/self-adaption.js" ></script>
+<script type="text/javascript" src="javascripts/sex.js"></script>
+<script type="text/javascript" src="javascripts/popup.js"></script>
+</html>

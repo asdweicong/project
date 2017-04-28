@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ionic.bundle.js" ></script>
+</head>	
+	<ion-view ng-controller="myoderController" class="my_order">
+		<!--header-->
+		<ion-header-bar align-title="left" class="bg-line header_bg">
+			<div class="title">
+				我的定单
+			</div>
+			<div class="aler_img">
+				<img src="img/dian.png" alt="" />
+			</div>
+		</ion-header-bar>
+		<!--header-->
+		<!--content-->
+		<ion-subheader-bar class="cont_top row" ng-init="bool1=true" >
+			<div class="col shop_on" ng-click="bool1=true;bool2=false;bool3=false;bool4=false;bool5=false">全部商品</div>
+			<div class="col" ng-click="bool1=false;bool2=true;bool3=false;bool4=false;bool5=false">代付款</div>
+			<div class="col" ng-click="bool1=false;bool2=false;bool3=true;bool4=false;bool5=false">待发货</div>
+			<div class="col" ng-click="bool1=false;bool2=false;bool3=flase;bool4=true;bool5=false">待收货</div>
+			<div class="col" ng-click="bool1=false;bool2=false;bool3=flase;bool4=false;bool5=true">待评价</div>
+		</ion-subheader-bar>
+		<ion-content onload="getStorage()" class="my_order">
+			<div class="cont_button">
+				<ion-list class="list" ng-show="bool1" show-delete="data.showDelect" >
+					<ion-item ng-repeat="my_order in my_order">
+						<img ng-src="{{my_order.src}}" ui-sref="pr_detail">
+						<div class="title_til">
+							<h1 ui-sref="pr_detail">{{my_order.h1}}</h1>
+							<p>{{my_order.new_price}}</p>
+							<strike>原价：{{my_order.old_price}}</strike>
+							<a ui-sref="user">查看物流</a>
+							<a ui-sref="user">确认收货</a>
+						</div>
+					</ion-item>
+				</ion-list>
+				<div ng-show="bool2" class="list" >代付款</div>
+				<div ng-show="bool3" class="list" >代发货</div>
+				<div ng-show="bool4" class="list" >待收货</div>
+				<div ng-show="bool5" class="list" >待评价</div>
+			</div>
+		</ion-content>	
+		<!--content-->
+		<!---footer-->
+		<ion-footer-bar>
+			<div class="tabs tabs-icon-top">
+				<a class="tab-item" ui-sref="home">
+					<i class="icon ion-home"></i>
+					<p>首页</p>
+				</a>
+				<a class="tab-item" ui-sref="pro_categories">
+					<i class="icon ion-android-apps"></i>
+					<p>分类</p>
+				</a>
+				<a class="tab-item" ui-sref="user">
+					<i class="icon ion-android-person"></i>
+					<p>我的</p>
+				</a>
+				<a class="tab-item" ui-sref="car">
+					<i class="icon ion-ios-cart"></i>
+					<p>购物车</p>
+				</a>
+			</div>
+		</ion-footer-bar>
+		<!---footer-->
+	</ion-view>
+    <script type="text/javascript" src="js/controller.js" ></script>
+</html>	

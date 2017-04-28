@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content .banner{
+	width:100%;
+	height:514px;
+	overflow:hidden;
+	position:relative;
+	*display:block;
+	*zoom:1;
+	z-index:1;
+	}	
+.content .banner a{
+	display:block;
+	width:1920px;
+	height:514px;
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+	}
+.content .banner img{
+	display:block;
+	height:514px;
+	}
+.news_center .map{
+	height:86px;
+	font-size:18px;
+	color:#787272;
+	font-weight: bold;
+	}	
+.news_center .map p{
+	display:block;
+	float:left;
+	margin-top:56px;
+	padding-left:48px;
+	background:url(../images/news_images/map.png) no-repeat;
+	} 	
+.news_center .map p a{
+	padding-left:10px;
+	height:32px;
+	color:#5693f7;
+	}
+.news_center h1,.news_center h2{
+	display:block;
+	clear:both;
+	text-align:center;
+	}
+.news_center h1{
+	color:#0951fc;
+	font-size:36px;
+	line-height:42px;
+	font-family:"微软雅黑";
+	}	
+.news_center h2{
+	color:#6e6465;
+	font-size:36px;
+	line-height:36px;
+	font-family:"微软雅黑";
+	}
+	
+.news_center .list{
+	display:block;
+	padding-top:112px;
+	}	
+.news_center .list li{
+	text-indent:2em;
+	display:block;
+	height:92px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	padding-bottom:66px;
+	}
+.news_center .list li img{
+	float: left;
+	padding:0 50px 0 180px;
+}
+.new_center .list li  a p{
+	padding-left: 50px;
+	height: 100%;
+}
+.news_center .list a:hover{
+	display:block;
+	color:#0951fc;
+	cursor:pointer;
+	}	
+/************************************  翻页  *************************************************************/	
+.news_center .next{
+	display:block;
+	height:96px;
+	text-align:center;
+	}
+.news_center .next ul{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	text-align:center;
+	}
+.news_center .next li{
+	float:left;
+	line-height:24px;
+	width:24px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	margin:32px 4px 0 4px;;
+	}
+.news_center .next li:first-child,.news_center .next li:last-child{
+	width:98px;
+	}
+.news_center .next ul .active a{
+	display:block;
+	color:#fff;
+	width:24px;
+	background:#0951fc;
+	}
+.news_center .next li:hover a{
+	display:block;
+	background:#0951fc;
+	color:#fff;
+	cursor:pointer;
+	}
+
+
+	
+	
+	
+	

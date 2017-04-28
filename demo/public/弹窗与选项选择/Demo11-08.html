@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点击切换</title>
+		<link rel="stylesheet" href="css/选项选择对应的区域.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".swich ul li").eq(0).addClass("on");
+				$(".list ul li").eq(0).show();
+				$(".swich ul li").click(function(){
+					var index = $(this).index();
+					$(".swich ul li").removeClass("on");
+					$(this).addClass("on");
+					$(".list ul li").fadeOut(200);
+					$(".list ul li").eq(index).fadeIn(200);
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="swich">
+				<ul>
+					<li>第一项</li>
+					<li>第二项</li>
+					<li>第三项</li>
+					<li>第四项</li>
+				</ul>
+			</div>
+			
+			<div class="list">
+				<ul>
+					<li>第一项对应的文本</li>
+					<li>第二项对应的文本</li>
+					<li>第三项对应的文本</li>
+					<li>第四项对应的文本</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

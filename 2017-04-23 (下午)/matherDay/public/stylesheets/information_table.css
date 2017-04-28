@@ -1,0 +1,112 @@
+.information_table{
+    background: url("../images/qietu/active/form_bg.png") no-repeat;
+    -webkit-background-size:100%;
+    background-size:100%;
+    height:11.2rem;
+    padding-top: 1.8rem;
+    margin-top:0.6rem;
+}
+.information_table .name{
+    line-height: 0.45rem;
+    display: block;
+    width:70%;
+    margin:0 15%;
+    font-size:0.32rem;
+    color: #9d505d;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.information_table .from .name input{
+    padding:0 0.2rem;
+    font-size:0.24rem;
+    opacity:0.5;
+    border:2px solid #9d505d;
+    width:75%;
+    height:0.45rem;
+    position: relative;
+    left:0.15rem;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    border-radius:12px;
+}
+.information_table .from .name .sex {
+    /*display: block;*/
+    position: absolute;
+    width:1.0rem;
+    right:-0.1rem;
+    top:0;
+}
+.information_table .from .name .sex .boy,.information_table .from .name .sex .girl {
+    text-align: center;
+    width: 0.5rem;padding: 0.025rem 0;
+    float: left;
+    height:0.45rem;
+}
+.information_table .from .name .sex .girl {
+    float: right;
+    -webkit-border-radius:0 12px 12px 0;
+    -moz-border-radius:0 12px 12px 12px;
+    border-radius: 0 12px 12px 0;
+}
+.information_table .from .name .sexactive{
+    background-color:#9d505d;
+    color: #fff;
+}
+.select{
+    width: 84%;height: 0.45rem;border-radius: 10px;background: none;outline: none
+}
+.choice{
+    width: 0.85rem;
+    height:0.35rem;
+    background: url("../images/qietu/active/choice_icons.png") no-repeat;
+    -webkit-background-size:80%;
+    background-size:80%;
+    position: absolute;
+    right:0;
+    top:0.2rem;
+}
+.checkedbox{position: relative}
+.checkedbox label{
+    font-size:0.16rem;
+    text-align: center;
+    color: #9d505d;
+    width:62%;
+    margin:0 19%;
+    height:0.5rem;
+    line-height: 0.5rem;
+}
+.checkedbox input{
+    visibility: hidden;
+}
+.checkedbox .active{
+    position: absolute;
+    left:1.3rem;
+    top:0.70rem;
+    width:0.5rem;
+    height:0.5rem;
+    background: url("../images/qietu/active/agree_highlight.png") no-repeat;
+    -webkit-background-size:60%;
+    background-size:60%;
+}
+.checkedbox .checked_span{
+    position: absolute;
+    left:1.3rem;
+    top:0.70rem;
+    width:0.5rem;
+    height:0.5rem;
+    background: url("../images/qietu/active/agree_icons.png") no-repeat;
+    background-size: 60%;
+}
+.buttom input{text-align: center;
+    font-size:0.32rem;
+    width:60%;
+    margin:0 20%;
+    height:0.6rem;
+    border-radius: 15px;
+    border:none;
+    background: #9d322d;
+    /*background: url("../images/qietu/EDM/button.png");*/
+    color: #fff;
+}
+
+

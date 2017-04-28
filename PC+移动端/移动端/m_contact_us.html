@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>联系我们</title>
+	    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+	    <link rel="stylesheet" href="css/index.css" />
+	    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	    <script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script> 
+	    <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+	    <script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<section>
+				<div class="nav">
+				<div class="navbar">
+					<img src="img/nav.png">
+				</div>
+				<ul>
+					<li>
+						<a href="m_index.html">
+							首页
+						</a>
+					</li>
+
+					<li>
+						<a href="m_about_us.html">
+							公司介绍
+						</a>
+					</li>
+					
+					<li>
+						<a href="m_news.html">
+							新闻中心
+						</a>
+					</li>
+					<li>
+						<a href="m_product.html">
+							产品中心
+						</a>
+					</li>
+					
+					<li class="active_index">
+						<a href="m_contact_us.html">
+							联系我们
+						</a>
+					</li>
+				</ul>
+		
+			</div>
+
+				<h1>立吉速运有限公司</h1>
+				
+				<div class="logo">
+					<a href="m_index.html"><img src="img/logo.png"></a>
+				</div>
+			</section>
+		</header>
+		
+		<article class="content">
+			<section class="banner">
+				<a href="m_index.html"><img src="img/contact_us_img/contact_us_banner.png" /></a>
+			</section>
+			
+			<section class="contact_us">
+				<header class="title">
+					<h1>联系我们</h1>
+				</header>
+				
+				<div class="map">
+					<div style="width:100%;height:316px;border:#ccc solid 1px;" id="dituContent"></div>
+				</div>
+			</section>
+					
+			<section class="form">
+				<header>
+					<h1>给我留言</h1>
+				</header>
+				
+				<form action="#"  class="msg">
+					
+					<div class="name">
+						<label for="">姓名： </label>
+						<input type="text" name="usernam" />				
+					
+					</div>
+					
+					<div class="sex-s">
+						<label>性别：</label>
+						<label class="sex"><input type="radio" name="sex" value="男"/>男</label>
+						<label class="sex"><input type="radio" name="sex" value="女"/>女</label>
+					</div><br/><br/>
+					
+					<div class="email">
+						<label for="">邮箱：</label>
+						<input type="text" name="email" />
+					</div>
+					
+					<div>
+						<label for="">留言:</label>
+						<textarea name="message"></textarea>
+					</div>
+					
+					<div class="code">
+						
+						<label for="">验证码:</label>
+						<input type="code" name="code" />
+						
+						<div class="change">
+							<img src="img/contact_us_img/code.png"/>
+							<a href=""><span>看不清，换一张？</span></a>
+						</div>
+					</div>
+					
+					<label for=""></label>
+					<input type="submit" value="提交留言" data-role="none"/>
+					<label for=""></label>
+					<input type="reset" value="重置信息" data-role="none"/>
+				</form>
+			</section>
+			
+			<section class="information">
+				<header>
+					<h1>联系方式</h1>
+				</header>
+				<ul>
+					<li><span>地址</span><div>： 吉大石花西路107--109号</div></li><br/>
+					<li><span>电话 </span><div>： 756-3365888</div></li><br/>
+					<li><span>QQ</span><div>：  4256879215</div></li><br/>
+					<li><span>邮箱</span><div>： 4256879215@qq.com</div></li><br/>
+				</ul>
+				<div>
+					<img src="img/contact_us_img/QR_code.png" />
+				</div>
+			</section>
+		</article>
+		
+		<footer class="footer">
+			<section>
+				<ul>
+					<li><a href="m_index.html">首页</a></li>
+					<li><a href="m_about_us.html">公司介绍</a></li>
+					<li><a href="m_news.html">新闻中心</a></li>
+					<li><a href="m_product.html">产品中心</a></li>
+					<li><a href="m_contact_us.html">联系我们</a></li>
+				</ul>
+				
+				<p class="ICP">京ICP备12006161号 </p>
+				<p>增值电信业务经营许可证：京ICP证010051号 </p>
+			</section>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="js/map.js"></script>

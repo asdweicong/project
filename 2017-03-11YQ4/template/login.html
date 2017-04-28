@@ -1,0 +1,21 @@
+<ion-view class="login">
+	<ion-conten-bar class="content">
+		<a class="back ion-ios-arrow-left" ng-click="back()"></a>
+		<h1>会员登录</h1>
+		<form>
+			<input type="text"  placeholder="手机号码" id="phone" ng-blur="phone_p()" />
+			<input type="password" placeholder="密码" id="password" ng-blur="password_p()"/>
+			<a href="">忘记密码?</a>
+			<button ng-click="zhuce()" ui-sref="register">注册</button>
+			<button ng-click="denglu()">登录</button>
+		</form>
+		<div class="other">
+			<p>其他登录方式</p>
+			<ul class="row">
+				<li class="col"><img src="img/login/qq.png"/></li>
+				<li class="col"><img src="img/login/what.png"/></li>
+				<li class="col"><img src="img/login/weibo.png"/></li>
+			</ul>
+		</div>
+	</ion-conten-bar>			
+</ion-view>

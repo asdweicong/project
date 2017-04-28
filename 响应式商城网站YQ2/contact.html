@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>联系我们</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<!--header--->
+		<div class="header">
+			<!--header-top-->
+			<div class="header_top">
+				<div class="container">
+					<a href="order-details.html">您好！欢迎来到永辉乐科技有限公司！</a>
+					<div class="right nav-pills">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shop_cart.html">购物车</a>
+						<a href="shop_cart.html"><img src="images/shop-car.png" /><span class="badge">18</span></a>
+					</div>
+				</div>
+			</div>
+			<!--header-top end-->
+
+			<!--header-bottom-->
+			<div class="header_bottom">
+				<!--container --->
+				<div class="container">
+					<a href="index.html"><img src="images/logo.png" class="left" /></a>
+					
+					<div class="nav-bar">
+						<!--nav-->
+						<nav class="navbar navbar-default nav-bg" role="navigation">
+							<div class="navbar-header nav-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						        <span class="sr-only">切换导航</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						    </button>
+							</div>
+							<div class="collapse navbar-collapse navbar-bg" id="example-navbar-collapse">
+								<ul>
+									<li class="col-lg-2 col-md-2 col-sm-2">
+										<a href="index.html">首页</a>
+									</li>
+									<li class="col-lg-2 col-md-2 col-sm-2">
+										<a href="about.html">品牌介绍</a>
+									</li>
+									<li class="col-lg-2 col-md-2 col-sm-2">
+										<a href="news.html">新闻中心</a>
+									</li>
+									<li class="col-lg-2 col-md-2 col-sm-2">
+										<a href="product.html">产品中心</a>
+									</li>
+									<li class="col-lg-2 col-md-2 col-sm-2 active">
+										<a href="contact.html">联系我们</a>
+									</li>
+								</ul>
+								<!--search-->
+								<div class="search">
+									<form>
+										<div class="input-group input_in01">
+											<input type="text" class="form-control" />
+											<span class="input-group-btn">
+											<button class="btn btn-default btn-lg button-but" type="button">
+												<img src="images/search.png"/>
+											</button>
+										</span>
+										</div>
+									</form>
+								</div>
+								<!--search end-->
+							</div>
+						</nav>
+						<!--nav end -->
+					</div>
+
+					<!--search-->
+					<div class="search">
+						<form>
+							<div class="input-group input_in">
+								<input type="text" class="form-control" />
+								<span class="input-group-btn">
+								<button class="btn btn-default btn-lg button-but" type="button">
+									<img src="images/search.png"/>
+								</button>
+							</span>
+							</div>
+						</form>
+					</div>
+					<!--search end-->
+				</div>
+				<!--container end--->
+			</div>
+			<!--header-bottom end--->
+		</div>
+		<!---header end--->
+
+		<!--content-->
+		<div class="content">
+			<!--banner--->
+			<div class="banner" data-ride="carousel" >
+				<div id="myCarousel" class="carousel slide">
+					<div class="carousel-inner ">
+						<div class="item active">
+							<img src="images/about/banner.png" alt="First slide">
+							<!--<div class="carousel-caption">banner01</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!---banner end --->
+
+			<div class="container">
+				<div class="title">
+					<h1>
+						<span>联系我们</span>
+						<span>Contact us</span>
+					</h1>
+					<i class="line-1"></i>
+					<div>
+						<i class="line-2"></i>
+					</div>
+				</div>
+				
+					
+				<!--百度地图容器-->
+  				<div class="the_map">
+  					<i></i>
+	               
+	                <!--百度地图容器-->
+ 					<iframe src="map.html" style="width:100%;height:300px;border:#ccc solid 1px; frameborder="0" scrolling="no"" id="dituContent"></iframe>
+  					
+	            </div>
+	            <div class="contact-us">
+	            	<div>
+	            		<img src="images/contact/phone.png" />
+		            	<p>免费热线</p>
+		            	<p><0755-12345678></0755-12345678></p>
+	            	</div>
+	            	<p>邮箱地址：acg@acg.com</p>
+	            	<p>传　　真：0755-1234567</p>
+	            	<div>
+	            		<p>客服服务</p>
+	            		<p>Customer service</p>
+	            	</div>
+	            </div>
+	            
+	            <!--form--->
+	            <div class="form">
+	            	<div><span>在线留言</span></div>
+	            	<form>
+	            		<div class="text">
+	            			<div><label>名字</label><input type="text" value=""/></div>
+		            		
+		            		<div><label>电话</label><input type="text" value=""  onblur="Phone(this.value)"/>
+		            			<div id="phoneTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="亲，请输入正确的手机号码">
+		            			</div>
+							</div>
+		            		<div><label>邮箱</label><input type="email" value=""  onblur="Email(this.value)"/></div>
+		            		<div id="emailTip" title="" data-container="body" data-toggle="popover" data-placement="right" 
+data-content="亲，请输入正确邮箱地址"></div>
+		            		<div><label>地址</label><input type="text" value=""/></div>
+		            		<div>
+		            			<label>验证码</label>
+		            			<input type="text" value=""/><img src="images/contact/code.png" />
+		            			<input type="button" value="提交" class="submit"/>
+		            		</div>
+	            		</div>
+	            		<div class="textarea">
+	            			<label>留言</label>
+	            			<textarea ></textarea>
+	            		</div>
+	            	</form>
+	            </div>
+	            <!--form end--->
+	            
+			</div>
+		</div>
+		<!--content end -->
+
+		<!--footer-->
+		<div class="footer">
+			<p>地址：广东 深圳 宝安区龙华油松路东侧58号永辉乐工业园 电话：0755-12345678</p>
+			<p>Copyright © 2014 沪ICP备10011451号-20 关于我们 版权声明</p>
+		</div>
+		<!--footer end-->
+
+	</body>
+	<script>
+//		var Email = function(v){
+//			//alert(123)
+//			var reg = /^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/; 
+//			if(reg.test(v)){
+//				$('#emailTip').popover('hide');
+//			}else{
+//				$('#emailTip').popover('show');
+//			}
+//		}
+//		var Phone = function(v){
+//			var reg = /1[3|5|7|8][0-9]{9}$/
+//			if(reg.test(v)){
+//				$('#phoneTip').popover('hide');
+//			}else{
+//				$('#phoneTip').popover('show');
+//			}
+//		}
+	</script>
+</html>

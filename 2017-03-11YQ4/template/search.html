@@ -1,0 +1,29 @@
+<ion-view ng-controller="searchController" class="search">
+			<!--header-->
+			<ion-header-bar align-title="left" class="bg-line header_bg">
+				<div class="buttons mar-btn" ng-click="back()">
+					<p>
+						<span class="icon ion-ios-arrow-left"></span>返回
+					</p>
+				</div>
+				<div class="title" style="">
+					<input placeholder="搜索产品" autofocus="autofocus" id="search-input"/>
+					<button></button>
+				</div>
+				<div class="aler_img">
+					<img src="img/dian.png" alt="" />
+				</div>
+			</ion-header-bar>
+			<!--header-->
+
+			<!--content----->
+			<ion-content>
+				<h1>热门搜索</h1>
+				<ion-list class="list">
+					<ion-item ng-repeat="search in search" class="col col-33 search_content">
+						<span>{{search.title}}</span>
+					</ion-item>
+				</ion-list>
+			</ion-content>
+			<!--content----->
+</ion-view>

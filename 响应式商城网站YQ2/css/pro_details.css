@@ -1,0 +1,149 @@
+.content .title{position: relative;}
+.content .title .line-1{position: absolute;width: 84%;top: 18px;left:264px;border-top:1px solid #2165D3 ;}
+.content .title div{position: absolute;top: 18px;left:240px;}
+.content .title .line-2{position: relative;background-color: transparent;}
+.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 25px solid #2165D3 ;
+			 border-left: 25px solid transparent;content: "";
+    }
+.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 24px solid white;
+        border-left: 24px solid transparent;content: "";
+    }
+    
+ 
+.main{float: left;width: 75%;}   
+.main img{float: left;max-width: 100%;}
+.main div{}
+.main .input-in{width: 70px;float: left;margin-left: 25px;}
+.main .text-num{padding: 0 5px;}
+.main .form-control{height:22px;border: 1px solid #a0a0a0;}
+.main .button-but{height: 22px;margin: 0;padding: 0;width: 20px;}
+
+.main{width: 75%;}
+.main .top a img{max-width: 60%;}
+.main .top .text{padding-top:40px ;float: left;}
+.main .top .text .price span{color: red;}  
+.main .top .text div{margin-bottom: 10px;}  
+.main .top .text p{clear: both;}
+.main .top .text .title{padding: 10px 0 ;}
+.main .top .text .number .num{float: left; }    
+.main .top .text .number{float:;}
+.sales span:first-child{clear: both;margin-right:60px;}
+.color input{margin-left: 20px;}
+.color label{cursor: pointer;font-weight: normal;}
+.pay{margin-top:30px ;}
+.pay a{padding: 6px 14px;margin: 0 20px;background: transparent;border: 1px solid #8f8d8d;color: #000000;}
+.pay a:hover{background: #2165d3;border: 1px solid #2165D3;color: #FFFFFF;text-decoration: none;cursor: pointer;}
+
+.list{clear: both;overflow: hidden;}
+.list ul{clear: both;overflow: hidden;margin-bottom: 30px ;width: 50%;}
+.list ul li{float: left;width: 33%;cursor: pointer;}
+.list div span{margin: 0 15px;cursor: pointer;}
+.list div span:nth-child(1){padding-left: 20px ;background: url(../images/pro_details/collection.png) left center no-repeat;}
+.list div span:nth-child(2){padding-left: 20px ;background: url(../images/pro_details/share.png) left center no-repeat;}
+.list div a{display: block;color:#FFFFFF;background: #2165D3;width: 106px;height: 32px;text-align: center;line-height: 32px;text-decoration: none;font-size:18px;font-family: "微软雅黑" ;margin-top: 30px;}
+.list div p{font-size: 16px ;font-family: "微软雅黑";line-height: 32px;}
+
+@media only screen and (max-width: 860px) {
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:170px;border-top:1px solid #2165D3 ;}
+}    
+@media only screen and (max-width: 430px) {
+	.content .title .line-1{position: absolute;width: 45%;top: 18px;left:170px;border-top:1px solid #2165D3 ;}
+}    
+     
+.content .container h1 span{font-size: 40px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+.content .container h1 span:last-child{padding-left:20px ;font-size: 16px;font-family: "微软雅黑";color: #b9b9b9;/*border-top: 1px solid #2165d3;*/border-bottom: none;/*border-left: 1px solid #2165D3;*/}
+    
+.title-list{width: 18%;margin-top:30px;margin-right: 2%;}
+.title-list ul{border: 1px solid #b9b9b9;}
+.title-list ul li{width: 100%;}
+.title-list ul li span{display: block;padding-left:20px;margin:0 10px 0 20px;font-size: 18px;font-family: "微软雅黑";color: #000000;line-height: 46px;
+background: url(../images/product/sanjiao01.png) left center no-repeat;border-bottom: 1px solid #b9b9b9;}
+.title-list ul li span a{display: block;text-decoration: none;color: #000000;}
+.title-list ul li span a:hover{text-decoration: none;color: #2165D3;}
+.title-list ul li span .acti{text-decoration: none;color: #2165D3;}
+.title-list ul li span:hover{background: url(../images/product/sanjiao.png) left center no-repeat;color: #2165d3;cursor: pointer;}
+
+.bottom{margin-top: 20px;}
+.bottom ul:first-child{float: left;margin-right: 100px;}
+.bottom ul{float: left;}
+.bottom ul li{font-size: 16px;font-family: "微软雅黑";margin: 4px 0;clear: both;overflow: hidden}
+.bottom ul li span:nth-child(1){display: block;width: 142px ;height: 22px;background: #9b9b9b;float: left;padding-left:20px ;line-height: 22px;}
+.bottom ul li span:nth-child(2){display: block;width: 212px;height: 22px;line-height: 22px;background: #d3d3d3;float: left;padding-left:20px;}
+@media only screen and (max-width: 1199px) {
+	.title-list{width: 20%;margin-top:25px;}
+	.title-list ul{border: 1px solid #b9b9b9;}
+	.title-list ul li{width: 100%;}
+	.title-list ul li span{padding-left:10px;margin-left: 30px;font-size: 16px;font-family: "微软雅黑";color: #000000;line-height: 46px;
+	background: url(../images/product/sanjiao01.png) left center no-repeat;border-bottom: 1px solid #b9b9b9;}
+	.title-list ul li span:hover{background: url(../images/product/sanjiao.png) left center no-repeat;color: #2165d3;cursor: pointer;}
+}
+@media only screen and (max-width: 991px) {
+	.title-list{width: 20%;margin-top:25px;}
+	.title-list ul{border: 1px solid #b9b9b9;}
+	.title-list ul li{width: 100%;}
+	.title-list ul li span{padding-left:10px;margin-left: 15px;font-size: 16px;font-family: "微软雅黑";color: #000000;line-height: 46px;
+	background: url(../images/product/sanjiao01.png) left center no-repeat;border-bottom: 1px solid #b9b9b9;}
+	.title-list ul li span:hover{background: url(../images/product/sanjiao.png) left center no-repeat;color: #2165d3;cursor: pointer;}
+}
+@media only screen and (max-width: 748px) {
+	.main .list{display: none;}
+	.main{width: 60%;margin: 0 20%;}
+	.main .top .text{padding-top:40px ;float: none;width: 90%;margin: 0 5%;}	
+	.title-list{width: 100%;margin-top:25px;}	
+	.bottom ul:first-child{float: left;margin-right: 0px;}
+	.title-list ul{overflow: hidden;clear: both}
+	.title-list li{text-align: center;}
+	.pay a{padding: 6px 14px;margin: 0 15px;background: transparent;border: 1px solid #8f8d8d;color: #000000;}
+}
+
+
+@media only screen and (max-width:1036px ) {
+	.content .title .line-1{position: absolute;width: 64%;top: 18px;left:254px;border-top:1px solid #2165D3 ;}
+}
+@media only screen and (max-width:716px ) {
+	
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 21px solid #2165D3 ;
+				 border-left: 21px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 20px solid white;
+	        border-left: 20px solid transparent;content: "";
+	    }
+	.content .title div{position: absolute;top: 18px;left:180px;}
+	.content .container h1 span{font-size: 32px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+	.content .container h1 span:last-child{font-size: 16px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:200px;border-top:1px solid #2165D3 ;}
+}
+@media only screen and (max-width: 620px) {
+	.bottom{width: 100%;margin: 0 ;font-size: 12px;}
+	.bottom ul li span:nth-child(1){font-size: 12px;;display: block;width: 112px ;height: 22px;background: #9b9b9b;float: left;padding-left:20px ;line-height: 22px;}
+	.bottom ul li span:nth-child(2){font-size: 12px;;display: block;width: 162px;height: 22px;line-height: 22px;background: #d3d3d3;float: left;padding-left:20px;}
+}
+@media only screen and (max-width: 536px) {
+	.main{width:90%;margin: 0 5%;}
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 18px solid #2165D3 ;
+				 border-left: 18px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 17px solid white;
+	        border-left: 17px solid transparent;content: "";
+	    }
+	.content .title div{position: absolute;top: 18px;left:138px;}
+	.content .container h1 span{font-size: 24px ;font-family: "宋体";color: #000000;border-bottom: 1px solid #2165d3;}
+	.content .container h1 span:last-child{font-size: 14px;font-family: "微软雅黑";color: #b9b9b9;border-bottom: none;margin-left: 8px;}
+	.content .title .line-1{position: absolute;width: 60%;top: 18px;left:156px;border-top:1px solid #2165D3 ;}
+}
+@media only screen and (max-width: 432px) {
+	.main{width:100%;margin: ;}
+	.content .title .line-2{position: relative;background-color: transparent;}
+	.content .title .line-2:before { position: absolute;top: 0px;right: 0;left: 0; bottom: 0; border-bottom: 17px solid #2165D3 ;
+				 border-left: 17px solid transparent;content: "";
+	    }
+	.content .title .line-2:after {position: absolute;left: 1px;right: 0;top: 1px;bottom: 0;border-bottom: 16px solid white;
+	        border-left: 16px solid transparent;content: "";
+	    }
+}
+@media only screen and (max-width: 383px) {
+	.bottom ul li span:nth-child(1){display: block;width: 221px ;height: 22px;background: #9b9b9b;float: left;padding-left:20px ;line-height: 22px;}
+	
+}

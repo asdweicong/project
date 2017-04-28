@@ -1,0 +1,17 @@
+body,html{width: 100%;height: 100%;overflow: hidden;font-family: "微软雅黑";}
+/*@font-face
+{
+font-family: myFirstFont;
+src: url('../pingfan.ttf')
+}*/
+.guide img{width: 100%;height: 100%;display: block;}
+.guide a{display: none;position:fixed;width: 2.16rem;height: 0.72rem;bottom:9%;left: 50%;margin-left: -1.08rem;
+text-align: center;text-decoration: none;color: #ffffff;border: 1px solid #ffffff;
+font-size: 0.46rem;border-radius:1px;font-family: myFirstFont;}
+.guide .slider-pager{height: 2.64%;bottom:4%;}
+.guide .ion-record{display: block;}
+.guide .ion-record:before{content: '';}
+.guide .slider-pager .slider-pager-page{opacity: 1;width: 4.7%;height: 100%;border-radius: 50%;
+background: none;margin: 0 2.5%;border: 2px solid #ffffff;}
+.guide .slider-pager .slider-pager-page.active{background: #ffffff;}
+.guide .slider-pager-page .ion-record{opacity: 0;}
